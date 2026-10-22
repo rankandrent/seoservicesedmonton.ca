@@ -1,4 +1,5 @@
 (function(){
+  document.documentElement.classList.add('js');
   var header=document.querySelector('.site-header');
   var onScroll=function(){if(header){header.classList.toggle('scrolled',window.scrollY>8)}};
   window.addEventListener('scroll',onScroll,{passive:true});onScroll();

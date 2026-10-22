@@ -31,7 +31,8 @@ export function linkable(to: string, from: string): boolean {
   return !DRAFTS.has(slug) || DRAFTS.has(from);
 }
 
-const MARKS = /\[\[(.+?)\]\]|\*\*(.+?)\*\*|\{\{(.+?)\|(.+?)\}\}/g;
+// {{text|}} (empty slug) links to the homepage.
+const MARKS = /\[\[(.+?)\]\]|\*\*(.+?)\*\*|\{\{(.+?)\|(.*?)\}\}/g;
 
 /** Render content text with its inline marks: [[placeholder]], **bold** and {{link text|slug}}. */
 export function rich(text: string, from: string): ReactNode {
@@ -57,8 +58,18 @@ export function rich(text: string, from: string): ReactNode {
 export function strip(text: string): string {
   return String(text)
     .replace(/\[\[(.+?)\]\]/g, '[$1]')
-    .replace(/\{\{(.+?)\|(.+?)\}\}/g, '$1')
+    .replace(/\{\{(.+?)\|(.*?)\}\}/g, '$1')
     .replaceAll('**', '');
+}
+
+/** True when a value still holds a placeholder ([[x]], [x] or the BrandName stand-in) and must not be published as a fact. */
+export function isPlaceholder(text: unknown): boolean {
+  return typeof text === 'string' && (/\[[^\]]*\]/.test(text) || text.includes('BrandName'));
+}
+
+/** Long-form date for bylines and post cards, e.g. "October 23, 2026". */
+export function longDate(iso: string): string {
+  return new Date(iso + 'T12:00:00Z').toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
 }
 
 export function Icon({ name, color = '#283220' }: { name: string; color?: string }) {

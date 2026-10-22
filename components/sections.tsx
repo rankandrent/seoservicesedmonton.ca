@@ -3,9 +3,45 @@ import { Fragment, type ReactNode } from 'react';
 import type { Page, Section } from '@/content/types';
 import { BY_SLUG } from '@/content';
 import { SITE } from '@/content/site';
-import { Arrow, CHIPS, href, Icon, Illus, linkable, PASTELS, Photo, rich, strip } from '@/lib/render';
+import { Arrow, CHIPS, href, Icon, Illus, linkable, longDate, PASTELS, Photo, rich, strip } from '@/lib/render';
 
 type Props = { s: Section; p: Page };
+
+/** A post's visible date: "Updated <date>" when reviewed since publishing, else the publish date. */
+function postDate(q: Page): string {
+  if (q.updated) return 'Updated ' + longDate(q.updated);
+  return q.article ? longDate(q.article) : '';
+}
+
+/** Replaces a "[[Publish date]]"-style date placeholder with the post's real date once it has one. */
+function withDate(text: string, q: Page): string {
+  const date = postDate(q);
+  if (!date) return text;
+  return text.replace(/\[\[(publish date|date|last updated|updated)\]\]/gi, date);
+}
+
+// Anchor text for links to core pages, so card links describe their target instead of "View" or "Learn more".
+const ANCHORS: Record<string, string> = {
+  '': 'Edmonton SEO services', about: 'About our team', team: 'Meet our Edmonton SEO team', 'how-we-work': 'How we work',
+  contact: 'Contact our team', 'free-seo-audit': 'Get a free SEO audit', pricing: 'See SEO pricing', services: 'All SEO services',
+  industries: 'Industries we serve', blog: 'Local SEO guides', 'case-studies': 'SEO case studies',
+};
+
+/** Sentence-case a nav label for use mid-sentence, keeping acronyms (SEO, HVAC, AI) as written. */
+const lower = (t: string) => t.split(' ').map((w) => (/^[A-Z0-9]{2,}$/.test(w) ? w : w.toLowerCase())).join(' ');
+
+/** Descriptive anchor text for a link to another page, derived from that page (no colons, no generic labels). */
+function anchorFor(slug: string): string {
+  if (slug in ANCHORS) return ANCHORS[slug];
+  const q = BY_SLUG[slug];
+  if (!q) return 'Read more';
+  const label = q.nav_label.replace(/\s*:\s*/g, ', ');
+  if (slug.startsWith('industries/')) return 'SEO for ' + lower(label);
+  if (slug.startsWith('services/')) return label + ' services';
+  if (slug.startsWith('blog/')) return 'Read ' + label;
+  if (slug.startsWith('case-studies/')) return 'Read the ' + label + ' case study';
+  return label;
+}
 
 const BG: Record<string, string> = { soft: 'bg-soft', cream: 'bg-cream', mint: 'bg-mint', dark: 'bg-dark' };
 
@@ -73,6 +109,8 @@ function Visual({ kind, data = {} }: { kind: string; data?: any }) {
 }
 
 // ---------------------------------------------------------------- sections
+// Every section with an H2 renders an optional `intro` paragraph straight after it (via Head, or inline
+// where the layout has its own heading), so each H2 can be followed by a direct one-sentence answer.
 function HeroHome({ s, p }: Props) {
   const bars = [34, 46, 40, 74, 56, 90, 100];
   return (
@@ -115,7 +153,7 @@ function PageHero({ s, p }: Props) {
             <li aria-current="page">{p.nav_label}</li>
           </ol>
         </nav>
-        {s.eyebrow && <><span className="eyebrow">{rich(s.eyebrow, p.slug)}</span><br /></>}
+        {s.eyebrow && <><span className="eyebrow">{rich(withDate(s.eyebrow, p), p.slug)}</span><br /></>}
         <h1>{rich(s.h1, p.slug)}</h1>
         <p className="lead">{rich(s.lead, p.slug)}</p>
         {s.cta && (
@@ -172,7 +210,7 @@ function Cards({ s, p }: Props) {
             <span className="icon-chip"><Icon name={it.icon ?? 'spark'} /></span>
             <h3>{rich(it.title, p.slug)}</h3>
             <p>{rich(it.text, p.slug)}</p>
-            {it.link && <a className="link-arrow" href={href(it.link)}>{it.link_label ?? 'Learn more'} <Arrow /></a>}
+            {it.link && <a className="link-arrow" href={href(it.link)}>{rich(it.link_label ?? (it.link.split('#')[0] in BY_SLUG || it.link.split('#')[0] in ANCHORS ? anchorFor(it.link.split('#')[0]) : it.title), p.slug)} <Arrow /></a>}
           </article>
         ))}
       </div>
@@ -197,13 +235,13 @@ function Steps({ s, p }: Props) {
   return (
     <Sec s={s}>
       <Head s={s} p={p} center />
-      <div className={'steps' + cls}>
+      <ol className={'steps' + cls}>
         {s.items.map(([t, d]: string[], i: number) => (
-          <div key={i} className={`step reveal reveal-d${(i % 3) + 1}`}>
-            <div className="dot">{String(i + 1).padStart(2, '0')}</div><h3>{rich(t, p.slug)}</h3><p>{rich(d, p.slug)}</p>
-          </div>
+          <li key={i} className={`step reveal reveal-d${(i % 3) + 1}`}>
+            <div className="dot" aria-hidden="true">{String(i + 1).padStart(2, '0')}</div><h3>{rich(t, p.slug)}</h3><p>{rich(d, p.slug)}</p>
+          </li>
         ))}
-      </div>
+      </ol>
     </Sec>
   );
 }
@@ -268,7 +306,7 @@ function Faq({ s, p }: Props) {
 }
 
 function Cta({ s, p }: Props) {
-  const [label, to] = s.button ?? ['Book a free SEO review', 'contact'];
+  const [label, to] = s.button ?? ['Get a free SEO audit', 'free-seo-audit'];
   return (
     <section className="cta-wide">
       <div className="container cta-grid">
@@ -295,7 +333,7 @@ function Links({ s, p }: Props) {
           return (
             <a key={slug} className="card linked reveal" href={href(slug)}>
               <span className={'icon-chip ' + CHIPS[i % 4]}><Icon name={q.icon ?? 'spark'} /></span>
-              <h3>{q.nav_label}</h3><p>{rich(q.card ?? '', p.slug)}</p><span className="link-arrow">View <Arrow /></span>
+              <h3>{rich(q.nav_label, p.slug)}</h3><p>{rich(q.card ?? '', p.slug)}</p><span className="link-arrow">{rich(anchorFor(slug), p.slug)} <Arrow /></span>
             </a>
           );
         })}
@@ -355,10 +393,10 @@ function Posts({ s, p }: Props) {
                 <Photo file={q.photo || slug.replace('/', '-') + '.jpg'} alt={strip(q.nav_label)} />
               </a>
               <h3><a href={href(slug)}>{rich(q.nav_label, p.slug)}</a></h3>
-              <p className="date">{rich((q.tag ?? '') + (q.article ? ' · [[Publish date]]' : ''), p.slug)}</p>
+              <p className="date">{rich([q.tag, postDate(q)].filter(Boolean).join(' · '), p.slug)}</p>
               {q.kpis && <div className="kpis">{q.kpis.map((k, j) => <span key={j}>{rich(k, p.slug)}</span>)}</div>}
               <p>{rich(q.card ?? '', p.slug)}</p>
-              <a className="btn-read" href={href(slug)}>{q.kpis ? 'Read case study' : 'Continue reading'} <Arrow /></a>
+              <a className="btn-read" href={href(slug)}>{rich(anchorFor(slug), p.slug)} <Arrow /></a>
             </article>
           );
         })}
@@ -468,7 +506,7 @@ function NotFound({ s, p }: Props) {
         <h1 style={{ fontSize: 'clamp(32px,4vw,44px)' }}>{rich(s.h1, p.slug)}</h1>
         <p className="lead" style={{ margin: '0 auto' }}>{rich(s.lead, p.slug)}</p>
         <div className="btn-row" style={{ justifyContent: 'center' }}>
-          <a className="btn btn-mint" href="/">Back to home <Arrow /></a><a className="btn btn-ghost" href={href('services')}>View services</a>
+          <a className="btn btn-mint" href="/">Back to home <Arrow /></a><a className="btn btn-ghost" href={href('services')}>Browse our SEO services</a>
         </div>
       </div>
     </section>
@@ -525,7 +563,7 @@ function ServiceList({ s, p }: Props) {
           return (
             <article key={slug} className={`srow reveal reveal-d${(i % 2) + 1}`}>
               <div className="srow-art"><Illus name={q.illus} /></div>
-              <div><h3>{q.nav_label}</h3><p>{rich(q.card ?? '', p.slug)}</p><a className="link-arrow" href={href(slug)}>Learn more <Arrow /></a></div>
+              <div><h3>{rich(q.nav_label, p.slug)}</h3><p>{rich(q.card ?? '', p.slug)}</p><a className="link-arrow" href={href(slug)}>{anchorFor(slug)} <Arrow /></a></div>
             </article>
           );
         })}
@@ -538,7 +576,7 @@ function Why({ s, p }: Props) {
   return (
     <Sec s={s}>
       <div className="why-head reveal">
-        <div><span className="eyebrow">{rich(s.eyebrow, p.slug)}</span><h2>{rich(s.heading, p.slug)}</h2></div>
+        <div><span className="eyebrow">{rich(s.eyebrow, p.slug)}</span><h2>{rich(s.heading, p.slug)}</h2>{s.intro && <p className="intro">{rich(s.intro, p.slug)}</p>}</div>
         <a className="btn btn-mint" href={href(s.cta[1])}>{s.cta[0]}</a>
       </div>
       <div className="why-grid">
