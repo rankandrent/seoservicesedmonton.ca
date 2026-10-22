@@ -67,7 +67,7 @@
    ],
    "title": "Edmonton SEO Services | Local SEO That Drives Calls",
    "h1": "Edmonton SEO Services That Bring Real Calls and Leads",
-   "meta": "Edmonton SEO services for local businesses. We help trades, law firms and clinics rank in Google Maps and turn searches into calls. Free audit.",
+   "meta": "Edmonton SEO services for local businesses. We help trades, law firms and clinics rank in Google Maps and turn searches into calls. Get a free SEO audit.",
    "breadcrumb": [
     "Home"
    ],
@@ -323,7 +323,7 @@
    "status": "planned",
    "slug": "home",
    "title_len": 51,
-   "meta_len": 143,
+   "meta_len": 153,
    "about": [
     {
      "name": "Search engine optimization",
@@ -482,9 +482,9 @@
     "kd": null
    },
    "secondary": [],
-   "title": "About Us | Edmonton SEO Team With Real Local Experience",
+   "title": "About Our Edmonton SEO Team | Who We Are",
    "h1": "About Our Edmonton SEO Team",
-   "meta": "Meet the Edmonton SEO team behind our work: who we are, how we work, what we believe and the local businesses we help grow through search.",
+   "meta": "About our Edmonton SEO team, who we are, how we work and the rules we follow to help businesses in Edmonton, Alberta grow through Google search.",
    "breadcrumb": [
     "Home",
     "About"
@@ -623,8 +623,8 @@
    "notes": "Spreadsheet gave About \"edmonton seo agency\"; moved to the homepage to avoid two pages competing for the same SERP.",
    "status": "planned",
    "slug": "about",
-   "title_len": 55,
-   "meta_len": 138,
+   "title_len": 40,
+   "meta_len": 144,
    "about": [
     {
      "name": "[[Brand name]]",
@@ -718,9 +718,9 @@
     "volume": null,
     "kd": null
    },
-   "title": "Our Team | The People Behind Our Edmonton SEO Work",
+   "title": "Edmonton SEO Team | The People Behind Our Work",
    "h1": "Meet Our Edmonton SEO Team",
-   "meta": "Meet the strategists, writers and technical specialists behind our Edmonton SEO work: real names, real experience and the areas each person knows best.",
+   "meta": "Meet the Edmonton SEO team behind our work, with real names, roles and experience, and the local search topics each strategist and specialist knows best.",
    "breadcrumb": [
     "Home",
     "Team"
@@ -760,8 +760,8 @@
     }
    ],
    "slug": "team",
-   "title_len": 50,
-   "meta_len": 151,
+   "title_len": 46,
+   "meta_len": 153,
    "about": [
     {
      "name": "[[Brand name]]",
@@ -982,7 +982,7 @@
    },
    "title": "How We Work | Our SEO Process and Editorial Policy",
    "h1": "How We Work",
-   "meta": "Our SEO process, reporting standards and editorial policy: how we research, write, fact-check and update every page and guide we publish for clients.",
+   "meta": "How we work on every SEO project, from audit to monthly report, plus our editorial policy on who writes, how facts are checked and how errors are fixed.",
    "breadcrumb": [
     "Home",
     "How We Work"
@@ -1033,7 +1033,7 @@
    ],
    "slug": "how-we-work",
    "title_len": 50,
-   "meta_len": 149,
+   "meta_len": 152,
    "about": [
     {
      "name": "[[Brand name]]",
@@ -1090,9 +1090,9 @@
     "kd": null
    },
    "secondary": [],
-   "title": "Contact Us | Free SEO Consultation in Edmonton",
+   "title": "Contact Our Edmonton SEO Team | Free Consultation",
    "h1": "Contact Our Edmonton SEO Team",
-   "meta": "Book a free SEO consultation with our Edmonton team. Call, email or visit our office. We reply within one business day with clear next steps.",
+   "meta": "Contact our Edmonton SEO team for a free consultation. Call, email or send a message and we reply within one business day with clear next steps.",
    "breadcrumb": [
     "Home",
     "Contact"
@@ -1199,8 +1199,8 @@
    "status": "planned",
    "notes": "",
    "slug": "contact",
-   "title_len": 46,
-   "meta_len": 141,
+   "title_len": 49,
+   "meta_len": 144,
    "about": [
     {
      "name": "[[Brand name]]",
@@ -1264,9 +1264,9 @@
      "kd": 2
     }
    ],
-   "title": "Free SEO Audit for Edmonton Businesses | Get Your Report",
-   "h1": "Get a Free SEO Audit for Your Business",
-   "meta": "Find out why competitors outrank you. Get a free local SEO and Google Business Profile audit for your Edmonton business, with clear next steps.",
+   "title": "Free SEO Audit Edmonton | Checked by a Person",
+   "h1": "Free SEO Audit Edmonton, Checked by a Person",
+   "meta": "Free SEO audit Edmonton businesses can act on. A person checks your website, Google Business Profile and Map Pack competitors and sends clear next steps.",
    "breadcrumb": [
     "Home",
     "Free SEO Audit"
@@ -1369,8 +1369,8 @@
    "status": "planned",
    "notes": "",
    "slug": "free-seo-audit",
-   "title_len": 56,
-   "meta_len": 143,
+   "title_len": 45,
+   "meta_len": 153,
    "about": [
     {
      "name": "SEO audit",
@@ -1497,9 +1497,9 @@
      "kd": null
     }
    ],
-   "title": "SEO Pricing and Packages in Edmonton | Transparent Plans",
-   "h1": "SEO Pricing and Packages",
-   "meta": "Clear monthly SEO packages for Edmonton businesses. See what each plan includes, price ranges and what results to expect before you commit.",
+   "title": "SEO Pricing Edmonton | Monthly Packages in CAD",
+   "h1": "SEO Pricing Edmonton, Packages and What Is Included",
+   "meta": "SEO pricing Edmonton businesses can compare. See monthly packages in CAD, what each plan includes, contract terms and what affects the cost before you commit.",
    "breadcrumb": [
     "Home",
     "Pricing"
@@ -1623,8 +1623,8 @@
    "notes": "No Edmonton volume measured; national \"how much does seo cost\" (70) belongs to the blog post that links here.",
    "status": "planned",
    "slug": "pricing",
-   "title_len": 56,
-   "meta_len": 139,
+   "title_len": 46,
+   "meta_len": 158,
    "about": [
     {
      "name": "SEO pricing",
@@ -1746,9 +1746,9 @@
      "kd": 1
     }
    ],
-   "title": "Our SEO Services | Local, Technical and On-Page SEO",
+   "title": "SEO Services | Local, Technical and On-Page SEO",
    "h1": "SEO Services for Local Businesses",
-   "meta": "Explore our local SEO, Google Business Profile, technical SEO, link building, content and AI search services for Edmonton-area businesses.",
+   "meta": "SEO services for Edmonton-area businesses, from local SEO and Google Business Profile work to technical SEO, content and AI search. Get a free SEO audit.",
    "breadcrumb": [
     "Home",
     "Services"
@@ -2048,9 +2048,9 @@
      "kd": null
     }
    ],
-   "title": "Google Business Profile Optimization in Edmonton",
-   "h1": "Google Business Profile Optimization",
-   "meta": "We optimize and manage your Google Business Profile so your Edmonton business shows up in Maps, earns more reviews and gets more calls each month.",
+   "title": "Google Business Profile Optimization Edmonton | More Calls",
+   "h1": "Google Business Profile Optimization Edmonton, Set Up and Managed",
+   "meta": "Google Business Profile optimization Edmonton businesses can measure. We set up, fix and manage your profile for more calls, directions and reviews.",
    "breadcrumb": [
     "Home",
     "Services",
@@ -2394,8 +2394,8 @@
     }
    ],
    "title": "Link Building Edmonton | Local, Safe and Relevant Links",
-   "h1": "Local Link Building in Edmonton",
-   "meta": "Earn relevant Canadian and Alberta backlinks and citations that build authority and help your Edmonton business outrank local competitors safely.",
+   "h1": "Link Building Edmonton, Local Links Earned the Safe Way",
+   "meta": "Link building Edmonton businesses can trust. We earn relevant local, Alberta and Canadian backlinks, never paid links. Start with a free SEO audit.",
    "breadcrumb": [
     "Home",
     "Services",
@@ -2671,8 +2671,8 @@
     }
    ],
    "title": "Local SEO Edmonton | Rank in Google Maps and Local Search",
-   "h1": "Local SEO Services in Edmonton",
-   "meta": "Get found in the Google Map Pack. Edmonton local SEO covering your Business Profile, citations, reviews and local pages that turn searches into calls.",
+   "h1": "Local SEO Edmonton, Rank in the Google Map Pack",
+   "meta": "Local SEO Edmonton businesses can measure in calls, built on your Business Profile, citations, reviews and local pages. Start with a free SEO audit.",
    "breadcrumb": [
     "Home",
     "Services",
@@ -3031,8 +3031,8 @@
     }
    ],
    "title": "On-Page SEO Edmonton | Pages Built to Rank and Convert",
-   "h1": "On-Page SEO Services in Edmonton",
-   "meta": "We optimize titles, content, headings, schema and internal links so every page on your site targets the right local searches and turns visits into leads.",
+   "h1": "On-Page SEO Edmonton, Pages Built to Rank and Convert",
+   "meta": "On-page SEO Edmonton service for titles, headings, copy, schema and internal links, matched to one search intent per page. Get a free SEO audit.",
    "breadcrumb": [
     "Home",
     "Services",
@@ -3312,8 +3312,8 @@
     }
    ],
    "title": "SEO Audit Edmonton | Find What Is Holding You Back",
-   "h1": "Professional SEO Audit in Edmonton",
-   "meta": "A complete technical, on-page and local SEO audit with a clear, prioritized action plan for your Edmonton business. No jargon, just priorities.",
+   "h1": "SEO Audit Edmonton, a Prioritized Fix List for Your Site",
+   "meta": "SEO audit Edmonton businesses can act on, covering technical, on-page, local and link issues, with a prioritized fix list and a walkthrough call.",
    "breadcrumb": [
     "Home",
     "Services",
@@ -3615,8 +3615,8 @@
     }
    ],
    "title": "Technical SEO Edmonton | Speed, Indexing and Site Health",
-   "h1": "Technical SEO Services in Edmonton",
-   "meta": "Fix crawl errors, slow pages and indexing issues. Technical SEO for Edmonton businesses that need a fast, Google-friendly website that converts.",
+   "h1": "Technical SEO Edmonton, Speed, Indexing and Site Health",
+   "meta": "Technical SEO Edmonton businesses can verify in Search Console. We fix crawl errors, slow pages, indexing and Core Web Vitals. Get a free SEO audit.",
    "breadcrumb": [
     "Home",
     "Services",
@@ -3964,7 +3964,7 @@
    ],
    "title": "AI Search Optimization Edmonton | AI Overviews and GEO",
    "h1": "AI Search Optimization for Edmonton Businesses",
-   "meta": "Prepare your Edmonton business for Google AI Overviews, AI Mode and AI assistants with clear content, structured data and strong local signals.",
+   "meta": "AI search optimization for Edmonton businesses. Prepare for Google AI Overviews, AI Mode and ChatGPT with clear content. Get a free SEO audit.",
    "breadcrumb": [
     "Home",
     "Services",
@@ -4272,9 +4272,9 @@
      "kd": null
     }
    ],
-   "title": "SEO Content Writing Edmonton | Pages and Blogs That Rank",
-   "h1": "SEO Content Writing Services",
-   "meta": "Service pages, location pages and blogs written by people who know local SEO. Content that ranks in Edmonton and turns readers into enquiries.",
+   "title": "Content Writing Edmonton | SEO Pages and Blogs That Rank",
+   "h1": "Content Writing Edmonton, SEO Pages and Guides That Rank",
+   "meta": "Content writing Edmonton businesses can rely on, with service pages, location pages and blog posts planned around real searches. Get a free SEO audit.",
    "breadcrumb": [
     "Home",
     "Services",
@@ -4552,8 +4552,8 @@
     }
    ],
    "title": "Ecommerce SEO Edmonton | Shopify and WooCommerce SEO",
-   "h1": "Ecommerce SEO for Edmonton Online Stores",
-   "meta": "Category and product SEO for Edmonton Shopify and WooCommerce stores. Product structured data, Merchant Center alignment and revenue reporting.",
+   "h1": "Ecommerce SEO Edmonton, for Shopify and WooCommerce Stores",
+   "meta": "Ecommerce SEO Edmonton stores measure in revenue, with category and product SEO, Product structured data and Merchant Center work for Shopify and WooCommerce.",
    "breadcrumb": [
     "Home",
     "Services",
@@ -5322,9 +5322,9 @@
      "kd": 26
     }
    ],
-   "title": "SEO for Local Service Businesses in Edmonton | Industries",
-   "h1": "SEO for Local Service Businesses",
-   "meta": "Industry-specific SEO for Edmonton trades, home services, law firms and clinics. See how we help businesses like yours win more calls from Google.",
+   "title": "SEO for Local Businesses Edmonton | Trades, Legal, Health",
+   "h1": "SEO for Local Businesses Edmonton, Industry by Industry",
+   "meta": "SEO for local businesses Edmonton customers search for, with industry pages for trades, law firms and clinics that show how each wins calls from Google.",
    "breadcrumb": [
     "Home",
     "Industries"
@@ -5528,7 +5528,7 @@
    "notes": "",
    "slug": "industries",
    "title_len": 57,
-   "meta_len": 146,
+   "meta_len": 152,
    "about": [
     {
      "name": "Small business",
@@ -5650,9 +5650,9 @@
      "kd": 0
     }
    ],
-   "title": "SEO for Contractors in Edmonton | Renovation & General",
-   "h1": "SEO for Renovation & General Contractors in Edmonton",
-   "meta": "Local SEO for Edmonton renovation and general contractors. Rank for kitchen, basement and home renovation searches that lead to big jobs.",
+   "title": "Contractor SEO Edmonton | Renovation and General Contractors",
+   "h1": "Contractor SEO in Edmonton, for Renovation and General Contractors",
+   "meta": "Contractor SEO for Edmonton renovation and general contractors. Rank for basement development and kitchen renovation searches. Get a free SEO audit.",
    "breadcrumb": [
     "Home",
     "Industries",
@@ -5901,8 +5901,8 @@
    "notes": " Title, H1 and first paragraph carry \"Edmonton\"; the measured keyword is the national wording.",
    "status": "planned",
    "slug": "industries/contractors",
-   "title_len": 54,
-   "meta_len": 137,
+   "title_len": 60,
+   "meta_len": 148,
    "about": [
     {
      "name": "General contractor",
@@ -6048,9 +6048,9 @@
      "kd": 0
     }
    ],
-   "title": "Dental SEO in Edmonton | More New Patient Bookings",
-   "h1": "SEO for Dentists in Edmonton",
-   "meta": "Local SEO for Edmonton dental clinics. Rank for 'dentist near me', emergency dental and cosmetic searches and grow new patients.",
+   "title": "Dental SEO Edmonton | More New Patient Bookings",
+   "h1": "Dental SEO in Edmonton, for Dentists Who Want New Patients",
+   "meta": "Dental SEO for Edmonton dental clinics. Rank for dentist near me and emergency dentist searches within CDSA advertising rules. Get a free SEO audit.",
    "breadcrumb": [
     "Home",
     "Industries",
@@ -6295,8 +6295,8 @@
    "notes": " Title, H1 and first paragraph carry \"Edmonton\"; the measured keyword is the national wording.",
    "status": "planned",
    "slug": "industries/dentists",
-   "title_len": 50,
-   "meta_len": 128,
+   "title_len": 47,
+   "meta_len": 148,
    "about": [
     {
      "name": "Dentist",
@@ -6456,9 +6456,9 @@
      "kd": 0
     }
    ],
-   "title": "SEO for Electricians in Edmonton | Get More Service Calls",
-   "h1": "SEO for Electricians in Edmonton",
-   "meta": "Local SEO for Edmonton electricians and electrical contractors. Rank in Google Maps for residential and commercial electrical searches.",
+   "title": "Electrician SEO Edmonton | More Service Calls",
+   "h1": "Electrician SEO in Edmonton, Residential and Commercial",
+   "meta": "Electrician SEO for Edmonton electrical contractors. Rank in Google Maps for EV charger, panel upgrade and commercial searches. Get a free SEO audit.",
    "breadcrumb": [
     "Home",
     "Industries",
@@ -6701,8 +6701,8 @@
    "notes": " Title, H1 and first paragraph carry \"Edmonton\"; the measured keyword is the national wording.",
    "status": "planned",
    "slug": "industries/electricians",
-   "title_len": 57,
-   "meta_len": 135,
+   "title_len": 45,
+   "meta_len": 149,
    "about": [
     {
      "name": "Electrician",
@@ -6835,9 +6835,9 @@
      "kd": 0
     }
    ],
-   "title": "HVAC & Furnace Company SEO in Edmonton | Win Peak Season",
-   "h1": "SEO for HVAC & Furnace Companies in Edmonton",
-   "meta": "Furnace repair, furnace cleaning and duct cleaning SEO for Edmonton. Be the company homeowners find first when the cold hits.",
+   "title": "HVAC SEO Edmonton | Win Every Furnace Season",
+   "h1": "HVAC SEO in Edmonton, for Furnace and Heating Companies",
+   "meta": "HVAC SEO for Edmonton furnace, heating and cooling companies. Rank in Google Maps for furnace repair and heat pump searches before winter. Get a free SEO audit.",
    "breadcrumb": [
     "Home",
     "Industries",
@@ -7087,8 +7087,8 @@
    "notes": " Title, H1 and first paragraph carry \"Edmonton\"; the measured keyword is the national wording.",
    "status": "planned",
    "slug": "industries/hvac",
-   "title_len": 56,
-   "meta_len": 125,
+   "title_len": 44,
+   "meta_len": 160,
    "about": [
     {
      "name": "HVAC",
@@ -7251,9 +7251,9 @@
      "kd": 9
     }
    ],
-   "title": "Law Firm SEO in Edmonton | More Qualified Client Inquiries",
-   "h1": "SEO for Law Firms in Edmonton",
-   "meta": "Ethical, compliant SEO for Edmonton law firms. Rank in Google Maps and organic results for the practice areas that matter most.",
+   "title": "Law Firm SEO Edmonton | Compliant Lawyer SEO",
+   "h1": "Law Firm SEO in Edmonton, Compliant Lawyer SEO",
+   "meta": "Law firm SEO for Edmonton lawyers. Compliant lawyer SEO that follows Law Society of Alberta rules and ranks your practice areas. Get a free SEO audit.",
    "breadcrumb": [
     "Home",
     "Industries",
@@ -7499,8 +7499,8 @@
    "notes": " Title, H1 and first paragraph carry \"Edmonton\"; the measured keyword is the national wording.",
    "status": "planned",
    "slug": "industries/law-firms",
-   "title_len": 58,
-   "meta_len": 127,
+   "title_len": 44,
+   "meta_len": 150,
    "about": [
     {
      "name": "Law firm",
@@ -7677,9 +7677,9 @@
      "kd": 0
     }
    ],
-   "title": "SEO for Plumbers in Edmonton | More Calls from Google Maps",
-   "h1": "SEO for Plumbers in Edmonton",
-   "meta": "Rank for 'plumber near me' and emergency plumbing searches in Edmonton. Local SEO for plumbing companies that want more booked jobs.",
+   "title": "Plumbing SEO Edmonton | More Calls from Google Maps",
+   "h1": "Plumbing SEO in Edmonton, for Plumbers Who Want More Calls",
+   "meta": "Plumbing SEO for Edmonton plumbers. Rank in Google Maps for plumber near me, emergency and frozen pipe searches, and book more jobs. Get a free SEO audit.",
    "breadcrumb": [
     "Home",
     "Industries",
@@ -7939,8 +7939,8 @@
    "notes": " Title, H1 and first paragraph carry \"Edmonton\"; the measured keyword is the national wording.",
    "status": "planned",
    "slug": "industries/plumbers",
-   "title_len": 58,
-   "meta_len": 132,
+   "title_len": 51,
+   "meta_len": 154,
    "about": [
     {
      "name": "Plumber",
@@ -8082,9 +8082,9 @@
      "kd": null
     }
    ],
-   "title": "SEO for Roofers in Edmonton | More Roofing Leads",
-   "h1": "SEO for Roofing Companies in Edmonton",
-   "meta": "Rank for roof repair and replacement searches in Edmonton. Local SEO for roofing companies, including hail and storm season demand.",
+   "title": "Roofing SEO Edmonton | Roof Repair and Hail Season Leads",
+   "h1": "Roofing SEO in Edmonton, for Roof Repair and Replacement",
+   "meta": "Roofing SEO for Edmonton roofing companies. Rank for roof repair, replacement and hail damage searches before storm season. Get a free SEO audit.",
    "breadcrumb": [
     "Home",
     "Industries",
@@ -8329,8 +8329,8 @@
    "notes": " Title, H1 and first paragraph carry \"Edmonton\"; the measured keyword is the national wording.",
    "status": "planned",
    "slug": "industries/roofers",
-   "title_len": 48,
-   "meta_len": 131,
+   "title_len": 56,
+   "meta_len": 145,
    "about": [
     {
      "name": "Roofer",
@@ -17425,9 +17425,9 @@
     "kd": 0
    },
    "secondary": [],
-   "title": "SEO Case Studies | Results for Edmonton Businesses",
+   "title": "SEO Case Studies | Edmonton Results",
    "h1": "SEO Case Studies and Results",
-   "meta": "See real ranking, traffic and lead results from Edmonton-area service businesses we have helped grow with local SEO and Business Profile work.",
+   "meta": "SEO case studies from Edmonton businesses. See the starting point, what we changed and the measured results for each client.",
    "breadcrumb": [
     "Home",
     "Case Studies"
@@ -17504,8 +17504,8 @@
    ],
    "notes": "",
    "slug": "case-studies",
-   "title_len": 50,
-   "meta_len": 142,
+   "title_len": 35,
+   "meta_len": 124,
    "about": [
     {
      "name": "Search engine optimization",
@@ -17568,8 +17568,8 @@
    },
    "secondary": [],
    "title": "Local SEO Blog | Tips for Edmonton Businesses",
-   "h1": "Local SEO Tips and Guides",
-   "meta": "Practical local SEO guides for Edmonton trades, law firms and service businesses who want more calls from Google, checked against Google documentation.",
+   "h1": "Local SEO Blog, Guides for Edmonton Businesses",
+   "meta": "Local SEO blog for Edmonton trades, law firms and service businesses, with practical guides checked against Google's own documentation and sources linked.",
    "breadcrumb": [
     "Home",
     "Blog"
@@ -17666,7 +17666,7 @@
    "notes": "",
    "slug": "blog",
    "title_len": 45,
-   "meta_len": 151,
+   "meta_len": 154,
    "about": [
     {
      "name": "Local search engine optimisation",
@@ -17699,9 +17699,9 @@
     "kd": null
    },
    "secondary": [],
-   "title": "AI Overviews and Your Website: What Google Says",
-   "h1": "AI Overviews and Your Website: What Google Says",
-   "meta": "AI Overviews and Your Website: What Google Says A practical guide for Edmonton business owners, checked against Google's own documentation.",
+   "title": "Google AI Overviews SEO | What Google Tells Site Owners",
+   "h1": "Google AI Overviews SEO, What Google Actually Says",
+   "meta": "Google AI Overviews SEO explained from Google's own guidance. What it takes to appear in AI Overviews and AI Mode, and the tricks you do not need.",
    "breadcrumb": [
     "Home",
     "Blog",
@@ -17788,8 +17788,8 @@
    "notes": "Volume not checked in Ahrefs (budget); informational keyword chosen from topic.",
    "status": "planned",
    "slug": "blog/ai-overviews-and-your-website",
-   "title_len": 47,
-   "meta_len": 139,
+   "title_len": 55,
+   "meta_len": 146,
    "about": [
     {
      "name": "AI Overviews",
@@ -17867,9 +17867,9 @@
     "kd": null
    },
    "secondary": [],
-   "title": "How to Choose an SEO Agency in Edmonton",
+   "title": "How to Choose an SEO Agency | Edmonton Buyer's Guide",
    "h1": "How to Choose an SEO Agency in Edmonton",
-   "meta": "How to Choose an SEO Agency in Edmonton A practical guide for Edmonton business owners, checked against Google's own documentation.",
+   "meta": "How to choose an SEO agency in Edmonton using the questions Google suggests asking, the red flags to avoid and how to test an agency before you sign.",
    "breadcrumb": [
     "Home",
     "Blog",
@@ -17968,8 +17968,8 @@
    "notes": "Volume not checked in Ahrefs (budget); informational keyword chosen from topic.",
    "status": "planned",
    "slug": "blog/choosing-an-seo-agency-in-edmonton",
-   "title_len": 39,
-   "meta_len": 131,
+   "title_len": 52,
+   "meta_len": 149,
    "about": [
     {
      "name": "Search engine optimization",
@@ -18398,9 +18398,9 @@
     "kd": null
    },
    "secondary": [],
-   "title": "How Google Ranks Local Businesses in Edmonton",
+   "title": "How Google Ranks Local Businesses | Edmonton Guide",
    "h1": "How Google Ranks Local Businesses in Edmonton",
-   "meta": "How Google Ranks Local Businesses in Edmonton A practical guide for Edmonton business owners, checked against Google's own documentation.",
+   "meta": "How Google ranks local businesses in Edmonton, explained from Google's own help page. The three factors, what you can change and where to start today.",
    "breadcrumb": [
     "Home",
     "Blog",
@@ -18498,8 +18498,8 @@
    "notes": "Volume not checked in Ahrefs (budget); informational keyword chosen from topic.",
    "status": "planned",
    "slug": "blog/how-google-ranks-local-businesses",
-   "title_len": 45,
-   "meta_len": 137,
+   "title_len": 50,
+   "meta_len": 150,
    "about": [
     {
      "name": "Local search engine optimisation",
@@ -19577,9 +19577,9 @@
     "kd": null
    },
    "secondary": [],
-   "title": "Privacy Policy",
+   "title": "Privacy Policy | How We Handle Your Information",
    "h1": "Privacy Policy",
-   "meta": "How we collect, use and protect information submitted through this website.",
+   "meta": "How we collect, use, store and protect the personal information you send through our contact and audit forms, and how to access or delete it under Alberta PIPA.",
    "breadcrumb": [
     "Home",
     "Privacy Policy"
@@ -19607,8 +19607,8 @@
    "status": "planned",
    "notes": "",
    "slug": "privacy-policy",
-   "title_len": 14,
-   "meta_len": 75,
+   "title_len": 47,
+   "meta_len": 160,
    "about": [],
    "mentions": [],
    "area_served": [],
@@ -19633,9 +19633,9 @@
     "kd": null
    },
    "secondary": [],
-   "title": "Terms of Service",
+   "title": "Terms of Service | Website and Service Terms",
    "h1": "Terms of Service",
-   "meta": "The terms that apply when you use this website and our services.",
+   "meta": "The terms that apply when you use this website and our services, including intellectual property, links to other sites, no ranking guarantees and governing law.",
    "breadcrumb": [
     "Home",
     "Terms of Service"
@@ -19663,8 +19663,8 @@
    "status": "planned",
    "notes": "",
    "slug": "terms",
-   "title_len": 16,
-   "meta_len": 64,
+   "title_len": 44,
+   "meta_len": 160,
    "about": [],
    "mentions": [],
    "area_served": [],

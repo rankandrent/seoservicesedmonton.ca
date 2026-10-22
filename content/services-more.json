@@ -4,285 +4,165 @@
   "nav_label": "SEO Content Writing",
   "icon": "pen",
   "illus": "doc",
-  "long_card": "Service pages, location pages and blogs written by people who know local SEO. Content that ranks in Edmonton and turns readers into enquiries.",
-  "keyword": "seo content writing edmonton",
-  "title": "SEO Content Writing Edmonton | Pages and Blogs That Rank",
-  "description": "Service pages, location pages and blogs written by people who know local SEO. Content that ranks in Edmonton and turns readers into enquiries.",
+  "long_card": "Content writing Edmonton businesses can rely on, with service pages, location pages and blog posts planned around real searches and fact-checked by people.",
+  "keyword": "content writing edmonton",
+  "title": "Content Writing Edmonton | SEO Pages and Blogs That Rank",
+  "description": "Content writing Edmonton businesses can rely on, with service pages, location pages and blog posts planned around real searches. Get a free SEO audit.",
   "card": "Helpful content written for Edmonton customers.",
-  "crumbs": [
-   [
-    "Services",
-    "services"
-   ]
-  ],
+  "crumbs": [["Services", "services"]],
   "service": "SEO content writing in Edmonton",
   "area": "Edmonton, AB",
   "sections": [
    {
     "type": "page_hero",
-    "eyebrow": "Content SEO",
-    "h1": "SEO Content Writing Services",
-    "lead": "Pages and articles that answer what your customers ask, written by people who understand your business.",
-    "cta": [
-     "Get a free SEO review",
-     "contact"
-    ]
+    "eyebrow": "SEO content writing",
+    "h1": "Content Writing Edmonton, SEO Pages and Guides That Rank",
+    "lead": "Content writing Edmonton customers actually read answers what they ask before they call. Our SEO content writing service plans and writes service pages, location pages and blog posts for businesses in Edmonton, Alberta, built on your team's expertise and fact-checked by people, as part of our {{Edmonton SEO services|}}.",
+    "cta": ["Get a free SEO audit", "free-seo-audit"]
    },
    {
     "type": "split",
     "eyebrow": "What it is",
-    "heading": "Content that earns rankings and trust",
+    "heading": "What SEO content writing is",
     "visual": "cards",
-    "vdata": {
-     "items": [
-      [
-       "doc",
-       "Service pages",
-       "One page per service"
-      ],
-      [
-       "book",
-       "Guides",
-       "In-depth answers"
-      ],
-      [
-       "message",
-       "FAQs",
-       "Real customer questions"
-      ],
-      [
-       "pen",
-       "Articles",
-       "Timely and useful"
-      ]
-     ]
-    },
+    "vdata": {"items": [["doc", "Service pages", "One page per service"], ["pin", "Location pages", "Real local detail"], ["book", "Blog posts", "In-depth answers"], ["message", "FAQs", "Real customer questions"]]},
     "body": [
-     "Content SEO means planning and writing pages around the questions customers actually search, then making each page the most useful answer available.",
-     "We interview you, use your expertise and write content that sounds like your business."
+     "**SEO content writing means planning and writing pages around the questions customers actually search, then making each page the most useful answer available.** It is the content side of search engine optimization (SEO): people-first content written for your customers and structured so Google can understand it.",
+     "We interview you, turn your expertise into plain language and write content that sounds like your business. Before you commission anything, list the ten questions customers ask you most on the phone."
     ],
-    "bullets": [
-     "Planned around real search demand",
-     "Written with your team's expertise",
-     "Fact checked and sourced"
-    ]
+    "bullets": ["Planned around real search demand", "Written with your team's expertise", "Fact-checked and sourced"]
    },
    {
     "type": "cards",
-    "eyebrow": "What is included",
-    "heading": "Content we create",
+    "eyebrow": "What we write",
+    "heading": "SEO content we write for Edmonton businesses",
     "bg": "soft",
     "cols": 3,
+    "intro": "**Our SEO content writing covers six page types, each matched to a stage of the customer's search.** Service pages win ready-to-buy searches; blog posts and guides win the research that comes first.",
     "items": [
-     {
-      "icon": "compass",
-      "title": "Content strategy",
-      "text": "Topic clusters mapped to your services and customers."
-     },
-     {
-      "icon": "doc",
-      "title": "Service pages",
-      "text": "Detailed pages for each service you offer."
-     },
-     {
-      "icon": "book",
-      "title": "Guides and articles",
-      "text": "In-depth answers to the questions customers ask."
-     },
-     {
-      "icon": "message",
-      "title": "FAQ content",
-      "text": "Short, direct answers to common questions."
-     },
-     {
-      "icon": "eye",
-      "title": "Content refreshes",
-      "text": "Older pages updated to stay accurate."
-     },
-     {
-      "icon": "users",
-      "title": "Expert interviews",
-      "text": "Your knowledge turned into content."
-     }
+     {"icon": "doc", "title": "Service pages", "text": "One detailed page for each service you offer, matched to how customers search for it, with prices and process where you publish them."},
+     {"icon": "pin", "title": "Location pages", "text": "Pages for the towns you really serve, each with unique local detail, so they never read as copies with the name swapped."},
+     {"icon": "book", "title": "Blog posts and guides", "text": "In-depth answers to the questions customers research, each linking to the service page, so blog readers become leads."},
+     {"icon": "message", "title": "FAQ content", "text": "Short, direct answers to common questions, placed on the pages where customers ask them."},
+     {"icon": "eye", "title": "Content refreshes", "text": "Older pages updated so facts, prices and screenshots stay accurate."},
+     {"icon": "compass", "title": "Content strategy", "text": "Topic clusters mapped to your services, so every page has one job and no two pages compete."}
     ]
    },
    {
     "type": "statement",
-    "text": "There is no magic word count. Google says length alone does not affect ranking. [em]Usefulness does.[/em]"
+    "text": "There is no magic word count. Google says it has no preferred length. [em]Usefulness does the work.[/em]"
    },
    {
     "type": "steps",
     "eyebrow": "Process",
-    "heading": "How we create content",
+    "heading": "How our SEO content writing works",
+    "intro": "**Our SEO content writing runs in four steps, and you approve the brief before anyone writes.** Research comes from interviews with your team and a review of what already ranks.",
     "items": [
-     [
-      "Research",
-      "Searches, competitors and customer questions."
-     ],
-     [
-      "Brief",
-      "Outline, angle and sources agreed with you."
-     ],
-     [
-      "Write",
-      "Drafted by writers, reviewed by your expert."
-     ],
-     [
-      "Publish",
-      "Optimized, linked and tracked."
-     ]
+     ["Research", "Interviews with your team, a SERP review of what ranks, and customer questions."],
+     ["Brief", "Outline, angle and sources agreed with you."],
+     ["Write", "Drafted by people with local knowledge, reviewed by your expert."],
+     ["Publish", "Edited, fact-checked, optimized, linked and tracked."]
     ]
    },
    {
     "type": "split",
     "eyebrow": "From the source",
-    "heading": "What Google says helpful content looks like",
+    "heading": "What Google says helpful SEO content looks like",
     "reverse": true,
     "bg": "cream",
     "visual": "cards",
-    "vdata": {
-     "items": [
-      [
-       "eye",
-       "Easy to read",
-       "Organized with headings"
-      ],
-      [
-       "spark",
-       "Unique",
-       "Not copied or rehashed"
-      ],
-      [
-       "clock",
-       "Up to date",
-       "Accurate today"
-      ]
-     ]
-    },
+    "vdata": {"items": [["eye", "Easy to read", "Organized with headings"], ["spark", "Unique", "Not copied or rehashed"], ["clock", "Up to date", "Accurate today"]]},
     "body": [
-     "Google's SEO Starter Guide describes helpful content as easy to read, well organized, unique, up to date and written for people.",
-     "It also suggests thinking about the different words people might use to search for your topic. Our briefs cover both."
+     "**Google describes helpful SEO content as people-first: easy to read, well organized, unique, up to date and written for the reader rather than for rankings.** Its {{guide to helpful content|https://developers.google.com/search/docs/fundamentals/creating-helpful-content}} explains E-E-A-T: experience, expertise, authoritativeness and trustworthiness, with trust the most important.",
+     "That is why we write content from your expertise, cite sources and show who wrote and reviewed each page. Ask your team who can review pages in their field before the first one is drafted."
+    ]
+   },
+   {
+    "type": "split",
+    "eyebrow": "Location pages",
+    "heading": "Location pages that rank without becoming doorway pages",
+    "visual": "map",
+    "vdata": {"title": "Your service area", "sub": "One real page per town"},
+    "body": [
+     "**Location pages that rank give each town unique, useful detail; pages that only swap the town name are doorway pages, which Google's {{spam policies|https://developers.google.com/search/docs/essentials/spam-policies}} treat as spam.** Google lists pages targeted at specific regions or cities that funnel users to one page as doorway abuse.",
+     "So we write a location page only where you really serve customers and have something local to say, such as travel times, local permits or the jobs you do there. Pick the two towns where you can say the most."
     ]
    },
    {
     "type": "checklist",
     "eyebrow": "Deliverables",
-    "heading": "What you receive",
+    "heading": "SEO content writing deliverables",
     "bg": "",
+    "intro": "**SEO content writing comes with eight deliverables, from strategy to tracking.** Turnaround and monthly volume are [[pages per month and turnaround per page]].",
     "items": [
-     [
-      "Content strategy document",
-      "Topics, priorities and timeline"
-     ],
-     [
-      "Content calendar",
-      "What is published and when"
-     ],
-     [
-      "Detailed briefs",
-      "Shared before writing starts"
-     ],
-     [
-      "Written and edited pages",
-      "Ready to publish"
-     ],
-     [
-      "On-page optimization",
-      "Titles, headings and links"
-     ],
-     [
-      "Sources for every claim",
-      "So you can check the facts"
-     ],
-     [
-      "Publishing support",
-      "Uploaded to your CMS if needed"
-     ],
-     [
-      "Performance tracking",
-      "Rankings and traffic per piece"
-     ]
+     ["Content strategy document", "Topics, priorities and timeline"],
+     ["Content calendar", "What is published and when"],
+     ["Detailed briefs", "Shared before writing starts"],
+     ["Written and edited pages", "Ready to publish"],
+     ["On-page optimization", "Titles, headings and links"],
+     ["Sources for every claim", "So you can check the facts"],
+     ["Publishing support", "Uploaded to your CMS if needed"],
+     ["Performance tracking", "Rankings, traffic and enquiries per piece"]
     ]
    },
    {
     "type": "table",
     "eyebrow": "Content types",
-    "heading": "Which content fits which goal",
+    "heading": "Which SEO content fits which goal",
     "bg": "soft",
-    "cols": [
-     "Content type",
-     "Best for",
-     "Typical search"
-    ],
+    "intro": "**Each type of SEO content fits one goal.** This table compares four content types by the visitor they serve and a typical search they answer.",
+    "cols": ["Content type", "Best for", "Typical search"],
     "rows": [
-     [
-      "Service page",
-      "Ready to buy visitors",
-      "[service] edmonton"
-     ],
-     [
-      "Guide",
-      "Researching visitors",
-      "how to choose a [service]"
-     ],
-     [
-      "FAQ",
-      "Quick answers",
-      "how much does [service] take"
-     ],
-     [
-      "Comparison",
-      "Deciding visitors",
-      "[option a] vs [option b]"
-     ]
+     ["Service page", "Ready-to-buy visitors", "[service] edmonton"],
+     ["Blog post or guide", "Researching visitors who become leads later", "how to choose a [service]"],
+     ["FAQ", "Quick answers", "how long does [service] take"],
+     ["Comparison", "Deciding visitors", "[option a] vs [option b]"]
     ]
    },
    {
     "type": "posts",
     "eyebrow": "Proof",
     "heading": "Related case studies",
-    "items": [
-     "case-studies/local-service-business",
-     "case-studies/ecommerce-store",
-     "case-studies/professional-firm"
-    ]
+    "items": ["case-studies/local-service-business", "case-studies/ecommerce-store", "case-studies/professional-firm"]
    },
    {
     "type": "faq",
-    "heading": "Content SEO questions",
+    "eyebrow": "FAQ",
+    "heading": "SEO content writing FAQ",
+    "intro": "AI tools, volume, location pages, approval, regulated industries and results.",
     "items": [
-     [
-      "Do you use AI to write content?",
-      "Our writers may use tools for research, but every page is planned, written, edited and fact checked by people. Google's spam policies cover scaled low value content however it is made, so quality is what counts."
-     ],
-     [
-      "Who approves the content?",
-      "You do. Nothing is published without your sign off."
-     ],
-     [
-      "Can you write for regulated industries?",
-      "Yes, with review from your qualified team before publishing."
-     ],
-     [
-      "How do you measure content success?",
-      "Rankings, organic traffic and the enquiries each page drives."
-     ]
+     ["Do you use AI to write content?", "No, people write every page. Writers may use tools for research, but every page is planned, written, edited and fact-checked by a person, because Google's spam policies cover scaled, low-value content however it is made."],
+     ["How many pages per month can you write?", "The number of pages per month is [[pages per month and turnaround per page]]. It depends on page length, how much research each topic needs and how quickly your team reviews drafts."],
+     ["Can you write location pages without them being doorway pages?", "Yes. Each location page needs unique, useful detail about that town and a real reason for the customer to be there, and we do not write one where you have nothing local to say."],
+     ["Who approves the content?", "You do. Nothing is published without your sign-off, and you can request changes at the brief and draft stages."],
+     ["Can you write for regulated industries?", "Yes, with review from your qualified team before publishing. Our {{law firm SEO|industries/law-firms}}, {{immigration lawyer SEO|industries/immigration-lawyers}} and {{med spa SEO|industries/med-spas}} pages show the rules each field follows."],
+     ["How do you measure content success?", "We measure each page by its rankings, organic traffic and the enquiries it drives, reported per piece. A {{free SEO audit|free-seo-audit}} shows which pages your site is missing today."]
     ]
+   },
+   {
+    "type": "prose",
+    "blocks": [["src", [["Google Search Central: SEO Starter Guide", "https://developers.google.com/search/docs/fundamentals/seo-starter-guide"], ["Google Search Central: Creating helpful, reliable, people-first content", "https://developers.google.com/search/docs/fundamentals/creating-helpful-content"], ["Google Search Central: Spam policies", "https://developers.google.com/search/docs/essentials/spam-policies"]]]]
+   },
+   {
+    "type": "links",
+    "eyebrow": "Who we do this for",
+    "heading": "Industries we write SEO content for",
+    "bg": "soft",
+    "intro": "**SEO content writing changes with the industry, because every field has its own questions and rules.** Each page below shows what that means for one industry.",
+    "items": ["industries/law-firms", "industries/immigration-lawyers", "industries/med-spas", "industries/dentists"]
    },
    {
     "type": "links",
     "eyebrow": "Related services",
-    "heading": "Services that work well alongside Content SEO",
-    "items": [
-     "services/on-page-seo",
-     "services/link-building",
-     "services/ai-search-optimization"
-    ]
+    "heading": "Services that work well alongside SEO content writing",
+    "intro": "**SEO content writing works best with the services below**, because new pages still need clean structure, links and a place in AI answers.",
+    "items": ["services/on-page-seo", "services/link-building", "services/ai-search-optimization"]
    },
    {
     "type": "cta",
-    "heading": "Talk to us about Content SEO in Edmonton",
-    "text": "Book a free review and we will show you the biggest opportunities for your business."
+    "heading": "Talk to us about SEO content writing in Edmonton",
+    "text": "Get a free SEO audit and we will show you which pages your customers are searching for that your site does not have yet.",
+    "button": ["Get a free SEO audit", "free-seo-audit"]
    }
   ],
   "updated": "2026-10-23"
@@ -292,90 +172,48 @@
   "nav_label": "Ecommerce SEO",
   "icon": "cart",
   "illus": "cart",
-  "long_card": "Category and product SEO for Edmonton Shopify and WooCommerce stores. Product structured data, Merchant Center alignment and revenue reporting.",
+  "long_card": "Ecommerce SEO Edmonton stores measure in revenue, with category and product SEO, Product structured data and Merchant Center work for Shopify and WooCommerce.",
   "keyword": "ecommerce seo edmonton",
   "title": "Ecommerce SEO Edmonton | Shopify and WooCommerce SEO",
-  "description": "Category and product SEO for Edmonton Shopify and WooCommerce stores. Product structured data, Merchant Center alignment and revenue reporting.",
+  "description": "Ecommerce SEO Edmonton stores measure in revenue, with category and product SEO, Product structured data and Merchant Center work for Shopify and WooCommerce.",
   "card": "More organic sales for online stores.",
-  "crumbs": [
-   [
-    "Services",
-    "services"
-   ]
-  ],
+  "crumbs": [["Services", "services"]],
   "service": "Ecommerce SEO in Edmonton",
   "area": "Edmonton, AB",
   "sections": [
    {
     "type": "page_hero",
     "eyebrow": "Ecommerce SEO",
-    "h1": "Ecommerce SEO for Edmonton Online Stores",
-    "lead": "Help shoppers find your products on Google and turn that traffic into sales.",
-    "cta": [
-     "Get a free SEO review",
-     "contact"
-    ]
+    "h1": "Ecommerce SEO Edmonton, for Shopify and WooCommerce Stores",
+    "lead": "Ecommerce SEO Edmonton stores can measure in revenue starts with category and product pages that match how people shop. We help online stores in Edmonton, Alberta get found on Google and turn that organic traffic into sales, as part of our {{Edmonton SEO services|}}.",
+    "cta": ["Get a free SEO audit", "free-seo-audit"]
    },
    {
     "type": "split",
     "eyebrow": "What it is",
-    "heading": "SEO built for products and categories",
+    "heading": "What ecommerce SEO is",
     "visual": "serp",
-    "vdata": {
-     "query": "winter boots edmonton",
-     "rows": [
-      "Winter Boots | Your Store",
-      "Marketplace listing",
-      "Big box retailer"
-     ]
-    },
+    "vdata": {"query": "winter boots edmonton", "rows": ["Winter Boots | Your Store", "Marketplace listing", "Big box retailer"]},
     "body": [
-     "Online stores have their own SEO challenges: thousands of similar pages, filters that create duplicate URLs and product details that change often.",
-     "We structure your categories, improve product pages and add the structured data that helps products appear in shopping experiences on Google."
+     "**Ecommerce search engine optimization (SEO) is the work that gets an online store's category pages and product pages found on Google, measured in organic revenue.** Stores have their own challenges: many similar pages, filters that create duplicate URLs and product details that change often.",
+     "We structure your categories, improve product pages and add the structured data that helps products appear in shopping experiences on Google. Start by listing your ten best-selling categories."
     ],
-    "bullets": [
-     "Shopify, WooCommerce and custom stores",
-     "Category pages that rank for broad searches",
-     "Product data that stays in sync"
-    ]
+    "bullets": ["Shopify, WooCommerce and custom stores", "Category pages that rank for broad searches", "Product data that stays in sync"]
    },
    {
     "type": "cards",
     "eyebrow": "What is included",
-    "heading": "Ecommerce SEO work we handle",
+    "heading": "What ecommerce SEO includes",
     "bg": "soft",
     "cols": 3,
+    "intro": "**Ecommerce SEO includes six kinds of work across categories, products, data and speed.** Each card says what we change and why it matters to sales.",
     "items": [
-     {
-      "icon": "layers",
-      "title": "Category architecture",
-      "text": "Logical categories and URLs that match how people shop."
-     },
-     {
-      "icon": "tag",
-      "title": "Product page optimization",
-      "text": "Titles, descriptions, images and specs that answer questions."
-     },
-     {
-      "icon": "code",
-      "title": "Product structured data",
-      "text": "Product, ProductGroup and Review markup done right."
-     },
-     {
-      "icon": "shield",
-      "title": "Faceted navigation",
-      "text": "Filters handled so they do not create endless duplicates."
-     },
-     {
-      "icon": "cart",
-      "title": "Merchant Center alignment",
-      "text": "Product data kept consistent with your site."
-     },
-     {
-      "icon": "speed",
-      "title": "Store speed",
-      "text": "Faster category and product pages."
-     }
+     {"icon": "layers", "title": "Category pages", "text": "Logical categories and URLs that match how people shop, so category pages rank for broad searches."},
+     {"icon": "tag", "title": "Product pages", "text": "Titles, unique descriptions, images and specs that answer buyers' questions."},
+     {"icon": "code", "title": "Product and Offer structured data", "text": "Product markup with a nested Offer for price, currency and availability, plus ProductGroup for variants."},
+     {"icon": "shield", "title": "Faceted navigation and variants", "text": "Filters and variants handled with canonicals, so each product does not turn into many duplicate URLs."},
+     {"icon": "cart", "title": "Google Merchant Center", "text": "Product data in Google Merchant Center kept consistent with the prices and stock on your site."},
+     {"icon": "speed", "title": "Technical fixes and store speed", "text": "Faster category and product pages, clean sitemaps and fixed crawl errors."}
     ]
    },
    {
@@ -385,172 +223,102 @@
    {
     "type": "steps",
     "eyebrow": "Process",
-    "heading": "How we grow store traffic",
+    "heading": "How our ecommerce SEO grows store revenue",
+    "intro": "**Our ecommerce SEO follows the same four steps as every engagement: audit, plan, build and report.** The report step is revenue-based reporting through GA4 ecommerce tracking.",
     "items": [
-     [
-      "Store audit",
-      "Structure, duplicates and product data."
-     ],
-     [
-      "Category plan",
-      "Map categories to search demand."
-     ],
-     [
-      "Optimize",
-      "Categories, products and schema."
-     ],
-     [
-      "Track revenue",
-      "Organic sales reported monthly."
-     ]
+     ["Audit", "Store structure, duplicates and product data."],
+     ["Plan", "Categories mapped to search demand, in priority order."],
+     ["Build", "Categories, products and product schema."],
+     ["Report", "Organic revenue from GA4 ecommerce tracking (view_item, add_to_cart, purchase), monthly."]
     ]
    },
    {
     "type": "split",
     "eyebrow": "From the source",
-    "heading": "Structured data Google recommends for stores",
+    "heading": "Ecommerce SEO structured data Google recommends",
     "reverse": true,
     "bg": "cream",
     "visual": "cards",
-    "vdata": {
-     "items": [
-      [
-       "cart",
-       "Product and ProductGroup",
-       "Products and variants"
-      ],
-      [
-       "star",
-       "Review",
-       "Review snippets"
-      ],
-      [
-       "layers",
-       "BreadcrumbList",
-       "Site hierarchy"
-      ],
-      [
-       "store",
-       "Organization",
-       "Logo and return policy"
-      ]
-     ]
-    },
+    "vdata": {"items": [["cart", "Product and Offer", "Price and availability"], ["star", "Review", "Review snippets"], ["layers", "BreadcrumbList", "Site hierarchy"], ["store", "Organization", "Logo and return policy"]]},
     "body": [
-     "Google Search Central recommends Product and ProductGroup, Review, BreadcrumbList, Organization, LocalBusiness and VideoObject structured data for ecommerce sites.",
-     "Product markup can help products appear in shopping experiences on Google. We implement and validate each type your store needs."
-    ]
-   },
-   {
-    "type": "checklist",
-    "eyebrow": "Deliverables",
-    "heading": "What you receive",
-    "bg": "",
-    "items": [
-     [
-      "Ecommerce SEO audit",
-      "Store specific issues ranked"
-     ],
-     [
-      "Category keyword map",
-      "Every category matched to demand"
-     ],
-     [
-      "Product page templates",
-      "Optimized layouts and copy"
-     ],
-     [
-      "Structured data rollout",
-      "Validated across the store"
-     ],
-     [
-      "Duplicate URL plan",
-      "Canonicals and filter handling"
-     ],
-     [
-      "Merchant Center review",
-      "Data consistency checks"
-     ],
-     [
-      "Collection content",
-      "Helpful intro copy for categories"
-     ],
-     [
-      "Revenue report",
-      "Organic sales and conversions"
-     ]
+     "**Ecommerce SEO uses the structured data types Google Search Central recommends for stores: Product and ProductGroup, Review, BreadcrumbList, Organization, LocalBusiness and VideoObject.**",
+     "For {{merchant listings|https://developers.google.com/search/docs/appearance/structured-data/merchant-listing}}, Google requires a nested Offer with the price and currency, and recommends availability. We implement and validate each product schema type your store needs, then check it in Search Console."
     ]
    },
    {
     "type": "table",
     "eyebrow": "Platforms",
-    "heading": "Platform specific focus",
+    "heading": "Shopify vs WooCommerce for ecommerce SEO",
     "bg": "soft",
-    "cols": [
-     "Platform",
-     "Common focus"
-    ],
+    "intro": "**Shopify and WooCommerce need different ecommerce SEO work.** This table compares where we focus on each supported platform, plus custom builds.",
+    "cols": ["Platform", "Common focus"],
     "rows": [
-     [
-      "Shopify",
-      "Collection structure, duplicate product URLs, theme speed"
-     ],
-     [
-      "WooCommerce",
-      "Plugin bloat, category archives, schema"
-     ],
-     [
-      "Custom",
-      "Rendering, faceted URLs, sitemaps at scale"
-     ]
+     ["Shopify", "Collection structure, duplicate product URLs from collection paths, theme speed"],
+     ["WooCommerce", "Plugin bloat, category archives, schema from SEO plugins"],
+     ["Custom", "Rendering, faceted URLs, sitemaps at scale"]
+    ]
+   },
+   {
+    "type": "checklist",
+    "eyebrow": "Deliverables",
+    "heading": "What an ecommerce SEO engagement delivers",
+    "bg": "",
+    "intro": "**Ecommerce SEO comes with eight deliverables, from the audit to the revenue report.** Each one is something your team keeps.",
+    "items": [
+     ["Ecommerce SEO audit", "Store-specific issues ranked"],
+     ["Category keyword map", "Every category matched to demand"],
+     ["Product page templates", "Optimized layouts and copy"],
+     ["Structured data rollout", "Product and Offer markup validated across the store"],
+     ["Duplicate URL plan", "Canonicals, variant and filter handling"],
+     ["Merchant Center review", "Data consistency checks"],
+     ["Collection content", "Helpful intro copy for categories"],
+     ["Revenue report", "Organic sales and conversions from GA4"]
     ]
    },
    {
     "type": "posts",
     "eyebrow": "Proof",
     "heading": "Related case studies",
-    "items": [
-     "case-studies/ecommerce-store",
-     "case-studies/local-service-business",
-     "case-studies/professional-firm"
-    ]
+    "items": ["case-studies/ecommerce-store", "case-studies/local-service-business", "case-studies/professional-firm"]
    },
    {
     "type": "faq",
-    "heading": "Ecommerce SEO questions",
+    "eyebrow": "FAQ",
+    "heading": "Ecommerce SEO FAQ",
+    "intro": "Platforms, priorities, Merchant Center and stock changes.",
     "items": [
-     [
-      "Do you work with Shopify?",
-      "Yes, along with WooCommerce and custom builds."
-     ],
-     [
-      "Do we need Merchant Center?",
-      "Product structured data helps on your site. Google links its ecommerce guidance to Merchant Center for shopping experiences, so we usually recommend it."
-     ],
-     [
-      "What about out of stock products?",
-      "We set a clear rule for each case: keep, redirect or retire, so you do not lose value."
-     ],
-     [
-      "Can you write product descriptions?",
-      "Yes. Unique descriptions help customers and make each product page distinct."
-     ]
+     ["Does Shopify handle SEO for me?", "No, only part of it. {{Shopify|https://help.shopify.com/en/manual/promoting-marketing/seo/find-site-map}} generates a sitemap.xml file automatically and its themes include structured data, but your categories, product copy, duplicate URLs and Merchant Center data still need work."],
+     ["Should I optimize category or product pages first?", "Category pages usually come first in our page strategy, because they rank for broader searches and link to every product in them. Product pages follow, starting with your best sellers."],
+     ["What is Google Merchant Center?", "Google Merchant Center is a free Google tool where you upload and manage product data so your products can show across Google, including Search, Maps and YouTube. Product structured data on your site and your Merchant Center feed should show the same prices and stock."],
+     ["Do you work with Shopify and WooCommerce?", "Yes, along with custom builds. The table above shows where the work differs on each platform."],
+     ["What about out-of-stock products?", "We set a clear rule for each case, keep, redirect or retire, so you do not lose the value a product page has built. Temporary stock-outs usually stay live with availability updated."],
+     ["Can you write product descriptions?", "Yes. Unique descriptions help customers and make each product page distinct, and a {{free SEO audit|free-seo-audit}} shows which products need them first."]
     ]
+   },
+   {
+    "type": "prose",
+    "blocks": [["src", [["Google Search Central: Structured data for ecommerce", "https://developers.google.com/search/docs/specialty/ecommerce/include-structured-data-relevant-to-ecommerce"], ["Google Search Central: Merchant listing structured data", "https://developers.google.com/search/docs/appearance/structured-data/merchant-listing"], ["Google Analytics: Measure ecommerce", "https://developers.google.com/analytics/devguides/collection/ga4/ecommerce"], ["Google Merchant Center Help", "https://support.google.com/merchants/answer/188924?hl=en"], ["Google Search Central: SEO Starter Guide", "https://developers.google.com/search/docs/fundamentals/seo-starter-guide"]]]]
+   },
+   {
+    "type": "links",
+    "eyebrow": "Who we do this for",
+    "heading": "Industries we help with Ecommerce SEO",
+    "bg": "soft",
+    "intro": "**Ecommerce SEO also helps local businesses that sell parts or products online.** Each page below shows what changes for that industry.",
+    "items": ["industries/appliance-repair"]
    },
    {
     "type": "links",
     "eyebrow": "Related services",
-    "heading": "Services that work well alongside Ecommerce SEO",
-    "items": [
-     "services/technical-seo",
-     "services/content-writing",
-     "services/seo-audit"
-    ]
+    "heading": "Services that complete an ecommerce SEO plan",
+    "intro": "**Ecommerce SEO works best next to the services below**, because stores also need a clean technical base and content that answers buyers' questions.",
+    "items": ["services/technical-seo", "services/content-writing", "services/seo-audit"]
    },
    {
     "type": "cta",
     "heading": "Talk to us about Ecommerce SEO in Edmonton",
-    "text": "Book a free review and we will show you the biggest opportunities for your business."
+    "text": "Get a free SEO audit and we will show you which categories and products could earn more organic revenue.",
+    "button": ["Get a free SEO audit", "free-seo-audit"]
    }
   ],
   "updated": "2026-10-23"
@@ -560,17 +328,12 @@
   "nav_label": "AI Search Optimization",
   "icon": "spark",
   "illus": "spark",
-  "long_card": "Prepare your Edmonton business for Google AI Overviews, AI Mode and AI assistants with clear content, structured data and strong local signals.",
-  "keyword": "ai search optimization edmonton",
+  "long_card": "AI search optimization for Edmonton businesses. Prepare for Google AI Overviews, AI Mode and ChatGPT with clear content, structured data and local signals.",
+  "keyword": "ai search optimization",
   "title": "AI Search Optimization Edmonton | AI Overviews and GEO",
-  "description": "Prepare your Edmonton business for Google AI Overviews, AI Mode and AI assistants with clear content, structured data and strong local signals.",
+  "description": "AI search optimization for Edmonton businesses. Prepare for Google AI Overviews, AI Mode and ChatGPT with clear content. Get a free SEO audit.",
   "card": "Be ready for AI Overviews and AI assistants.",
-  "crumbs": [
-   [
-    "Services",
-    "services"
-   ]
-  ],
+  "crumbs": [["Services", "services"]],
   "service": "AI Search Optimization in Edmonton",
   "area": "Edmonton, AB",
   "sections": [
@@ -578,88 +341,57 @@
     "type": "page_hero",
     "eyebrow": "AI Search Optimization",
     "h1": "AI Search Optimization for Edmonton Businesses",
-    "lead": "Get your content ready to be found and cited in Google AI Overviews, AI Mode and AI assistants.",
-    "cta": [
-     "Get a free SEO review",
-     "contact"
-    ]
+    "lead": "AI search optimization gets your content ready to be found and cited in Google AI Overviews, AI Mode and AI assistants such as ChatGPT, Gemini and Perplexity. We do it for businesses in Edmonton, Alberta as part of our {{Edmonton SEO services|}}, starting from what Google itself says.",
+    "cta": ["Get a free SEO audit", "free-seo-audit"]
    },
    {
     "type": "split",
     "eyebrow": "What it is",
-    "heading": "Search is changing. The fundamentals still matter.",
+    "heading": "What AI search optimization and GEO mean",
     "visual": "cards",
-    "vdata": {
-     "items": [
-      [
-       "spark",
-       "AI Overviews",
-       "Google Search"
-      ],
-      [
-       "message",
-       "AI Mode",
-       "Conversational search"
-      ],
-      [
-       "compass",
-       "AI assistants",
-       "Chat based tools"
-      ],
-      [
-       "search",
-       "Classic results",
-       "Still essential"
-      ]
-     ]
-    },
+    "vdata": {"items": [["spark", "AI Overviews", "Google Search"], ["message", "AI Mode", "Conversational search"], ["compass", "AI assistants", "ChatGPT, Gemini, Perplexity"], ["search", "Classic results", "Still essential"]]},
     "body": [
-     "More people now get answers from AI features in Google and from AI assistants. Businesses want to know how to show up there.",
-     "Google says there are no additional requirements or special optimizations needed to appear in AI Overviews or AI Mode. Pages need to be indexed and eligible to show with a snippet. So this service is about doing the fundamentals very well."
+     "**AI search optimization is the work that makes your content easy for AI features and AI assistants to find, understand and cite.** Generative engine optimization (GEO) is another name for it, taken from a 2023 research paper, {{GEO, Generative Engine Optimization|https://arxiv.org/abs/2311.09735}}. Some agencies sell the same work as AI SEO services.",
+     "Whatever the name, the base is search engine optimization (SEO): pages that are indexed, crawlable and answer questions clearly. Check that your key pages are indexed in Search Console first."
     ],
-    "bullets": [
-     "Indexed, crawlable and eligible pages",
-     "Clear, text based answers",
-     "Accurate Business Profile and structured data"
+    "bullets": ["Indexed, crawlable and eligible pages", "Clear, text-based answers", "Accurate Business Profile and structured data"]
+   },
+   {
+    "type": "split",
+    "eyebrow": "Local answers",
+    "heading": "How AI search finds local businesses",
+    "reverse": true,
+    "visual": "map",
+    "vdata": {"title": "Your business", "sub": "Cited in an AI answer"},
+    "body": [
+     "**AI search finds local businesses through the same public information Google Search uses: your website, your Business Profile and your Google reviews.** When someone asks an AI assistant for a furnace company in Edmonton, the answer draws on sources it can find and trust.",
+     "That makes clear entities (your business name, services, areas and credentials stated the same way everywhere) and consistent reviews part of AI search readiness. Make sure your Business Profile matches your website before anything else."
+    ]
+   },
+   {
+    "type": "split",
+    "eyebrow": "From the source",
+    "heading": "What Google says about AI features and AI search optimization",
+    "bg": "cream",
+    "visual": "cards",
+    "vdata": {"items": [["shield", "Allow crawling", "robots.txt and CDN"], ["link", "Internal links", "Content easy to find"], ["eye", "Page experience", "Good to use"], ["code", "Matching markup", "Schema equals visible text"]]},
+    "body": [
+     "**Google says there are no additional requirements or special optimizations needed to appear in AI Overviews or AI Mode; a page must be indexed and eligible to show in Search with a snippet.** Its page on {{AI features and your website|https://developers.google.com/search/docs/appearance/ai-features}} lists the usual best practices: allow crawling, use internal links and keep important content in text.",
+     "It also says no special schema.org markup or AI text files are needed, and recommends keeping your Business Profile and Merchant Center information up to date. Our post on {{what Google says about AI Overviews|blog/ai-overviews-and-your-website}} explains each point."
     ]
    },
    {
     "type": "cards",
-    "eyebrow": "What is included",
-    "heading": "How we prepare your site",
+    "eyebrow": "What we do",
+    "heading": "What our AI search optimization covers",
     "bg": "soft",
-    "cols": 3,
+    "cols": 2,
+    "intro": "**Our AI search optimization covers four areas: content clarity, entity and schema work, local signals and citation tracking.** Each card says what we do in that area.",
     "items": [
-     {
-      "icon": "search",
-      "title": "Crawl access review",
-      "text": "robots.txt, CDN and hosting settings that allow crawling."
-     },
-     {
-      "icon": "link",
-      "title": "Internal linking",
-      "text": "Important content easy to find through links."
-     },
-     {
-      "icon": "doc",
-      "title": "Text first content",
-      "text": "Key information available as text, not locked in images."
-     },
-     {
-      "icon": "image",
-      "title": "Supporting media",
-      "text": "Relevant, high quality images and video beside the text."
-     },
-     {
-      "icon": "code",
-      "title": "Structured data checks",
-      "text": "Markup that matches what is visible on the page."
-     },
-     {
-      "icon": "store",
-      "title": "Profile and feed accuracy",
-      "text": "Business Profile and Merchant Center kept current."
-     }
+     {"icon": "doc", "title": "Content clarity", "text": "Pages that state a direct answer first, in text, with headings that match the questions people ask, so AI answers can quote them."},
+     {"icon": "code", "title": "Entity and schema work", "text": "Your business, services and areas named the same way on every page, with structured data that matches visible text, as Google requires for AI features and Search alike."},
+     {"icon": "store", "title": "Local signals", "text": "An accurate Business Profile, consistent listings and a steady flow of genuine Google reviews, the public signals AI assistants and AI Overviews can read."},
+     {"icon": "chart", "title": "Citation tracking", "text": "A set list of your customers' key questions checked in AI Overviews, ChatGPT, Gemini and Perplexity every [[tracking frequency]], recording whether your site is cited."}
     ]
    },
    {
@@ -669,176 +401,89 @@
    {
     "type": "steps",
     "eyebrow": "Process",
-    "heading": "How we approach AI search",
+    "heading": "How our AI search optimization runs",
+    "intro": "**Our AI search optimization follows the same four steps as every engagement: audit, plan, build and report.** The report shows citations and AI-driven traffic over time.",
     "items": [
-     [
-      "Eligibility check",
-      "Indexing and snippet eligibility."
-     ],
-     [
-      "Content review",
-      "Clear answers to real questions."
-     ],
-     [
-      "Technical fixes",
-      "Access, links and structured data."
-     ],
-     [
-      "Monitor",
-      "Search Console data tracked over time."
-     ]
-    ]
-   },
-   {
-    "type": "split",
-    "eyebrow": "From the source",
-    "heading": "Google's best practices for AI features",
-    "reverse": true,
-    "bg": "cream",
-    "visual": "cards",
-    "vdata": {
-     "items": [
-      [
-       "shield",
-       "Allow crawling",
-       "robots.txt and CDN"
-      ],
-      [
-       "link",
-       "Internal links",
-       "Content easy to find"
-      ],
-      [
-       "eye",
-       "Page experience",
-       "Good to use"
-      ],
-      [
-       "code",
-       "Matching markup",
-       "Schema equals visible text"
-      ]
-     ]
-    },
-    "body": [
-     "Google's guidance on AI features lists the same best practices it gives for Search: allow crawling, use internal links, provide a good page experience, keep important content in text and make structured data match visible text.",
-     "It also recommends keeping Business Profile and Merchant Center information current and verifying your site in Search Console."
-    ]
-   },
-   {
-    "type": "checklist",
-    "eyebrow": "Deliverables",
-    "heading": "What you receive",
-    "bg": "",
-    "items": [
-     [
-      "AI readiness audit",
-      "Against Google's published best practices"
-     ],
-     [
-      "Crawl access report",
-      "Including CDN and hosting rules"
-     ],
-     [
-      "Content clarity review",
-      "Pages that answer questions directly"
-     ],
-     [
-      "Structured data audit",
-      "Markup matches visible text"
-     ],
-     [
-      "Internal link plan",
-      "Key pages easy to reach"
-     ],
-     [
-      "Profile accuracy check",
-      "Business Profile and feeds"
-     ],
-     [
-      "Search Console setup",
-      "Verified and monitored"
-     ],
-     [
-      "Quarterly review",
-      "What changed and what to do next"
-     ]
+     ["Audit", "Indexing, snippet eligibility, crawl access and current AI citations."],
+     ["Plan", "The questions to answer and the pages to fix first."],
+     ["Build", "Clear answers, internal links and structured data that matches the page."],
+     ["Report", "Search Console performance, referral traffic from AI tools and the citation log."]
     ]
    },
    {
     "type": "table",
     "eyebrow": "Clearing up confusion",
-    "heading": "AI search myths and facts",
+    "heading": "AI search optimization myths and facts",
     "bg": "soft",
-    "cols": [
-     "Claim",
-     "What Google says"
-    ],
+    "intro": "**Much AI search optimization advice contradicts Google's own guidance.** This table compares four common claims with what Google says.",
+    "cols": ["Claim", "What Google says"],
     "rows": [
-     [
-      "You need special AI schema",
-      "There is no special schema.org markup for AI features"
-     ],
-     [
-      "You need an AI text file",
-      "No new machine readable files are needed"
-     ],
-     [
-      "AI search replaces SEO",
-      "Pages must still be indexed and snippet eligible"
-     ],
-     [
-      "Being eligible guarantees inclusion",
-      "Meeting requirements does not guarantee crawling, indexing or serving"
-     ]
+     ["You need special AI schema", "There is no special schema.org markup for AI features"],
+     ["You need an AI text file", "No new machine-readable files or AI text files are needed"],
+     ["AI search replaces SEO", "Pages must still be indexed and snippet eligible"],
+     ["Being eligible guarantees inclusion", "Indexing and serving are not guaranteed"]
+    ]
+   },
+   {
+    "type": "checklist",
+    "eyebrow": "Deliverables",
+    "heading": "What you receive from AI search optimization",
+    "bg": "",
+    "intro": "**AI search optimization comes with eight deliverables, all checked against Google's published guidance.** How we measure: Search Console, AI referral traffic in Google Analytics and the citation log.",
+    "items": [
+     ["AI readiness audit", "Against Google's published best practices"],
+     ["Crawl access report", "Including CDN and hosting rules"],
+     ["Content clarity review", "Pages that answer questions directly"],
+     ["Structured data audit", "Markup matches visible text"],
+     ["Internal link plan", "Key pages easy to reach"],
+     ["Profile accuracy check", "Business Profile and feeds"],
+     ["Citation log", "Where AI answers cite you, and where they do not"],
+     ["Quarterly review", "What changed and what to do next"]
     ]
    },
    {
     "type": "posts",
     "eyebrow": "Proof",
     "heading": "Related case studies",
-    "items": [
-     "case-studies/local-service-business",
-     "case-studies/ecommerce-store",
-     "case-studies/professional-firm"
-    ]
+    "items": ["case-studies/local-service-business", "case-studies/ecommerce-store", "case-studies/professional-firm"]
    },
    {
     "type": "faq",
-    "heading": "AI Search Optimization questions",
+    "eyebrow": "FAQ",
+    "heading": "AI search optimization FAQ",
+    "intro": "Special optimization, GEO, ChatGPT, guarantees and llms.txt.",
     "items": [
-     [
-      "Can you guarantee we appear in AI Overviews?",
-      "No. Google says meeting the requirements does not guarantee your content will be crawled, indexed or served."
-     ],
-     [
-      "Is this different from regular SEO?",
-      "Mostly no. Google says no special optimization is needed for its AI features. We focus on the fundamentals that make content eligible and easy to understand."
-     ],
-     [
-      "What about ChatGPT and other assistants?",
-      "Each tool works differently and publishes its own guidance. We keep your content clear, accurate and crawlable, which supports discovery across tools."
-     ],
-     [
-      "Do we need an llms.txt file?",
-      "Google says AI specific text files are not needed for its AI features. Some other tools read them, so we can add one, but it is optional."
-     ]
+     ["Do I need special optimization for AI Overviews?", "No. Google says there are no additional requirements or special optimizations needed to appear in AI Overviews or AI Mode, so the work is doing the SEO fundamentals very well."],
+     ["Is GEO different from SEO?", "No, mostly not. Generative engine optimization uses the same base as SEO, crawlable and indexed pages with clear answers, and adds checks on whether AI answers cite you."],
+     ["Can you get my business mentioned in ChatGPT?", "No one can guarantee it, but you can make it possible. {{OpenAI|https://developers.openai.com/api/docs/bots}} says sites that block its OAI-SearchBot crawler will not be shown in ChatGPT search answers, so we check your robots.txt allows it and keep your content clear and accurate."],
+     ["Can you guarantee we appear in AI Overviews?", "No. Google says indexing and serving are not guaranteed, even when a page meets every requirement."],
+     ["Do we need an llms.txt file?", "No, not for Google. Google says AI text files are not needed for its AI features; llms.txt is a proposed convention that some other tools read, so we add one only if you want it."]
     ]
+   },
+   {
+    "type": "prose",
+    "blocks": [["src", [["Google Search Central: AI features and your website", "https://developers.google.com/search/docs/appearance/ai-features"], ["OpenAI: Overview of OpenAI crawlers", "https://developers.openai.com/api/docs/bots"], ["Aggarwal et al., GEO, Generative Engine Optimization (2023)", "https://arxiv.org/abs/2311.09735"]]]]
+   },
+   {
+    "type": "links",
+    "eyebrow": "Who we do this for",
+    "heading": "Industries where AI search optimization pays off first",
+    "bg": "soft",
+    "intro": "**AI search optimization matters most where customers research before they call**, such as legal and health services. Each page below covers one of them.",
+    "items": ["industries/law-firms", "industries/dentists", "industries/med-spas"]
    },
    {
     "type": "links",
     "eyebrow": "Related services",
-    "heading": "Services that work well alongside AI Search Optimization",
-    "items": [
-     "services/technical-seo",
-     "services/content-writing",
-     "services/google-business-profile-optimization"
-    ]
+    "heading": "Services AI search optimization builds on",
+    "intro": "**AI search optimization builds on the services below**, because AI answers draw on the same technical base, content and Business Profile.",
+    "items": ["services/technical-seo", "services/content-writing", "services/google-business-profile-optimization"]
    },
    {
     "type": "cta",
     "heading": "Talk to us about AI Search Optimization in Edmonton",
-    "text": "Book a free review and we will show you the biggest opportunities for your business."
+    "text": "Get a free SEO audit and we will check whether your key pages are eligible for AI Overviews and AI answers.",
+    "button": ["Get a free SEO audit", "free-seo-audit"]
    }
   ],
   "updated": "2026-10-23"

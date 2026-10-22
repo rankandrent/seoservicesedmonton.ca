@@ -8,21 +8,22 @@ export const PAGES: Page[] = [
   "nav_label": "Case Studies",
   "icon": "chart",
   "page_type": "CollectionPage",
-  "title": "SEO Case Studies | Edmonton Results | BrandName",
+  "title": "SEO Case Studies | Edmonton Results",
   "description": "SEO case studies from Edmonton businesses. See the starting point, what we changed and the measured results for each client.",
-  "keyword": "edmonton seo case studies",
+  "keyword": "seo case studies",
   "card": "Real projects and measured results.",
   "sections": [
    {
     "type": "page_hero",
     "eyebrow": "Case studies",
-    "h1": "SEO Results for Edmonton Businesses",
-    "lead": "Every case study shows where the client started, what we changed and what the data showed afterwards."
+    "h1": "SEO Case Studies and Results",
+    "lead": "Our SEO case studies will show where each client in Edmonton, Alberta started, what our {{Edmonton SEO services|}} changed and what the data showed afterwards. Each one is published only with the client's written permission."
    },
    {
     "type": "posts",
     "eyebrow": "Our work",
     "heading": "Featured case studies",
+    "intro": "**Each search engine optimization (SEO) case study names the industry, the starting point with a date, the work done and the measured results.**",
     "items": [
      "case-studies/local-service-business",
      "case-studies/ecommerce-store",
@@ -33,6 +34,7 @@ export const PAGES: Page[] = [
     "type": "stats",
     "eyebrow": "Across all clients",
     "heading": "Combined results",
+    "intro": "**These combined SEO results will be totals across all clients, taken from their own Search Console, Google Analytics and Business Profile data.**",
     "items": [
      [
       "[[00]]+",
@@ -85,14 +87,18 @@ export const PAGES: Page[] = [
    {
     "type": "cta",
     "heading": "Could your business be our next case study?",
-    "text": "Book a free review and let's find out."
+    "text": "Get a free SEO audit and we will show you where your growth could come from.",
+    "button": [
+     "Get a free SEO audit",
+     "free-seo-audit"
+    ]
    }
   ]
  },
  {
   "illus": "map",
   "slug": "case-studies/local-service-business",
-  "nav_label": "[[Local service business]]",
+  "nav_label": "Local Service Business Case Study",
   "tag": "Local service",
   "icon": "pin",
   "card": "[[Short summary of the result for a local service business.]]",
@@ -108,15 +114,15 @@ export const PAGES: Page[] = [
    ]
   ],
   "keyword": "",
-  "title": "[[Local service business]] Case Study | Edmonton SEO | BrandName",
+  "title": "Local Service SEO Case Study | Edmonton Results",
   "noindex": true,
   "draft": true,
-  "description": "How BrandName helped an Edmonton local service grow through SEO. [Replace with the real result before publishing.]",
+  "description": "Draft SEO case study for an Edmonton local service business. The starting point, work done and measured results are added once the client approves.",
   "sections": [
    {
     "type": "page_hero",
     "eyebrow": "Case study · Local service",
-    "h1": "[[Client name]]: [[Headline result, for example more calls from Google Maps]]",
+    "h1": "SEO Case Study, [[Client name]] and [[Headline result]]",
     "lead": "[[One sentence on who the client is and what changed after working with us.]]"
    },
    {
@@ -144,6 +150,7 @@ export const PAGES: Page[] = [
     "type": "stats",
     "eyebrow": "Results",
     "heading": "The results at a glance",
+    "intro": "**The results at a glance are the headline numbers for this SEO case study, each with its source and date range.**",
     "items": [
      [
       "[[+00%]]",
@@ -196,6 +203,7 @@ export const PAGES: Page[] = [
     "type": "steps",
     "eyebrow": "Our approach",
     "heading": "What we did",
+    "intro": "**The search engine optimization (SEO) work for this client followed our four steps, audit, plan, build and report.**",
     "bg": "soft",
     "items": [
      [
@@ -220,6 +228,7 @@ export const PAGES: Page[] = [
     "type": "checklist",
     "eyebrow": "Work delivered",
     "heading": "Key changes we made",
+    "intro": "**These are the changes that moved the numbers, each with the reason it mattered.**",
     "bg": "",
     "items": [
      [
@@ -244,6 +253,7 @@ export const PAGES: Page[] = [
     "type": "table",
     "eyebrow": "Before and after",
     "heading": "Measured results",
+    "intro": "**This table compares each metric before and after the work, with the tool the number came from.**",
     "bg": "soft",
     "cols": [
      "Metric",
@@ -281,6 +291,7 @@ export const PAGES: Page[] = [
     "type": "posts",
     "eyebrow": "More work",
     "heading": "Other case studies",
+    "intro": "**Other SEO case studies show the same method in different industries.**",
     "items": [
      "case-studies/ecommerce-store",
      "case-studies/professional-firm"
@@ -289,14 +300,18 @@ export const PAGES: Page[] = [
    {
     "type": "cta",
     "heading": "Want results like these?",
-    "text": "Book a free review and we will show you where your growth could come from."
+    "text": "Get a free SEO audit and we will show you where your growth could come from.",
+    "button": [
+     "Get a free SEO audit",
+     "free-seo-audit"
+    ]
    }
   ]
  },
  {
   "illus": "cart",
   "slug": "case-studies/ecommerce-store",
-  "nav_label": "[[Edmonton online store]]",
+  "nav_label": "Ecommerce Store Case Study",
   "tag": "Ecommerce",
   "icon": "cart",
   "card": "[[Short summary of the result for an online store.]]",
@@ -312,15 +327,15 @@ export const PAGES: Page[] = [
    ]
   ],
   "keyword": "",
-  "title": "[[Edmonton online store]] Case Study | Edmonton SEO | BrandName",
+  "title": "Ecommerce SEO Case Study | Edmonton Results",
   "noindex": true,
   "draft": true,
-  "description": "How BrandName helped an Edmonton ecommerce grow through SEO. [Replace with the real result before publishing.]",
+  "description": "Draft SEO case study for an Edmonton online store. The starting point, work done and measured results are added once the client approves.",
   "sections": [
    {
     "type": "page_hero",
     "eyebrow": "Case study · Ecommerce",
-    "h1": "[[Client name]]: [[Headline result, for example more calls from Google Maps]]",
+    "h1": "SEO Case Study, [[Client name]] and [[Headline result]]",
     "lead": "[[One sentence on who the client is and what changed after working with us.]]"
    },
    {
@@ -348,6 +363,7 @@ export const PAGES: Page[] = [
     "type": "stats",
     "eyebrow": "Results",
     "heading": "The results at a glance",
+    "intro": "**The results at a glance are the headline numbers for this SEO case study, each with its source and date range.**",
     "items": [
      [
       "[[+00%]]",
@@ -400,6 +416,7 @@ export const PAGES: Page[] = [
     "type": "steps",
     "eyebrow": "Our approach",
     "heading": "What we did",
+    "intro": "**The search engine optimization (SEO) work for this client followed our four steps, audit, plan, build and report.**",
     "bg": "soft",
     "items": [
      [
@@ -424,6 +441,7 @@ export const PAGES: Page[] = [
     "type": "checklist",
     "eyebrow": "Work delivered",
     "heading": "Key changes we made",
+    "intro": "**These are the changes that moved the numbers, each with the reason it mattered.**",
     "bg": "",
     "items": [
      [
@@ -448,6 +466,7 @@ export const PAGES: Page[] = [
     "type": "table",
     "eyebrow": "Before and after",
     "heading": "Measured results",
+    "intro": "**This table compares each metric before and after the work, with the tool the number came from.**",
     "bg": "soft",
     "cols": [
      "Metric",
@@ -485,6 +504,7 @@ export const PAGES: Page[] = [
     "type": "posts",
     "eyebrow": "More work",
     "heading": "Other case studies",
+    "intro": "**Other SEO case studies show the same method in different industries.**",
     "items": [
      "case-studies/local-service-business",
      "case-studies/professional-firm"
@@ -493,14 +513,18 @@ export const PAGES: Page[] = [
    {
     "type": "cta",
     "heading": "Want results like these?",
-    "text": "Book a free review and we will show you where your growth could come from."
+    "text": "Get a free SEO audit and we will show you where your growth could come from.",
+    "button": [
+     "Get a free SEO audit",
+     "free-seo-audit"
+    ]
    }
   ]
  },
  {
   "illus": "doc",
   "slug": "case-studies/professional-firm",
-  "nav_label": "[[Professional services firm]]",
+  "nav_label": "Professional Firm Case Study",
   "tag": "Professional services",
   "icon": "book",
   "card": "[[Short summary of the result for a professional firm.]]",
@@ -516,15 +540,15 @@ export const PAGES: Page[] = [
    ]
   ],
   "keyword": "",
-  "title": "[[Professional services firm]] Case Study | Edmonton SEO | BrandName",
+  "title": "Professional Firm SEO Case Study | Edmonton Results",
   "noindex": true,
   "draft": true,
-  "description": "How BrandName helped an Edmonton professional services grow through SEO. [Replace with the real result before publishing.]",
+  "description": "Draft SEO case study for an Edmonton professional services firm. The starting point, work done and measured results are added once the client approves.",
   "sections": [
    {
     "type": "page_hero",
     "eyebrow": "Case study · Professional services",
-    "h1": "[[Client name]]: [[Headline result, for example more calls from Google Maps]]",
+    "h1": "SEO Case Study, [[Client name]] and [[Headline result]]",
     "lead": "[[One sentence on who the client is and what changed after working with us.]]"
    },
    {
@@ -552,6 +576,7 @@ export const PAGES: Page[] = [
     "type": "stats",
     "eyebrow": "Results",
     "heading": "The results at a glance",
+    "intro": "**The results at a glance are the headline numbers for this SEO case study, each with its source and date range.**",
     "items": [
      [
       "[[+00%]]",
@@ -604,6 +629,7 @@ export const PAGES: Page[] = [
     "type": "steps",
     "eyebrow": "Our approach",
     "heading": "What we did",
+    "intro": "**The search engine optimization (SEO) work for this client followed our four steps, audit, plan, build and report.**",
     "bg": "soft",
     "items": [
      [
@@ -628,6 +654,7 @@ export const PAGES: Page[] = [
     "type": "checklist",
     "eyebrow": "Work delivered",
     "heading": "Key changes we made",
+    "intro": "**These are the changes that moved the numbers, each with the reason it mattered.**",
     "bg": "",
     "items": [
      [
@@ -652,6 +679,7 @@ export const PAGES: Page[] = [
     "type": "table",
     "eyebrow": "Before and after",
     "heading": "Measured results",
+    "intro": "**This table compares each metric before and after the work, with the tool the number came from.**",
     "bg": "soft",
     "cols": [
      "Metric",
@@ -689,6 +717,7 @@ export const PAGES: Page[] = [
     "type": "posts",
     "eyebrow": "More work",
     "heading": "Other case studies",
+    "intro": "**Other SEO case studies show the same method in different industries.**",
     "items": [
      "case-studies/local-service-business",
      "case-studies/ecommerce-store"
@@ -697,7 +726,11 @@ export const PAGES: Page[] = [
    {
     "type": "cta",
     "heading": "Want results like these?",
-    "text": "Book a free review and we will show you where your growth could come from."
+    "text": "Get a free SEO audit and we will show you where your growth could come from.",
+    "button": [
+     "Get a free SEO audit",
+     "free-seo-audit"
+    ]
    }
   ]
  }

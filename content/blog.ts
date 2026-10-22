@@ -1,368 +1,275 @@
 // Blog hub + posts, written from Google's primary documentation and linking to it.
+// Every fact below was checked against the linked Google page in October 2026. Examples marked
+// "illustrative" are not client results.
 // Inline marks: [[placeholder]]  **bold**  {{link text|slug}}
 import type { Page } from './types';
 
+const UPDATED = '2026-10-23';
+
+// Primary sources (verified with WebFetch, October 2026)
+const S = {
+  localRank: ['Google Business Profile Help: How to improve your local ranking', 'https://support.google.com/business/answer/7091?hl=en'],
+  gbpRules: ['Google Business Profile Help: Guidelines for representing your business', 'https://support.google.com/business/answer/3038177?hl=en'],
+  reviews: ['Google Business Profile Help: Tips to get more reviews', 'https://support.google.com/business/answer/3474122?hl=en'],
+  contrib: ['Google Maps contribution policy: Prohibited and restricted content', 'https://support.google.com/contributionpolicy/answer/7400114?hl=en'],
+  spam: ['Google Search Central: Spam policies', 'https://developers.google.com/search/docs/essentials/spam-policies'],
+  ai: ['Google Search Central: AI features and your website', 'https://developers.google.com/search/docs/appearance/ai-features'],
+  helpful: ['Google Search Central: Creating helpful, reliable, people-first content', 'https://developers.google.com/search/docs/fundamentals/creating-helpful-content'],
+  hire: ['Google Search Central: Do you need an SEO?', 'https://developers.google.com/search/docs/fundamentals/do-i-need-seo'],
+};
+const L = (s: string[], text: string) => `{{${text}|${s[1]}}}`;
+
 export const PAGES: Page[] = [
- {
-  "slug": "blog",
-  "nav_label": "Blog",
-  "icon": "book",
-  "page_type": "CollectionPage",
-  "title": "Local SEO Blog | Tips for Edmonton Businesses",
-  "description": "Practical local SEO guides for Edmonton trades, law firms and service businesses who want more calls from Google, checked against Google documentation.",
-  "keyword": "edmonton seo blog",
-  "card": "SEO advice, checked against the source.",
-  "sections": [
-   {
-    "type": "page_hero",
-    "eyebrow": "Blog",
-    "h1": "SEO Advice for Edmonton Businesses",
-    "lead": "Practical guides, checked against Google's own documentation, with sources linked in every article."
-   },
-   {
-    "type": "posts",
-    "eyebrow": "Latest",
-    "heading": "Recent articles",
-    "items": [
-     "blog/how-google-ranks-local-businesses",
-     "blog/ai-overviews-and-your-website",
-     "blog/choosing-an-seo-agency-in-edmonton"
-    ]
-   },
-   {
-    "type": "cta",
-    "heading": "Prefer to have it done for you?",
-    "text": "Book a free review and we will tell you what to fix first."
-   }
-  ]
- },
- {
-  "photo": "https://images.unsplash.com/photo-1531058240690-006c446962d8?auto=format&fit=crop&w=800&q=80",
-  "illus": "map",
-  "slug": "blog/how-google-ranks-local-businesses",
-  "nav_label": "How Google Ranks Local Businesses in Edmonton",
-  "tag": "Local SEO",
-  "icon": "pin",
-  "card": "The three factors Google uses for local results and what you can do about each one.",
-  "article": "2026-10-23",
-  "page_type": "WebPage",
-  "title": "How Google Ranks Local Businesses in Edmonton",
-  "description": "How Google Ranks Local Businesses in Edmonton A practical guide for Edmonton business owners, checked against Google's own documentation.",
-  "keyword": "how google ranks local businesses",
-  "crumbs": [
-   [
-    "Blog",
-    "blog"
-   ]
-  ],
-  "sections": [
-   {
-    "type": "page_hero",
-    "eyebrow": "Local SEO · [[Publish date]]",
-    "h1": "How Google Ranks Local Businesses in Edmonton",
-    "lead": "The three factors Google uses for local results and what you can do about each one."
-   },
-   {
-    "type": "prose",
-    "blocks": [
-     [
-      "p",
-      "If you run a business in Edmonton, the map results are often where customers find you first. Google publishes a short help article that explains how those results are ranked. Here is what it says, in plain language, and how to act on it."
-     ],
-     [
-      "h2",
-      "The three factors"
-     ],
-     [
-      "p",
-      "Google says local results are based mainly on three things:"
-     ],
-     [
-      "ul",
-      [
-       "**Relevance:** how well your Business Profile matches what someone searched for. Complete, detailed information helps.",
-       "**Distance:** how far your business is from the searcher, or from the location in their search.",
-       "**Prominence:** how well known your business is. Google mentions links to your business and your review count as inputs."
-      ]
-     ],
-     [
-      "p",
-      "Google also states plainly that you cannot request or pay for a better local ranking."
-     ],
-     [
-      "h2",
-      "What Google recommends"
-     ],
-     [
-      "ul",
-      [
-       "Verify your business.",
-       "Keep your address, hours, special hours, category and attributes current.",
-       "Respond to reviews.",
-       "Add photos and videos.",
-       "If you are an eligible retailer, add in-store products."
-      ]
-     ],
-     [
-      "h2",
-      "What this means in Edmonton"
-     ],
-     [
-      "p",
-      "Distance is the one factor you cannot change, and it is why results look different in Windermere than they do Downtown. Focus your effort on relevance and prominence: a complete profile, a website that supports it, steady genuine reviews and mentions from local organizations."
-     ],
-     [
-      "callout",
-      "A note on reviews: Google's contribution policy does not allow rewards in exchange for reviews, and it does not allow asking only happy customers. Ask every customer, and keep it honest."
-     ],
-     [
-      "h2",
-      "Where to start"
-     ],
-     [
-      "p",
-      "Open your Business Profile and check every field against your real details. Then read our {{Local SEO|services/local-seo}} page to see how we handle the rest."
-     ],
-     [
-      "src",
-      [
-       [
-        "Google Business Profile Help: How to improve your local ranking",
-        "https://support.google.com/business/answer/7091?hl=en"
-       ],
-       [
-        "Google Maps contribution policy: Prohibited and restricted content",
-        "https://support.google.com/contributionpolicy/answer/7400114?hl=en"
-       ]
-      ]
-     ]
-    ]
-   },
-   {
-    "type": "posts",
-    "eyebrow": "Keep reading",
-    "heading": "More from the blog",
-    "bg": "soft",
-    "items": [
-     "blog/ai-overviews-and-your-website",
-     "blog/choosing-an-seo-agency-in-edmonton"
-    ]
-   },
-   {
-    "type": "cta",
-    "heading": "Want this done for your business?",
-    "text": "Book a free SEO review and we will apply it to your site and profile."
-   }
-  ]
- },
- {
-  "photo": "https://images.unsplash.com/photo-1571826945830-5423b80a986c?auto=format&fit=crop&w=800&q=80",
-  "illus": "spark",
-  "slug": "blog/ai-overviews-and-your-website",
-  "nav_label": "AI Overviews and Your Website: What Google Says",
-  "tag": "AI search",
-  "icon": "spark",
-  "card": "Google's own answer on what it takes to appear in AI Overviews and AI Mode.",
-  "article": "2026-10-23",
-  "page_type": "WebPage",
-  "title": "AI Overviews and Your Website: What Google Says",
-  "description": "AI Overviews and Your Website: What Google Says A practical guide for Edmonton business owners, checked against Google's own documentation.",
-  "keyword": "ai overviews seo",
-  "crumbs": [
-   [
-    "Blog",
-    "blog"
-   ]
-  ],
-  "sections": [
-   {
-    "type": "page_hero",
-    "eyebrow": "AI search · [[Publish date]]",
-    "h1": "AI Overviews and Your Website: What Google Says",
-    "lead": "Google's own answer on what it takes to appear in AI Overviews and AI Mode."
-   },
-   {
-    "type": "prose",
-    "blocks": [
-     [
-      "p",
-      "A lot of advice now promises special tricks for AI search. Google has published its own guidance for site owners on AI Overviews and AI Mode, and it is simpler than the hype suggests."
-     ],
-     [
-      "h2",
-      "No extra requirements"
-     ],
-     [
-      "p",
-      "Google says there are no additional requirements and no special optimizations needed to appear in AI Overviews or AI Mode. A page needs to be indexed and eligible to show in Search with a snippet. Meeting that bar does not guarantee a page will be shown."
-     ],
-     [
-      "h2",
-      "The best practices Google lists"
-     ],
-     [
-      "ul",
-      [
-       "Allow crawling in robots.txt and in any CDN or hosting settings.",
-       "Make content easy to find through internal links.",
-       "Provide a good page experience.",
-       "Keep important content in text form.",
-       "Support text with relevant, high quality images and video.",
-       "Make sure structured data matches the visible text.",
-       "Keep Merchant Center and Business Profile information current.",
-       "Verify your site in Search Console."
-      ]
-     ],
-     [
-      "h2",
-      "What you do not need"
-     ],
-     [
-      "p",
-      "According to the same page, you do not need new machine readable files, AI specific text files or special markup for Google's AI features. There is no special schema.org type for them."
-     ],
-     [
-      "callout",
-      "Other AI tools publish their own guidance and may treat things differently. For Google, strong SEO fundamentals are the plan."
-     ],
-     [
-      "h2",
-      "Next step"
-     ],
-     [
-      "p",
-      "Our {{AI Search Optimization|services/ai-search-optimization}} service checks your site against each of these practices."
-     ],
-     [
-      "src",
-      [
-       [
-        "Google Search Central: AI features and your website",
-        "https://developers.google.com/search/docs/appearance/ai-features"
-       ]
-      ]
-     ]
-    ]
-   },
-   {
-    "type": "posts",
-    "eyebrow": "Keep reading",
-    "heading": "More from the blog",
-    "bg": "soft",
-    "items": [
-     "blog/how-google-ranks-local-businesses",
-     "blog/choosing-an-seo-agency-in-edmonton"
-    ]
-   },
-   {
-    "type": "cta",
-    "heading": "Want this done for your business?",
-    "text": "Book a free SEO review and we will apply it to your site and profile."
-   }
-  ]
- },
- {
-  "photo": "https://images.unsplash.com/photo-1620325867502-221cfb5faa5f?auto=format&fit=crop&w=800&q=80",
-  "illus": "star",
-  "slug": "blog/choosing-an-seo-agency-in-edmonton",
-  "nav_label": "How to Choose an SEO Agency in Edmonton",
-  "tag": "Hiring",
-  "icon": "users",
-  "card": "The questions Google suggests asking and the red flags to watch for.",
-  "article": "2026-10-23",
-  "page_type": "WebPage",
-  "title": "How to Choose an SEO Agency in Edmonton",
-  "description": "How to Choose an SEO Agency in Edmonton A practical guide for Edmonton business owners, checked against Google's own documentation.",
-  "keyword": "choose seo agency edmonton",
-  "crumbs": [
-   [
-    "Blog",
-    "blog"
-   ]
-  ],
-  "sections": [
-   {
-    "type": "page_hero",
-    "eyebrow": "Hiring · [[Publish date]]",
-    "h1": "How to Choose an SEO Agency in Edmonton",
-    "lead": "The questions Google suggests asking and the red flags to watch for."
-   },
-   {
-    "type": "prose",
-    "blocks": [
-     [
-      "p",
-      "Hiring an SEO agency is a big decision. Google has a help page written for exactly this moment. Here are its main points, and how we would apply them when choosing a partner in Edmonton."
-     ],
-     [
-      "h2",
-      "Questions to ask"
-     ],
-     [
-      "ul",
-      [
-       "Can you show examples of previous work and success stories?",
-       "Do you follow Google Search Essentials?",
-       "What experience do you have in my industry?",
-       "How long have you been in business?",
-       "Will you share every change you make to my site?",
-       "What results do you expect, and in what timeframe?"
-      ]
-     ],
-     [
-      "h2",
-      "Red flags"
-     ],
-     [
-      "ul",
-      [
-       "A guaranteed #1 ranking. Google says no one can guarantee that.",
-       "Being asked to link back to the agency. Google says you should never have to.",
-       "Link buying or link schemes. Google's spam policies treat buying links for ranking as a violation."
-      ]
-     ],
-     [
-      "callout",
-      "Google also reminds business owners that they are responsible for the actions of any company they hire. Ask questions until the answers are clear."
-     ],
-     [
-      "h2",
-      "How we answer these questions"
-     ],
-     [
-      "p",
-      "We share {{case studies|case-studies}}, follow Google Search Essentials, log every change and give expected results in writing after an audit. If you want to test us, start with an {{SEO Audit|services/seo-audit}}."
-     ],
-     [
-      "src",
-      [
-       [
-        "Google Search Central: Do you need an SEO?",
-        "https://developers.google.com/search/docs/fundamentals/do-i-need-seo"
-       ],
-       [
-        "Google Search Central: Spam policies",
-        "https://developers.google.com/search/docs/essentials/spam-policies"
-       ]
-      ]
-     ]
-    ]
-   },
-   {
-    "type": "posts",
-    "eyebrow": "Keep reading",
-    "heading": "More from the blog",
-    "bg": "soft",
-    "items": [
-     "blog/how-google-ranks-local-businesses",
-     "blog/ai-overviews-and-your-website"
-    ]
-   },
-   {
-    "type": "cta",
-    "heading": "Want this done for your business?",
-    "text": "Book a free SEO review and we will apply it to your site and profile."
-   }
-  ]
- }
+// ------------------------------------------------------------------ BLOG HUB
+{
+ slug: 'blog', nav_label: 'Blog', icon: 'book', page_type: 'CollectionPage', updated: UPDATED, keyword: 'local seo blog',
+ title: 'Local SEO Blog | Tips for Edmonton Businesses',
+ description: 'Local SEO blog for Edmonton trades, law firms and service businesses, with practical guides checked against Google\'s own documentation and sources linked.',
+ card: 'SEO advice, checked against the source.',
+ sections: [
+  { type: 'page_hero', eyebrow: 'Blog', h1: 'Local SEO Blog, Guides for Edmonton Businesses',
+   lead: 'This local SEO blog gives business owners in Edmonton, Alberta practical local SEO tips on Google Business Profile, the Google Maps local pack (Map Pack) and AI search. Every guide is checked against Google\'s own documentation, with the sources linked.' },
+  { type: 'posts', eyebrow: 'Latest', heading: 'Recent articles',
+   intro: '**Our latest local search engine optimization (SEO) guides explain how Google ranks local businesses, what Google says about AI Overviews and how to choose an SEO agency.** Each one ends with steps you can take today.',
+   items: ['blog/how-google-ranks-local-businesses', 'blog/ai-overviews-and-your-website', 'blog/choosing-an-seo-agency-in-edmonton'] },
+  { type: 'cta', heading: 'Prefer to have it done for you?', text: 'Get a free SEO audit and we will tell you what to fix first.' },
+ ]},
+
+// ------------------------------------------------------------------ HOW GOOGLE RANKS LOCAL BUSINESSES
+{
+ photo: 'https://images.unsplash.com/photo-1531058240690-006c446962d8?auto=format&fit=crop&w=800&q=80', illus: 'map',
+ slug: 'blog/how-google-ranks-local-businesses', nav_label: 'How Google Ranks Local Businesses in Edmonton',
+ tag: 'Local SEO', icon: 'pin', page_type: 'WebPage', article: '2026-10-23', updated: UPDATED,
+ card: 'The three factors Google uses for local results and what you can do about each one.',
+ title: 'How Google Ranks Local Businesses | Edmonton Guide',
+ description: 'How Google ranks local businesses in Edmonton, explained from Google\'s own help page. The three factors, what you can change and where to start today.',
+ keyword: 'how google ranks local businesses',
+ crumbs: [['Blog', 'blog']],
+ sections: [
+  { type: 'page_hero', eyebrow: 'Local SEO · [[Publish date]]', h1: 'How Google Ranks Local Businesses in Edmonton',
+   lead: 'How Google ranks local businesses comes down to three factors Google names itself, relevance, distance and prominence. This guide explains each one for owners in Edmonton, Alberta, using Google\'s own help pages, and shows which parts you can change this week.' },
+  { type: 'prose', blocks: [
+    ['p', 'When someone in Edmonton searches for a plumber, a dentist or a lawyer, Google often shows the Map Pack first, the block of three businesses on a map above the regular results. Which three appear is decided by Google\'s local ranking, the part of search engine optimization (SEO) that covers maps and nearby results, and Google explains the basics on one short help page. Everything below comes from that page and Google\'s Business Profile rules, with each claim linked. If you would rather have the work done, our {{local SEO|services/local-seo}} service follows the same steps.'],
+    ['h2', 'What Google says about how it ranks local businesses'],
+    ['p', `**Google says local results are based mainly on relevance, distance and prominence, and that no business can pay for a better local ranking.** Its ${L(S.localRank, 'help page on local ranking')} defines each factor.`],
+    ['ul', [
+      '**Relevance** is how well a Google Business Profile matches what someone is searching for, so complete and detailed information helps Google match your business to more searches.',
+      '**Distance** is how far each business is from the person searching. When the searcher does not share a location, Google uses what it knows about where they are.',
+      '**Prominence** is how well known a business is. Google says it is based on information such as how many websites link to your business and how many reviews you have.',
+    ]],
+    ['p', 'Google says these factors together help it find the best match for a search. The same page adds that more reviews and positive ratings can help a business\'s local ranking, and states plainly that there is no way to request or pay for a better local ranking on Google. Any offer of a guaranteed Map Pack spot is therefore not something Google sells or allows anyone to buy.'],
+    ['p', 'Google\'s recommendations follow from the factors: verify your business, keep your information complete and accurate, respond to reviews, and add photos and videos. Eligible retailers can show in-store products as well. Google says businesses with complete and accurate information are more likely to show up in local search results.'],
+  ]},
+  { type: 'steps', eyebrow: 'Step by step', heading: 'How to improve your local Google ranking, step by step',
+   intro: '**These six step-by-step actions work on relevance and prominence, the two local ranking factors a business in Edmonton can change.** Do them in order.',
+   items: [
+    ['Verify your Business Profile', 'Google says verification tells it you are authorized to represent the business, which makes the profile more likely to show up in search results.'],
+    ['Complete every field', 'Add your address if customers visit you, your hours and special hours, your category and attributes such as parking or Wi-Fi, plus photos and videos of your work.'],
+    ['Choose few, accurate categories', 'Google\'s guidelines ask you to use as few categories as possible to describe your core business, so pick the one that matches what you sell most.'],
+    ['Ask every customer for a review', 'Google suggests sharing a review link or QR code. Ask all customers the same way, never only the happy ones, and never offer a reward.'],
+    ['Reply to every review', 'Google says replying shows customers you value their feedback. Answer good and bad reviews alike, briefly and without personal details.'],
+    ['Earn local links and mentions', 'Prominence uses how many websites link to your business. Earn links from groups you really belong to, and never buy them.'],
+   ]},
+  { type: 'table', eyebrow: 'Compare', heading: 'The three factors Google uses to rank local businesses',
+   intro: '**This table compares relevance, distance and prominence by what Google says each one means and what an Edmonton business can change.**',
+   cols: ['Factor', 'What Google says', 'What you can change', 'Edmonton example'],
+   rows: [
+    ['Relevance', 'How well your Business Profile matches the search', 'Category, services, description and a website page for each service', 'A heating company lists "furnace repair" as a service and has a page for it'],
+    ['Distance', 'How far you are from the person searching', 'Not your address; a service-area business sets the areas it serves', 'You cannot move closer to a searcher in St. Albert, so you compete there on the other two factors'],
+    ['Prominence', 'How well known you are, including links and reviews', 'Reviews, replies, and links from local websites', 'A community league or trade association page that links to your site'],
+   ]},
+  { type: 'checklist', eyebrow: 'Avoid these', heading: 'Common mistakes that hurt local Google rankings',
+   intro: '**The most common local ranking mistakes break Google\'s own Business Profile guidelines or contribution policy, so fix them before any growth work.**',
+   items: [
+    ['Keywords stuffed into the business name', 'Google\'s guidelines do not permit unnecessary information in the name, so use the name customers see on your sign and invoices'],
+    ['A virtual office as the address', 'Google says a virtual office is not eligible for a Business Profile, so use a real location or hide the address'],
+    ['A home address shown to customers who never visit', 'Google says a service-area business should hide its address from customers'],
+    ['Asking only happy customers for reviews', 'The contribution policy does not allow selectively soliciting positive reviews, so ask everyone the same way'],
+    ['Paying or rewarding people for reviews', 'Discounts, free goods and payments in exchange for reviews are prohibited incentives'],
+    ['Too many categories', 'Extra categories that do not describe your core business blur relevance'],
+    ['Out-of-date hours', 'Wrong holiday or special hours send customers to a closed door, and Google lists special hours among the details to keep current'],
+   ]},
+  { type: 'prose', blocks: [
+    ['h2', 'An Edmonton example of how Google ranks local businesses'],
+    ['p', '**Here is an illustrative example, not a client result, of the three local ranking factors at work for one Edmonton business.**'],
+    ['p', 'Imagine a heating company based in Mill Woods that serves the whole city. For a homeowner in Mill Woods who searches "furnace repair", distance works in its favour. For a homeowner in St. Albert, the company is far away, so it needs strong relevance and prominence to appear there at all, and some days it will not.'],
+    ['p', 'The plan for that Edmonton business follows Google\'s own advice. It picks the category that matches furnace work, lists each service it offers, builds a website page for each one, asks every customer for a review after each call and replies to all of them, and earns links from local organizations it really belongs to. It measures results by area, because the Map Pack in one neighbourhood differs from the next. [[Add an anonymized example from client work, with dates, once a client approves it.]]'],
+    ['p', 'Your next step is to open your own Business Profile and work through the six steps above. For reviews, our guide on {{how to get more Google reviews|blog/how-to-get-more-google-reviews}} covers the rules in detail, and our {{Google Business Profile optimization|services/google-business-profile-optimization}} page shows how we manage profiles. To hand over the whole job, see our {{local SEO services for Edmonton businesses|services/local-seo}}, or browse {{more guides|blog}}.'],
+  ]},
+  { type: 'faq', eyebrow: 'FAQ', heading: 'Local Google ranking FAQ',
+   intro: 'Paying for rankings, reviews, location and businesses without a storefront.',
+   items: [
+    ['Can I pay Google for a better local ranking?', 'No. Google states there is no way to request or pay for a better local ranking. Your position improves only through relevance and prominence, which you build with an accurate profile, genuine reviews and links.'],
+    ['Do reviews affect how Google ranks local businesses?', 'Yes. Google says prominence is based partly on how many reviews you have, and that more reviews and positive ratings can help your local ranking. Google also recommends replying to reviews.'],
+    ['Why do Map Pack results look different in another part of Edmonton?', 'Because distance depends on where the searcher is. Google uses the searcher\'s location, or what it knows about it, so the three businesses shown in one part of the city can differ from those shown in another.'],
+    ['Does Google rank businesses that have no storefront?', 'Yes. A service-area business can have a Business Profile, and Google\'s guidelines say it should hide its address from customers. It then competes on relevance and prominence like any other local business.'],
+   ]},
+  { type: 'prose', blocks: [
+    ['h2', 'Sources for how Google ranks local businesses'],
+    ['p', 'Every fact in this guide was checked against these Google pages in October 2026.'],
+    ['src', [S.localRank, S.gbpRules, S.reviews, S.contrib]],
+  ]},
+  { type: 'posts', eyebrow: 'Keep reading', heading: 'More local SEO guides', bg: 'soft',
+   intro: 'Two related guides, on Google\'s AI Overviews and on choosing an SEO agency.',
+   items: ['blog/ai-overviews-and-your-website', 'blog/choosing-an-seo-agency-in-edmonton'] },
+  { type: 'cta', heading: 'Want your profile checked against these factors?', text: 'Get a free SEO audit and we will show you where your Business Profile gains or loses relevance and prominence.' },
+ ]},
+
+// ------------------------------------------------------------------ GOOGLE AI OVERVIEWS SEO
+{
+ photo: 'https://images.unsplash.com/photo-1571826945830-5423b80a986c?auto=format&fit=crop&w=800&q=80', illus: 'spark',
+ slug: 'blog/ai-overviews-and-your-website', nav_label: 'Google AI Overviews SEO, What Google Actually Says',
+ tag: 'AI search', icon: 'spark', page_type: 'WebPage', article: '2026-10-23', updated: UPDATED,
+ card: 'Google\'s own answer on what it takes to appear in AI Overviews and AI Mode.',
+ title: 'Google AI Overviews SEO | What Google Tells Site Owners',
+ description: 'Google AI Overviews SEO explained from Google\'s own guidance. What it takes to appear in AI Overviews and AI Mode, and the tricks you do not need.',
+ keyword: 'google ai overviews seo',
+ crumbs: [['Blog', 'blog']],
+ sections: [
+  { type: 'page_hero', eyebrow: 'AI search · [[Publish date]]', h1: 'Google AI Overviews SEO, What Google Actually Says',
+   lead: 'Google AI Overviews SEO needs no special tricks, Google says: a page only has to be indexed and eligible to show in Google Search with a snippet. This guide explains Google\'s own guidance for business owners in Edmonton, Alberta, step by step, with every claim linked to the source.' },
+  { type: 'prose', blocks: [
+    ['p', 'Plenty of advice now sells AI search engine optimization (SEO) as a new discipline, sometimes called generative engine optimization (GEO). For Google\'s AI features, Google has published its own answer for site owners, and it is shorter than the sales pitches. If you want the work done for you, our {{AI search optimization|services/ai-search-optimization}} service checks a site against each point below.'],
+    ['h2', 'What Google says about AI Overviews and SEO'],
+    ['p', `**Google says there are no additional requirements and no special optimizations needed to appear in AI Overviews or AI Mode.** Its page ${L(S.ai, 'AI features and your website')} sets one bar: the page must be indexed and eligible to be shown in Google Search with a snippet.`],
+    ['p', 'Google describes AI Overviews as a way to get the gist of a complicated topic or question quickly, and AI Mode as a fit for questions that need more exploration, reasoning or comparison. Both can use a "query fan-out" technique, issuing several related searches across subtopics and data sources to build a response. Google adds that indexing and serving are not guaranteed, so meeting the bar does not promise a place in an answer.'],
+    ['p', 'Two more statements matter for planning. You do not need to create new machine readable files, AI text files or markup to appear in these features, and there is no special schema.org structured data to add. Google also says that clicks from results pages with AI Overviews are higher quality, meaning people are more likely to spend more time on the site.'],
+  ]},
+  { type: 'steps', eyebrow: 'Step by step', heading: 'Google AI Overviews SEO, step by step',
+   intro: '**These seven step-by-step actions come straight from Google\'s best-practice list for AI features, in an order a small business can follow.**',
+   items: [
+    ['Let Google crawl your pages', 'Google asks that crawling is allowed in robots.txt and by any CDN or hosting setup, so check that bot protection is not blocking Google.'],
+    ['Link important pages internally', 'Make content easy to find through internal links, for example from your homepage to each service page.'],
+    ['Keep key content in text', 'Put important facts such as services, hours and areas served in page text, not only in images or PDFs.'],
+    ['Support text with images and video', 'Google suggests high-quality images and videos where they help, next to the text they explain.'],
+    ['Provide a great page experience', 'Pages that load quickly and work well on phones serve the people who click through.'],
+    ['Match structured data to the page', 'Google asks that structured data matches the visible text, so never mark up facts the page does not show.'],
+    ['Keep profiles current and verify Search Console', 'Check that your Business Profile and Merchant Center details are up to date, and verify your site in Search Console to catch technical issues.'],
+   ]},
+  { type: 'table', eyebrow: 'Myths and facts', heading: 'Google AI Overviews myths and what Google says',
+   intro: '**This table compares common Google AI Overviews SEO claims with what Google\'s documentation actually says, and what to do instead.**',
+   cols: ['Claim you will hear', 'What Google says', 'What to do'],
+   rows: [
+    ['You need an llms.txt or AI text file', 'You do not need new machine readable files, AI text files or markup', 'Spend the time on clear pages instead'],
+    ['There is special schema for AI Overviews', 'There is no special schema.org structured data to add', 'Keep normal structured data accurate and matching the page'],
+    ['AI Overviews need their own optimization', 'There are no additional requirements or special optimizations', 'Follow normal SEO best practices'],
+    ['You cannot see AI Overview traffic', 'It is included in the Performance report in Search Console, under the Web search type', 'Track it with your other Web search traffic'],
+    ['You cannot limit what Google shows', 'nosnippet, data-nosnippet, max-snippet and noindex limit what Search shows from your pages', 'Use them only where you want less shown, because they apply across Search'],
+   ]},
+  { type: 'checklist', eyebrow: 'Avoid these', heading: 'Common Google AI Overviews SEO mistakes',
+   intro: '**Most Google AI Overviews SEO mistakes either block Google from your content or spend money on things Google says you do not need.**',
+   items: [
+    ['Blocking Google by accident', 'A firewall or CDN rule that blocks crawling keeps your pages out of Search and its AI features'],
+    ['Hiding key facts in images or PDFs', 'Google asks for important content in text form, so a price list in an image is harder to use'],
+    ['Structured data that says more than the page', 'Google asks that structured data matches the visible text'],
+    ['Paying for an AI file or AI schema package', 'Google says no new files, markup or special schema are needed for its AI features'],
+    ['An out-of-date Business Profile', 'Google lists current Business Profile information among its best practices'],
+    ['Writing for machines instead of people', `Google\'s ${L(S.helpful, 'guidance on helpful content')} asks for content made for people first`],
+   ]},
+  { type: 'prose', blocks: [
+    ['h2', 'An Edmonton example of Google AI Overviews SEO'],
+    ['p', '**Here is an illustrative example, not a client result, of Google\'s AI guidance applied to one Edmonton business website.**'],
+    ['p', 'Imagine a family dental clinic in Edmonton whose hours, services and new-patient details appear only in a PDF and an image banner. A patient asks Google whether the clinic takes new patients on Saturdays. The facts are on the site, but not in text Google can easily use.'],
+    ['p', 'Following Google\'s list, the clinic moves hours, services and new-patient details into page text, makes sure its Business Profile hours match, links the new-patient page from the homepage and checks Search Console for crawl errors. None of that work is special to AI. It is the same work that helps the clinic in regular results and Google Maps, which is why we explain {{how Google ranks local businesses|blog/how-google-ranks-local-businesses}} in a separate guide.'],
+    ['p', 'Other assistants, such as ChatGPT, publish their own guidance and can work differently; this guide covers Google only. Your next step is to check your own site against the seven steps above. To have it done for you, see our {{AI search optimization service for Edmonton businesses|services/ai-search-optimization}}, or browse {{more guides|blog}}.'],
+  ]},
+  { type: 'faq', eyebrow: 'FAQ', heading: 'Google AI Overviews SEO FAQ',
+   intro: 'AI text files, regular SEO, Search Console data and opting out.',
+   items: [
+    ['Do I need an llms.txt file for Google AI Overviews?', 'No. Google says you do not need new machine readable files, AI text files or special markup to appear in AI Overviews or AI Mode. Other AI services set their own rules, so check each one\'s documentation separately.'],
+    ['Is Google AI Overviews SEO different from regular SEO?', 'No. Google says there are no additional requirements beyond being indexed and eligible to show with a snippet, so normal SEO best practices apply. What changes is how answers are shown, not what makes a page eligible.'],
+    ['Can I see AI Overviews traffic in Search Console?', 'Yes, as part of your search traffic. Google says sites appearing in AI features are included in the Performance report under the Web search type, together with your other search traffic.'],
+    ['Can I limit what Google shows from my pages in AI Overviews?', 'Yes. Google says nosnippet, data-nosnippet, max-snippet and noindex limit the information shown from your pages in Search. They also affect regular results, so use them only where you want less shown.'],
+   ]},
+  { type: 'prose', blocks: [
+    ['h2', 'Sources for Google AI Overviews SEO'],
+    ['p', 'Every fact in this guide was checked against these Google pages in October 2026.'],
+    ['src', [S.ai, S.helpful]],
+  ]},
+  { type: 'posts', eyebrow: 'Keep reading', heading: 'More guides from the blog', bg: 'soft',
+   intro: 'Two related guides, on local rankings and on choosing an SEO agency.',
+   items: ['blog/how-google-ranks-local-businesses', 'blog/choosing-an-seo-agency-in-edmonton'] },
+  { type: 'cta', heading: 'Is your site ready for AI search?', text: 'Get a free SEO audit and we will check crawling, text content and your Business Profile against Google\'s list.' },
+ ]},
+
+// ------------------------------------------------------------------ HOW TO CHOOSE AN SEO AGENCY
+{
+ photo: 'https://images.unsplash.com/photo-1620325867502-221cfb5faa5f?auto=format&fit=crop&w=800&q=80', illus: 'star',
+ slug: 'blog/choosing-an-seo-agency-in-edmonton', nav_label: 'How to Choose an SEO Agency in Edmonton',
+ tag: 'Hiring', icon: 'users', page_type: 'WebPage', article: '2026-10-23', updated: UPDATED,
+ card: 'The questions Google suggests asking and the red flags to watch for.',
+ title: 'How to Choose an SEO Agency | Edmonton Buyer\'s Guide',
+ description: 'How to choose an SEO agency in Edmonton using the questions Google suggests asking, the red flags to avoid and how to test an agency before you sign.',
+ keyword: 'how to choose an seo agency',
+ crumbs: [['Blog', 'blog']],
+ sections: [
+  { type: 'page_hero', eyebrow: 'Hiring · [[Publish date]]', h1: 'How to Choose an SEO Agency in Edmonton',
+   lead: 'How to choose an SEO agency in Edmonton starts with the questions Google itself suggests asking before you hire. This guide turns that advice into steps for business owners in Edmonton, Alberta, adds the local questions about Google Business Profile and the Map Pack, and lists the red flags to walk away from.' },
+  { type: 'prose', blocks: [
+    ['p', `Hiring a search engine optimization (SEO) agency is a big decision, and Google has a Search Central page written for exactly this moment, ${L(S.hire, 'Do you need an SEO?')}. It says the earlier you hire, the better, and that a great time is when you are considering a site redesign or a new site. It also reminds owners that they are ultimately responsible for the actions of any company they hire. This guide follows that page, and you can use it to interview any agency, {{our Edmonton SEO team|}} included.`],
+    ['h2', 'What Google says about how to choose an SEO agency'],
+    ['p', '**Google says to interview any SEO agency before you hire, check that it follows Google Search Essentials, and walk away from anyone who guarantees a #1 ranking.**'],
+    ['p', 'Google lists what an SEO can do for you: a review of your site content or structure, technical advice on website development, content development, management of online business development campaigns, keyword research, SEO training, expertise in specific markets and geographies, and optimizing for generative AI. A good agency can explain which of these your business needs and why.'],
+    ['p', 'The same page sets the warnings. No one can guarantee a #1 ranking on Google. You should never have to link to an SEO. Be wary of SEO firms that email you out of the blue, and avoid SEOs that talk about link popularity schemes or submitting your site to thousands of search engines.'],
+  ]},
+  { type: 'steps', eyebrow: 'Step by step', heading: 'How to choose an SEO agency, step by step',
+   intro: '**Choose an SEO agency in six step-by-step actions, from writing down your goal to agreeing who owns your accounts.**',
+   items: [
+    ['Write down your goal', 'Decide what a good result is for your business, such as more calls, booked jobs or form leads, so you can judge every proposal against it.'],
+    ['Shortlist two or three agencies', 'Use referrals, agency directories and each agency\'s own Business Profile and reviews. Skip anyone who reached you by unsolicited email.'],
+    ['Interview with Google\'s questions', 'Ask the questions in the table below and write down each answer, so you can compare agencies side by side.'],
+    ['Ask for the local plan', 'Ask how they will improve your Google Business Profile and Map Pack position. A good answer covers relevance, distance and prominence.'],
+    ['Test with an audit', 'An audit shows how an agency thinks. Check that findings are specific to your site, explained plainly and ranked by priority.'],
+    ['Agree on access and ownership', 'Keep Search Console, Analytics and your Business Profile in your own name, with the agency added as a user.'],
+   ]},
+  { type: 'table', eyebrow: 'Interview', heading: 'Questions Google suggests when you choose an SEO agency',
+   intro: '**This table lists the interview questions from Google\'s page and what a good answer from an Edmonton SEO agency looks like.**',
+   cols: ['Question from Google', 'What a good answer looks like'],
+   rows: [
+    ['Can you show me examples of your previous work and share some success stories?', 'Real, dated examples shared with the client\'s permission and the source of each number. A newer agency says plainly what it can and cannot show yet.'],
+    ['Do you follow the Google Search Essentials?', 'Yes, with examples of what they refuse to do, such as buying links or building copied city pages.'],
+    ['What kind of results do you expect to see, and in what timeframe? How do you measure your success?', 'An estimate in writing after an audit, measured in calls, leads or sales as well as rankings, with no ranking guarantee.'],
+    ['What\'s your experience in my industry?', 'Specific knowledge of your field, for example the Law Society of Alberta\'s marketing rules for a law firm.'],
+    ['What\'s your experience in my country/city?', 'Knowledge of search results in Edmonton, Alberta and the nearby towns you serve.'],
+    ['How long have you been in business?', 'A straight answer you can check.'],
+    ['How can I expect to communicate with you?', 'A named contact, a regular report and a set review call.'],
+    ['Will you share with me all the changes you make to my site?', 'Yes, with a written log of every change.'],
+   ]},
+  { type: 'checklist', eyebrow: 'Red flags', heading: 'Common mistakes when choosing an SEO agency',
+   intro: '**The most common mistakes when choosing an SEO agency are trusting promises Google says no one can keep and handing over control of your accounts.**',
+   items: [
+    ['Believing a ranking guarantee', 'Google says no one can guarantee a #1 ranking on Google'],
+    ['Agreeing to link back to the agency', 'Google says you should never have to link to an SEO'],
+    ['Accepting bought links', `Google\'s ${L(S.spam, 'spam policies')} treat buying or selling links for ranking purposes as link spam`],
+    ['Buying a pack of near-identical city pages', 'Pages targeted at specific regions or cities that funnel users to one page are doorway abuse under the same policies'],
+    ['Comparing on price alone', 'A low monthly fee means little until you see what work is included, so compare packages line by line'],
+    ['Letting the agency own your accounts', 'If Search Console or your Business Profile sit in the agency\'s name, you can lose them when you part ways'],
+    ['Ignoring your Business Profile', 'For a local business the Map Pack often appears above the regular results, so an agency that skips your profile skips the first place many customers look'],
+   ]},
+  { type: 'prose', blocks: [
+    ['h2', 'An Edmonton example of how to choose an SEO agency'],
+    ['p', '**Here is an illustrative example, not a client story, of Google\'s hiring advice applied to one Edmonton business.**'],
+    ['p', 'Imagine a roofing company in Edmonton comparing two agencies. Agency A promises page one within 30 days and a package of 50 town pages that differ only in the town name. Agency B asks for access to Search Console, reviews the Google Business Profile, says it cannot promise a position, and proposes service pages, a review process that asks every customer and links from local organizations.'],
+    ['p', 'Against Google\'s guidance, Agency A fails twice: a ranking guarantee and pages that look like doorway abuse. Agency B passes the interview and should be tested next with a small audit. The owner asks both the same questions, writes down the answers and decides on evidence, not on the boldest promise.'],
+    ['h3', 'How we answer these questions'],
+    ['p', 'If you interview us, here is how we answer. We follow Google Search Essentials, log every change, give expected results in writing after an audit, and will share client results as soon as clients approve them. Our {{SEO audit|services/seo-audit}} is a good way to test us before you commit, and {{how we work|how-we-work}} sets out our rules. You can read more {{about our team|about}} too. For more on local rankings, read {{how Google ranks local businesses|blog/how-google-ranks-local-businesses}} or browse {{more guides|blog}}.'],
+  ]},
+  { type: 'faq', eyebrow: 'FAQ', heading: 'Choosing an SEO agency FAQ',
+   intro: 'Guarantees, timing, freelancers and access to your website.',
+   items: [
+    ['Can an SEO agency guarantee first place on Google?', 'No. Google says no one can guarantee a #1 ranking on Google. Treat any guarantee as a reason to keep looking, and ask instead how the agency measures success.'],
+    ['When is the best time to hire an SEO agency?', 'Google says the earlier, the better, and that a great time to hire is when you are considering a site redesign or launching a new site. Hiring then lets the agency shape the site before problems are built in.'],
+    ['Should I hire an SEO agency or a freelancer?', 'Either can do the job if they answer Google\'s interview questions well. Compare who will do the work, how they report and what happens to your accounts if you part ways.'],
+    ['Does an SEO agency need access to my website?', 'Yes, for most changes it does. Google\'s page says an SEO with access to your server should be willing to explain all the changes they make, so give access through your own accounts and ask for a change log.'],
+   ]},
+  { type: 'prose', blocks: [
+    ['h2', 'Sources for choosing an SEO agency'],
+    ['p', 'Every fact in this guide was checked against these Google pages in October 2026.'],
+    ['src', [S.hire, S.spam, S.localRank]],
+  ]},
+  { type: 'posts', eyebrow: 'Keep reading', heading: 'More local SEO reading', bg: 'soft',
+   intro: 'Two related guides, on local rankings and on Google\'s AI Overviews.',
+   items: ['blog/how-google-ranks-local-businesses', 'blog/ai-overviews-and-your-website'] },
+  { type: 'cta', heading: 'Want to test an agency before you sign?', text: 'Get a free SEO audit and judge our findings against the questions in this guide.' },
+ ]},
 ];
