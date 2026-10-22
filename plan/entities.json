@@ -1,0 +1,993 @@
+{
+ "edmonton": {
+  "name": "Edmonton",
+  "type": "City",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q2096",
+   "https://en.wikipedia.org/wiki/Edmonton"
+  ],
+  "wikidata_label": "Edmonton"
+ },
+ "alberta": {
+  "name": "Alberta",
+  "type": "AdministrativeArea",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q1951",
+   "https://en.wikipedia.org/wiki/Alberta"
+  ],
+  "wikidata_label": "Alberta"
+ },
+ "st-albert": {
+  "name": "St. Albert",
+  "type": "City",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q939127",
+   "https://en.wikipedia.org/wiki/St._Albert,_Alberta"
+  ],
+  "wikidata_label": "St. Albert"
+ },
+ "sherwood-park": {
+  "name": "Sherwood Park",
+  "type": "Place",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q3476253",
+   "https://en.wikipedia.org/wiki/Sherwood_Park"
+  ],
+  "wikidata_label": "Sherwood Park"
+ },
+ "spruce-grove": {
+  "name": "Spruce Grove",
+  "type": "City",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q1013456",
+   "https://en.wikipedia.org/wiki/Spruce_Grove"
+  ],
+  "wikidata_label": "Spruce Grove"
+ },
+ "leduc": {
+  "name": "Leduc",
+  "type": "City",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q1207513",
+   "https://en.wikipedia.org/wiki/Leduc,_Alberta"
+  ],
+  "wikidata_label": "Leduc"
+ },
+ "fort-saskatchewan": {
+  "name": "Fort Saskatchewan",
+  "type": "City",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q1007407",
+   "https://en.wikipedia.org/wiki/Fort_Saskatchewan"
+  ],
+  "wikidata_label": "Fort Saskatchewan"
+ },
+ "stony-plain": {
+  "name": "Stony Plain",
+  "type": "Place",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q1744021",
+   "https://en.wikipedia.org/wiki/Stony_Plain,_Alberta"
+  ],
+  "wikidata_label": "Stony Plain"
+ },
+ "beaumont": {
+  "name": "Beaumont",
+  "type": "City",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q253903",
+   "https://en.wikipedia.org/wiki/Beaumont,_Alberta"
+  ],
+  "wikidata_label": "Beaumont"
+ },
+ "strathcona-county": {
+  "name": "Strathcona County",
+  "type": "AdministrativeArea",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q1768240",
+   "https://en.wikipedia.org/wiki/Strathcona_County"
+  ],
+  "wikidata_label": "Strathcona County"
+ },
+ "parkland-county": {
+  "name": "Parkland County",
+  "type": "AdministrativeArea",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q7138563",
+   "https://en.wikipedia.org/wiki/Parkland_County"
+  ],
+  "wikidata_label": "Parkland County"
+ },
+ "sturgeon-county": {
+  "name": "Sturgeon County",
+  "type": "AdministrativeArea",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q7628998",
+   "https://en.wikipedia.org/wiki/Sturgeon_County"
+  ],
+  "wikidata_label": "Sturgeon County"
+ },
+ "leduc-county": {
+  "name": "Leduc County",
+  "type": "AdministrativeArea",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q6512776",
+   "https://en.wikipedia.org/wiki/Leduc_County"
+  ],
+  "wikidata_label": "Leduc County"
+ },
+ "morinville": {
+  "name": "Morinville",
+  "type": "Place",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q1746026",
+   "https://en.wikipedia.org/wiki/Morinville"
+  ],
+  "wikidata_label": "Morinville"
+ },
+ "devon": {
+  "name": "Devon",
+  "type": "Place",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q2105198",
+   "https://en.wikipedia.org/wiki/Devon,_Alberta"
+  ],
+  "wikidata_label": "Devon"
+ },
+ "gibbons": {
+  "name": "Gibbons",
+  "type": "Place",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q2650984",
+   "https://en.wikipedia.org/wiki/Gibbons,_Alberta"
+  ],
+  "wikidata_label": "Gibbons"
+ },
+ "bon-accord": {
+  "name": "Bon Accord",
+  "type": "Place",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q3323039",
+   "https://en.wikipedia.org/wiki/Bon_Accord,_Alberta"
+  ],
+  "wikidata_label": "Bon Accord"
+ },
+ "ardrossan": {
+  "name": "Ardrossan",
+  "type": "Place",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q4788262",
+   "https://en.wikipedia.org/wiki/Ardrossan,_Alberta"
+  ],
+  "wikidata_label": "Ardrossan"
+ },
+ "nisku": {
+  "name": "Nisku",
+  "type": "Place",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q1743865",
+   "https://en.wikipedia.org/wiki/Nisku"
+  ],
+  "wikidata_label": "Nisku"
+ },
+ "edmonton-airport": {
+  "name": "Edmonton International Airport",
+  "type": "Airport",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q269588",
+   "https://en.wikipedia.org/wiki/Edmonton_International_Airport"
+  ],
+  "wikidata_label": "Edmonton International Airport"
+ },
+ "industrial-heartland": {
+  "name": "Alberta's Industrial Heartland",
+  "type": "Place",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q4711557",
+   "https://en.wikipedia.org/wiki/Alberta's_Industrial_Heartland"
+  ],
+  "wikidata_label": "Alberta's Industrial Heartland"
+ },
+ "north-sask-river": {
+  "name": "North Saskatchewan River",
+  "type": "Place",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q2237",
+   "https://en.wikipedia.org/wiki/North_Saskatchewan_River"
+  ],
+  "wikidata_label": "North Saskatchewan River"
+ },
+ "edmonton-metro": {
+  "name": "Edmonton Metropolitan Region",
+  "type": "Place",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q1133254",
+   "https://en.wikipedia.org/wiki/Edmonton_Metropolitan_Region"
+  ],
+  "wikidata_label": "Edmonton Metropolitan Region"
+ },
+ "seo": {
+  "name": "Search engine optimization",
+  "type": "Thing",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q180711",
+   "https://en.wikipedia.org/wiki/Search_engine_optimization"
+  ],
+  "wikidata_label": "search engine optimization"
+ },
+ "local-seo": {
+  "name": "Local search engine optimisation",
+  "type": "Thing",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q30324357",
+   "https://en.wikipedia.org/wiki/Local_search_engine_optimisation"
+  ],
+  "wikidata_label": "local search engine optimization"
+ },
+ "gbp": {
+  "name": "Google Business Profile",
+  "type": "SoftwareApplication",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q21235252",
+   "https://en.wikipedia.org/wiki/Google_My_Business"
+  ],
+  "wikidata_label": "Google Business Profile"
+ },
+ "google-maps": {
+  "name": "Google Maps",
+  "type": "SoftwareApplication",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q12013",
+   "https://en.wikipedia.org/wiki/Google_Maps"
+  ],
+  "wikidata_label": "Google Maps"
+ },
+ "google-search": {
+  "name": "Google Search",
+  "type": "SoftwareApplication",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q9366",
+   "https://en.wikipedia.org/wiki/Google_Search"
+  ],
+  "wikidata_label": "Google Search"
+ },
+ "search-console": {
+  "name": "Google Search Console",
+  "type": "SoftwareApplication",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q328216",
+   "https://en.wikipedia.org/wiki/Google_Search_Console"
+  ],
+  "wikidata_label": "Google Search Console"
+ },
+ "google-analytics": {
+  "name": "Google Analytics",
+  "type": "SoftwareApplication",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q220577",
+   "https://en.wikipedia.org/wiki/Google_Analytics"
+  ],
+  "wikidata_label": "Google Analytics"
+ },
+ "google-ads": {
+  "name": "Google Ads",
+  "type": "SoftwareApplication",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q271982",
+   "https://en.wikipedia.org/wiki/Google_Ads"
+  ],
+  "wikidata_label": "Google Ads"
+ },
+ "merchant-center": {
+  "name": "Google Merchant Center",
+  "type": "SoftwareApplication",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q136907153"
+  ],
+  "wikidata_label": "Google Merchant Center"
+ },
+ "core-web-vitals": {
+  "name": "Core Web Vitals",
+  "type": "Thing",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q104618838"
+  ],
+  "wikidata_label": "Core Web Vitals"
+ },
+ "schema-org": {
+  "name": "Schema.org",
+  "type": "Thing",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q3475322",
+   "https://en.wikipedia.org/wiki/Schema.org"
+  ],
+  "wikidata_label": "Schema.org"
+ },
+ "robots-txt": {
+  "name": "robots.txt",
+  "type": "Thing",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q80776",
+   "https://en.wikipedia.org/wiki/Robots.txt"
+  ],
+  "wikidata_label": "robots.txt"
+ },
+ "sitemaps": {
+  "name": "Sitemaps",
+  "type": "Thing",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q1343954",
+   "https://en.wikipedia.org/wiki/Sitemaps"
+  ],
+  "wikidata_label": "Sitemaps"
+ },
+ "canonical": {
+  "name": "Canonical link element",
+  "type": "Thing",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q1033568",
+   "https://en.wikipedia.org/wiki/Canonical_link_element"
+  ],
+  "wikidata_label": "canonical link element"
+ },
+ "https": {
+  "name": "HTTPS",
+  "type": "Thing",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q44484",
+   "https://en.wikipedia.org/wiki/HTTPS"
+  ],
+  "wikidata_label": "Hypertext Transfer Protocol Secure"
+ },
+ "backlink": {
+  "name": "Backlink",
+  "type": "Thing",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q373952",
+   "https://en.wikipedia.org/wiki/Backlink"
+  ],
+  "wikidata_label": "backlinks"
+ },
+ "link-building": {
+  "name": "Link building",
+  "type": "Thing",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q1569371",
+   "https://en.wikipedia.org/wiki/Link_building"
+  ],
+  "wikidata_label": "link building"
+ },
+ "serp": {
+  "name": "Search engine results page",
+  "type": "Thing",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q2704141",
+   "https://en.wikipedia.org/wiki/Search_engine_results_page"
+  ],
+  "wikidata_label": "search engine results page"
+ },
+ "online-review": {
+  "name": "Online review",
+  "type": "Thing",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q5196473",
+   "https://en.wikipedia.org/wiki/Customer_review"
+  ],
+  "wikidata_label": "customer review"
+ },
+ "ppc": {
+  "name": "Pay-per-click",
+  "type": "Thing",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q29778",
+   "https://en.wikipedia.org/wiki/Pay-per-click"
+  ],
+  "wikidata_label": "pay-per-click"
+ },
+ "content-marketing": {
+  "name": "Content marketing",
+  "type": "Thing",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q558685",
+   "https://en.wikipedia.org/wiki/Content_marketing"
+  ],
+  "wikidata_label": "content marketing"
+ },
+ "copywriting": {
+  "name": "Copywriting",
+  "type": "Thing",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q624896",
+   "https://en.wikipedia.org/wiki/Copywriting"
+  ],
+  "wikidata_label": "copywriting"
+ },
+ "web-design": {
+  "name": "Web design",
+  "type": "Thing",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q190637",
+   "https://en.wikipedia.org/wiki/Web_design"
+  ],
+  "wikidata_label": "web design"
+ },
+ "ecommerce": {
+  "name": "E-commerce",
+  "type": "Thing",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q484847",
+   "https://en.wikipedia.org/wiki/E-commerce"
+  ],
+  "wikidata_label": "e-commerce"
+ },
+ "shopify": {
+  "name": "Shopify",
+  "type": "Organization",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q7501150",
+   "https://en.wikipedia.org/wiki/Shopify"
+  ],
+  "wikidata_label": "Shopify"
+ },
+ "woocommerce": {
+  "name": "WooCommerce",
+  "type": "SoftwareApplication",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q15855099",
+   "https://en.wikipedia.org/wiki/WooCommerce"
+  ],
+  "wikidata_label": "WooCommerce"
+ },
+ "geo": {
+  "name": "Generative engine optimization",
+  "type": "Thing",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q134083964",
+   "https://en.wikipedia.org/wiki/Generative_engine_optimization"
+  ],
+  "wikidata_label": "generative engine optimization"
+ },
+ "ai-overviews": {
+  "name": "AI Overviews",
+  "type": "SoftwareApplication",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q131861047",
+   "https://en.wikipedia.org/wiki/AI_Overviews"
+  ],
+  "wikidata_label": "AI Overviews"
+ },
+ "chatgpt": {
+  "name": "ChatGPT",
+  "type": "SoftwareApplication",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q115564437",
+   "https://en.wikipedia.org/wiki/ChatGPT"
+  ],
+  "wikidata_label": "ChatGPT"
+ },
+ "gemini": {
+  "name": "Google Gemini",
+  "type": "SoftwareApplication",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q116698014",
+   "https://en.wikipedia.org/wiki/Google_Gemini"
+  ],
+  "wikidata_label": "Gemini"
+ },
+ "perplexity": {
+  "name": "Perplexity AI",
+  "type": "Organization",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q124333951",
+   "https://en.wikipedia.org/wiki/Perplexity_AI"
+  ],
+  "wikidata_label": "Perplexity AI"
+ },
+ "digital-marketing": {
+  "name": "Digital marketing",
+  "type": "Thing",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q1323528",
+   "https://en.wikipedia.org/wiki/Digital_marketing"
+  ],
+  "wikidata_label": "digital marketing"
+ },
+ "small-business": {
+  "name": "Small business",
+  "type": "Thing",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q1109680",
+   "https://en.wikipedia.org/wiki/Small_business"
+  ],
+  "wikidata_label": "small business"
+ },
+ "eeat": {
+  "name": "E-E-A-T",
+  "type": "Thing",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q121693513"
+  ],
+  "wikidata_label": "E-E-A-T"
+ },
+ "plumber": {
+  "name": "Plumber",
+  "type": "Occupation",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q252924",
+   "https://en.wikipedia.org/wiki/Plumber"
+  ],
+  "wikidata_label": "plumber"
+ },
+ "electrician": {
+  "name": "Electrician",
+  "type": "Occupation",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q165029",
+   "https://en.wikipedia.org/wiki/Electrician"
+  ],
+  "wikidata_label": "electrician"
+ },
+ "hvac": {
+  "name": "HVAC",
+  "type": "Thing",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q1798773",
+   "https://en.wikipedia.org/wiki/Heating,_ventilation,_and_air_conditioning"
+  ],
+  "wikidata_label": "heating, ventilation, and air conditioning"
+ },
+ "furnace": {
+  "name": "Furnace (central heating)",
+  "type": "Thing",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q843596",
+   "https://en.wikipedia.org/wiki/Central_heating"
+  ],
+  "wikidata_label": "central heating"
+ },
+ "heat-pump": {
+  "name": "Heat pump",
+  "type": "Thing",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q131313",
+   "https://en.wikipedia.org/wiki/Heat_pump"
+  ],
+  "wikidata_label": "heat pump"
+ },
+ "general-contractor": {
+  "name": "General contractor",
+  "type": "Occupation",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q289612",
+   "https://en.wikipedia.org/wiki/General_contractor"
+  ],
+  "wikidata_label": "general contractor"
+ },
+ "renovation": {
+  "name": "Renovation",
+  "type": "Thing",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q2144402",
+   "https://en.wikipedia.org/wiki/Renovation"
+  ],
+  "wikidata_label": "renovation"
+ },
+ "carpenter": {
+  "name": "Carpenter",
+  "type": "Occupation",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q154549",
+   "https://en.wikipedia.org/wiki/Carpenter"
+  ],
+  "wikidata_label": "carpenter"
+ },
+ "roofer": {
+  "name": "Roofer",
+  "type": "Occupation",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q552378",
+   "https://en.wikipedia.org/wiki/Roofer"
+  ],
+  "wikidata_label": "roofer"
+ },
+ "painter-decorator": {
+  "name": "House painter and decorator",
+  "type": "Occupation",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q288728",
+   "https://en.wikipedia.org/wiki/House_painter_and_decorator"
+  ],
+  "wikidata_label": "painter and varnisher"
+ },
+ "landscaping": {
+  "name": "Landscaping",
+  "type": "Thing",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q8070591",
+   "https://en.wikipedia.org/wiki/Landscaping"
+  ],
+  "wikidata_label": "landscaping"
+ },
+ "snow-removal": {
+  "name": "Snow removal",
+  "type": "Thing",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q3044530",
+   "https://en.wikipedia.org/wiki/Snow_removal"
+  ],
+  "wikidata_label": "snow removal"
+ },
+ "concrete": {
+  "name": "Concrete",
+  "type": "Thing",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q22657",
+   "https://en.wikipedia.org/wiki/Concrete"
+  ],
+  "wikidata_label": "concrete"
+ },
+ "garage-door": {
+  "name": "Garage door",
+  "type": "Thing",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q627405",
+   "https://en.wikipedia.org/wiki/Garage_door"
+  ],
+  "wikidata_label": "garage door"
+ },
+ "locksmith": {
+  "name": "Locksmith",
+  "type": "Occupation",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q2304418",
+   "https://en.wikipedia.org/wiki/Locksmithing"
+  ],
+  "wikidata_label": "locksmithing"
+ },
+ "pest-control": {
+  "name": "Pest control",
+  "type": "Thing",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q2306047",
+   "https://en.wikipedia.org/wiki/Pest_control"
+  ],
+  "wikidata_label": "pest control"
+ },
+ "janitor": {
+  "name": "Commercial cleaning",
+  "type": "Thing",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q2590801",
+   "https://en.wikipedia.org/wiki/Commercial_cleaning"
+  ],
+  "wikidata_label": "commercial cleaning"
+ },
+ "mover": {
+  "name": "Moving company",
+  "type": "Thing",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q1757263",
+   "https://en.wikipedia.org/wiki/Moving_company"
+  ],
+  "wikidata_label": "moving company"
+ },
+ "home-appliance": {
+  "name": "Home appliance",
+  "type": "Thing",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q212920",
+   "https://en.wikipedia.org/wiki/Home_appliance"
+  ],
+  "wikidata_label": "home appliance"
+ },
+ "law-firm": {
+  "name": "Law firm",
+  "type": "Thing",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q613142",
+   "https://en.wikipedia.org/wiki/Law_firm"
+  ],
+  "wikidata_label": "law firm"
+ },
+ "lawyer": {
+  "name": "Lawyer",
+  "type": "Occupation",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q40348",
+   "https://en.wikipedia.org/wiki/Lawyer"
+  ],
+  "wikidata_label": "lawyer"
+ },
+ "pi-lawyer": {
+  "name": "Personal injury lawyer",
+  "type": "Occupation",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q6585303",
+   "https://en.wikipedia.org/wiki/Personal_injury_lawyer"
+  ],
+  "wikidata_label": "personal injury lawyer"
+ },
+ "personal-injury": {
+  "name": "Personal injury",
+  "type": "Thing",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q1459068",
+   "https://en.wikipedia.org/wiki/Personal_injury"
+  ],
+  "wikidata_label": "personal injury"
+ },
+ "family-law": {
+  "name": "Family law",
+  "type": "Thing",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q384014",
+   "https://en.wikipedia.org/wiki/Family_law"
+  ],
+  "wikidata_label": "family law"
+ },
+ "immigration-law": {
+  "name": "Immigration law",
+  "type": "Thing",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q231147",
+   "https://en.wikipedia.org/wiki/Immigration_law"
+  ],
+  "wikidata_label": "immigration law"
+ },
+ "conveyancing": {
+  "name": "Conveyancing",
+  "type": "Thing",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q759815",
+   "https://en.wikipedia.org/wiki/Conveyancing"
+  ],
+  "wikidata_label": "conveyancing"
+ },
+ "accountant": {
+  "name": "Accountant",
+  "type": "Occupation",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q326653",
+   "https://en.wikipedia.org/wiki/Accountant"
+  ],
+  "wikidata_label": "accountant"
+ },
+ "cpa-canada": {
+  "name": "Chartered Professional Accountant",
+  "type": "Thing",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q5086848",
+   "https://en.wikipedia.org/wiki/Chartered_Professional_Accountant"
+  ],
+  "wikidata_label": "Chartered Professional Accountant"
+ },
+ "real-estate-agent": {
+  "name": "Real estate agent",
+  "type": "Occupation",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q519076",
+   "https://en.wikipedia.org/wiki/Real_estate_agent"
+  ],
+  "wikidata_label": "real estate agent"
+ },
+ "dentist": {
+  "name": "Dentist",
+  "type": "Occupation",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q27349",
+   "https://en.wikipedia.org/wiki/Dentist"
+  ],
+  "wikidata_label": "dentist"
+ },
+ "dentistry": {
+  "name": "Dentistry",
+  "type": "Thing",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q12128",
+   "https://en.wikipedia.org/wiki/Dentistry"
+  ],
+  "wikidata_label": "dentistry"
+ },
+ "chiropractic": {
+  "name": "Chiropractic",
+  "type": "Thing",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q658096",
+   "https://en.wikipedia.org/wiki/Chiropractic"
+  ],
+  "wikidata_label": "chiropractic"
+ },
+ "physiotherapy": {
+  "name": "Physical therapy",
+  "type": "Thing",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q186005",
+   "https://en.wikipedia.org/wiki/Physical_therapy"
+  ],
+  "wikidata_label": "physiotherapy"
+ },
+ "medical-spa": {
+  "name": "Medical spa",
+  "type": "Thing",
+  "sameAs": [],
+  "wikidata_label": null
+ },
+ "botox": {
+  "name": "Botulinum toxin",
+  "type": "Thing",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q4095199"
+  ],
+  "wikidata_label": "botulinum toxin type A"
+ },
+ "law-society-ab": {
+  "name": "Law Society of Alberta",
+  "type": "Organization",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q6503092",
+   "https://en.wikipedia.org/wiki/Law_Society_of_Alberta"
+  ],
+  "wikidata_label": "Law Society of Alberta"
+ },
+ "reca": {
+  "name": "Real Estate Council of Alberta",
+  "type": "GovernmentOrganization",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q7300903",
+   "https://en.wikipedia.org/wiki/Real_Estate_Council_of_Alberta"
+  ],
+  "wikidata_label": "Real Estate Council of Alberta"
+ },
+ "cdsa": {
+  "name": "College of Dental Surgeons of Alberta",
+  "type": "Organization",
+  "sameAs": [],
+  "wikidata_label": null
+ },
+ "cpa-alberta": {
+  "name": "CPA Alberta",
+  "type": "Organization",
+  "sameAs": [],
+  "wikidata_label": null
+ },
+ "epcor": {
+  "name": "EPCOR Utilities",
+  "type": "Organization",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q5323849",
+   "https://en.wikipedia.org/wiki/EPCOR_Utilities"
+  ],
+  "wikidata_label": "EPCOR Utilities"
+ },
+ "atco": {
+  "name": "ATCO",
+  "type": "Organization",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q4654592",
+   "https://en.wikipedia.org/wiki/ATCO"
+  ],
+  "wikidata_label": "ATCO"
+ },
+ "ircc": {
+  "name": "Immigration, Refugees and Citizenship Canada",
+  "type": "GovernmentOrganization",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q1056074",
+   "https://en.wikipedia.org/wiki/Immigration,_Refugees_and_Citizenship_Canada"
+  ],
+  "wikidata_label": "Immigration, Refugees and Citizenship Canada"
+ },
+ "cra": {
+  "name": "Canada Revenue Agency",
+  "type": "GovernmentOrganization",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q1032002",
+   "https://en.wikipedia.org/wiki/Canada_Revenue_Agency"
+  ],
+  "wikidata_label": "Canada Revenue Agency"
+ },
+ "express-entry": {
+  "name": "Express Entry",
+  "type": "Thing",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q55137548",
+   "https://en.wikipedia.org/wiki/Express_Entry"
+  ],
+  "wikidata_label": "Express Entry Canada"
+ },
+ "cdcp": {
+  "name": "Canadian Dental Care Plan",
+  "type": "GovernmentService",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q124668980",
+   "https://en.wikipedia.org/wiki/Canadian_Dental_Care_Plan"
+  ],
+  "wikidata_label": "Canadian Dental Care Plan"
+ },
+ "health-canada": {
+  "name": "Health Canada",
+  "type": "GovernmentOrganization",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q1057591",
+   "https://en.wikipedia.org/wiki/Health_Canada"
+  ],
+  "wikidata_label": "Health Canada"
+ },
+ "cpsa": {
+  "name": "College of Physicians and Surgeons of Alberta",
+  "type": "Organization",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q5146803",
+   "https://en.wikipedia.org/wiki/College_of_Physicians_and_Surgeons_of_Alberta"
+  ],
+  "wikidata_label": "College of Physicians and Surgeons of Alberta"
+ },
+ "wcb-ab": {
+  "name": "Workers' Compensation Board of Alberta",
+  "type": "GovernmentOrganization",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q43895184"
+  ],
+  "wikidata_label": "Workers Compensation Board of Alberta"
+ },
+ "crea": {
+  "name": "Canadian Real Estate Association",
+  "type": "Organization",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q5030520",
+   "https://en.wikipedia.org/wiki/Canadian_Real_Estate_Association"
+  ],
+  "wikidata_label": "Canadian Real Estate Association"
+ },
+ "mls": {
+  "name": "Multiple listing service",
+  "type": "Thing",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q1597905",
+   "https://en.wikipedia.org/wiki/Multiple_listing_service"
+  ],
+  "wikidata_label": "multiple listing service"
+ },
+ "kings-bench-ab": {
+  "name": "Court of King's Bench of Alberta",
+  "type": "GovernmentOrganization",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q5178402",
+   "https://en.wikipedia.org/wiki/Court_of_King's_Bench_of_Alberta"
+  ],
+  "wikidata_label": "Court of King's Bench of Alberta"
+ },
+ "court-of-justice-ab": {
+  "name": "Alberta Court of Justice",
+  "type": "GovernmentOrganization",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q7252625",
+   "https://en.wikipedia.org/wiki/Alberta_Court_of_Justice"
+  ],
+  "wikidata_label": "Provincial Court of Alberta"
+ },
+ "divorce-act": {
+  "name": "Divorce Act",
+  "type": "Legislation",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q5284664",
+   "https://en.wikipedia.org/wiki/Divorce_Act_(Canada)"
+  ],
+  "wikidata_label": "Divorce Act"
+ },
+ "edmonton-chamber": {
+  "name": "Edmonton Chamber of Commerce",
+  "type": "Organization",
+  "sameAs": [],
+  "wikidata_label": null
+ },
+ "leduc-no1": {
+  "name": "Leduc No. 1",
+  "type": "Thing",
+  "sameAs": [
+   "https://www.wikidata.org/wiki/Q6512778",
+   "https://en.wikipedia.org/wiki/Leduc_No._1"
+  ],
+  "wikidata_label": "Leduc No. 1"
+ }
+}
