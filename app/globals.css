@@ -110,6 +110,11 @@ ul{margin:0;padding:0;list-style:none}
 .has-drop:hover .drop,.has-drop.open .drop{opacity:1;visibility:visible;transform:none}
 .drop a{display:block;padding:10px 14px;border-radius:12px;font-size:15px;color:var(--olive);font-weight:500}
 .drop a:hover{background:var(--mint-soft)}
+.drop-group{display:contents}
+.drop-label{grid-column:1/-1;padding:12px 14px 4px;font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.byline-wrap{padding-top:0}
+.byline{display:flex;flex-wrap:wrap;gap:6px 22px;margin:0;padding-top:22px;border-top:1px solid var(--line);font-size:15px;color:var(--muted)}
+.byline a{color:var(--olive);text-decoration:underline;text-underline-offset:3px}
 .nav-cta{display:flex;align-items:center;gap:12px}
 .burger{display:none;width:48px;height:48px;border-radius:14px;border:1.5px solid var(--olive);background:#fff;cursor:pointer;align-items:center;justify-content:center}
 .burger span,.burger span::before,.burger span::after{display:block;width:20px;height:2px;background:var(--olive);position:relative;transition:transform .3s}

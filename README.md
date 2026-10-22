@@ -24,12 +24,20 @@ The site runs as one Cloudflare Worker (`seoservicesedmonton`): `worker/index.js
 
 ## Pages
 
-- Home (targets "seo services edmonton")
-- Services hub + 9 service pages: Local SEO, Technical SEO, On-Page SEO, Content SEO, Link Building, Google Business Profile, Ecommerce SEO, SEO Audit, AI Search Optimization
-- Locations hub + 6 neighbourhood pages: Downtown, Oliver, Strathcona, Windermere, Summerside, Terwillegar Towne
-- Case studies hub + 3 case study templates
-- Blog hub + 3 articles
-- About, Team, Careers, FAQ, SEO Packages, Contact, Thank You (form redirect, noindex), Privacy Policy, Terms, 404
+The site follows the semantic SEO plan in `plan/` (68 pages in 3 phases; see `plan/README.md`). Phase 1 is built:
+
+- Home (owns "edmonton seo services"), About, Team, How We Work, Contact, Free SEO Audit, Pricing
+- Services hub + Local SEO, Google Business Profile Optimization, Technical SEO, On-Page SEO, Link Building, SEO Audit (plus the existing Content Writing, Ecommerce SEO and AI Search Optimization pages)
+- Industries hub + Plumbers, Electricians, HVAC and Furnace Companies, Renovation and General Contractors, Roofing Companies, Law Firms, Dentists
+- Blog hub + 3 articles, Case studies (drafts), Thank You, Privacy Policy, Terms of Service, 404
+
+Links to pages from later phases (areas, more industries, more blog posts) are written into the content already. They render as plain text until the target page exists, then become links automatically; menus and footers pick new pages up the same way.
+
+## Semantic SEO and E-E-A-T
+
+- Each page's schema `about`, `mentions`, `areaServed` and `serviceType` come from `plan/content-plan.json` (entities with Wikidata/Wikipedia `sameAs`), read by `lib/plan.ts`.
+- Every content page shows a byline (author, reviewer, last updated, link to How We Work) and sets `dateModified`.
+- Real people go in `content/people.ts`. Each person gets an author page at `/team/<slug>/` with Person schema (worksFor, knowsAbout, sameAs, hasCredential); set `author` / `reviewer` on a page to credit them. Until then bylines show role placeholders and no Person schema is emitted. Never add invented people, reviews, credentials or results.
 
 ## SEO baseline (on every page)
 

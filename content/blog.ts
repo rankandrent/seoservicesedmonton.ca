@@ -8,8 +8,8 @@ export const PAGES: Page[] = [
   "nav_label": "Blog",
   "icon": "book",
   "page_type": "CollectionPage",
-  "title": "SEO Blog | Edmonton SEO Tips | BrandName",
-  "description": "Practical SEO advice for Edmonton businesses, checked against Google's own documentation. Local SEO, AI search and choosing an agency.",
+  "title": "Local SEO Blog | Tips for Edmonton Businesses",
+  "description": "Practical local SEO guides for Edmonton trades, law firms and service businesses who want more calls from Google, checked against Google documentation.",
   "keyword": "edmonton seo blog",
   "card": "SEO advice, checked against the source.",
   "sections": [
@@ -46,8 +46,8 @@ export const PAGES: Page[] = [
   "card": "The three factors Google uses for local results and what you can do about each one.",
   "article": "2026-10-23",
   "page_type": "WebPage",
-  "title": "How Google Ranks Local Businesses in Edmonton | BrandName Blog",
-  "description": "What Google says decides local rankings, the tips it recommends and what that means for Edmonton businesses competing in the map pack.",
+  "title": "How Google Ranks Local Businesses in Edmonton",
+  "description": "How Google Ranks Local Businesses in Edmonton A practical guide for Edmonton business owners, checked against Google's own documentation.",
   "keyword": "how google ranks local businesses",
   "crumbs": [
    [
@@ -165,8 +165,8 @@ export const PAGES: Page[] = [
   "card": "Google's own answer on what it takes to appear in AI Overviews and AI Mode.",
   "article": "2026-10-23",
   "page_type": "WebPage",
-  "title": "AI Overviews and Your Website: What Google Says | BrandName Blog",
-  "description": "Do you need special optimization for Google AI Overviews or AI Mode? What Google's own guidance says and the best practices it recommends.",
+  "title": "AI Overviews and Your Website: What Google Says",
+  "description": "AI Overviews and Your Website: What Google Says A practical guide for Edmonton business owners, checked against Google's own documentation.",
   "keyword": "ai overviews seo",
   "crumbs": [
    [
@@ -271,8 +271,8 @@ export const PAGES: Page[] = [
   "card": "The questions Google suggests asking and the red flags to watch for.",
   "article": "2026-10-23",
   "page_type": "WebPage",
-  "title": "How to Choose an SEO Agency in Edmonton | BrandName Blog",
-  "description": "Questions to ask before hiring an SEO agency in Edmonton, based on Google's own advice, plus the red flags that should make you walk away.",
+  "title": "How to Choose an SEO Agency in Edmonton",
+  "description": "How to Choose an SEO Agency in Edmonton A practical guide for Edmonton business owners, checked against Google's own documentation.",
   "keyword": "choose seo agency edmonton",
   "crumbs": [
    [

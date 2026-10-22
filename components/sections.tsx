@@ -329,7 +329,7 @@ function Packages({ s, p }: Props) {
         {s.items.map((pk: any, i: number) => (
           <article key={pk.name} className={`pkg ${tints[i % 3]}${pk.featured ? ' featured' : ''} reveal reveal-d${i + 1}`}>
             {pk.badge && <span className="pkg-tab"><Icon name="star" color="#ffffff" /> {pk.badge}</span>}
-            <h3>{pk.name}</h3><p className="pkg-price">Custom quote</p><p className="pkg-for">{rich(pk.for, p.slug)}</p>
+            <h3>{pk.name}</h3><p className="pkg-price">{pk.price ? rich(pk.price, p.slug) : 'Custom quote'}</p><p className="pkg-for">{rich(pk.for, p.slug)}</p>
             <a className="btn pkg-btn" href={href('contact')}>Get a quote</a><p className="pkg-sub">What is included</p>
             <ul>{pk.features.map((f: string, j: number) => <li key={j}><Icon name="check-circle" /><span>{rich(f, p.slug)}</span></li>)}</ul>
           </article>
@@ -514,11 +514,13 @@ function About({ s, p }: Props) {
 }
 
 function ServiceList({ s, p }: Props) {
+  const slugs: string[] = s.items.filter((x: string) => linkable(x, p.slug));
+  if (!slugs.length) return null;
   return (
     <Sec s={s} def="cream">
       <Head s={s} p={p} center />
       <div className="srows">
-        {s.items.map((slug: string, i: number) => {
+        {slugs.map((slug, i) => {
           const q = BY_SLUG[slug];
           return (
             <article key={slug} className={`srow reveal reveal-d${(i % 2) + 1}`}>
@@ -567,10 +569,13 @@ const SECTIONS: Record<string, (props: Props) => ReactNode> = {
   notfound: NotFound, feature_cards: FeatureCards, about: About, service_list: ServiceList, why: Why, testimonial: Testimonial,
 };
 
-export function PageSections({ page }: { page: Page }) {
-  return page.sections.map((s, i) => {
+/** Renders a page's sections. `byline` goes just before the closing call to action, or last if there is none. */
+export function PageSections({ page, byline }: { page: Page; byline?: ReactNode }) {
+  const sections = page.sections.map((s, i) => {
     const Component = SECTIONS[s.type];
     if (!Component) throw new Error(`Unknown section type "${s.type}" on /${page.slug}`);
     return <Component key={i} s={s} p={page} />;
   });
+  const at = page.sections.at(-1)?.type === 'cta' ? sections.length - 1 : sections.length;
+  return <>{sections.slice(0, at)}{byline}{sections.slice(at)}</>;
 }

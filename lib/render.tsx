@@ -1,5 +1,5 @@
 import { Fragment, type ReactNode } from 'react';
-import { DRAFTS } from '@/content';
+import { BY_SLUG, DRAFTS } from '@/content';
 import { ICONS } from '@/content/icons';
 import { ILLUS } from '@/content/illus';
 import { SITE } from '@/content/site';
@@ -19,9 +19,16 @@ export function urlOf(slug: string): string {
   return SITE.domain + (slug ? '/' + slug + '/' : '/');
 }
 
-/** Live pages never link to drafts; drafts may link to each other so they still preview properly. */
+/**
+ * Whether `from` may link to `to`. Pages that are not built yet (later plan phases) are never linked, so
+ * links in the content appear on their own once the target page exists. Live pages never link to drafts;
+ * drafts may link to each other so they still preview properly.
+ */
 export function linkable(to: string, from: string): boolean {
-  return !DRAFTS.has(to.split('#')[0]) || DRAFTS.has(from);
+  if (EXTERNAL.test(to)) return true;
+  const slug = to.split('#')[0];
+  if (!(slug in BY_SLUG)) return false;
+  return !DRAFTS.has(slug) || DRAFTS.has(from);
 }
 
 const MARKS = /\[\[(.+?)\]\]|\*\*(.+?)\*\*|\{\{(.+?)\|(.+?)\}\}/g;
