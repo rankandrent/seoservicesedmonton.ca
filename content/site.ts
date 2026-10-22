@@ -22,9 +22,9 @@ export const SITE = {
  "cta_photo": "https://images.unsplash.com/photo-1617336422396-e1dfc4210ec5?auto=format&fit=crop&w=1200&q=80",
  "cta_photo_alt": "City skyline at night across the river valley",
  "marquee": [
-  "Free SEO review for Edmonton businesses",
+  "Free SEO audit for Edmonton businesses",
   "Local SEO, technical SEO and content under one roof",
   "Monthly reporting in plain language",
-  "Book a 30 minute strategy call"
+  "Book a 30-minute call about your goals"
  ]
 } as const;

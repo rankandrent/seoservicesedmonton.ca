@@ -17,7 +17,7 @@
     "type": "page_hero",
     "eyebrow": "SEO content writing",
     "h1": "Content Writing Edmonton, SEO Pages and Guides That Rank",
-    "lead": "Content writing Edmonton customers actually read answers what they ask before they call. Our SEO content writing service plans and writes service pages, location pages and blog posts for businesses in Edmonton, Alberta, built on your team's expertise and fact-checked by people, as part of our {{Edmonton SEO services|}}.",
+    "lead": "The content writing Edmonton customers actually read answers what they ask before they call. Our SEO content writing service plans and writes service pages, location pages and blog posts for businesses in Edmonton, Alberta, built on your team's expertise and fact-checked by people, as part of our {{Edmonton SEO services|}}.",
     "cta": ["Get a free SEO audit", "free-seo-audit"]
    },
    {
@@ -56,11 +56,11 @@
     "type": "steps",
     "eyebrow": "Process",
     "heading": "How our SEO content writing works",
-    "intro": "**Our SEO content writing runs in four steps, and you approve the brief before anyone writes.** Research comes from interviews with your team and a review of what already ranks.",
+    "intro": "**SEO content writing is the build step of our audit, plan, build and report process, and inside it every page passes four stages, with your approval before anyone writes.** Research comes from interviews with your team and a review of what already ranks.",
     "items": [
      ["Research", "Interviews with your team, a SERP review of what ranks, and customer questions."],
      ["Brief", "Outline, angle and sources agreed with you."],
-     ["Write", "Drafted by people with local knowledge, reviewed by your expert."],
+     ["Write", "Drafted with local knowledge and reviewed by your expert."],
      ["Publish", "Edited, fact-checked, optimized, linked and tracked."]
     ]
    },
@@ -93,7 +93,7 @@
     "eyebrow": "Deliverables",
     "heading": "SEO content writing deliverables",
     "bg": "",
-    "intro": "**SEO content writing comes with eight deliverables, from strategy to tracking.** Turnaround and monthly volume are [[pages per month and turnaround per page]].",
+    "intro": "**Each SEO content writing engagement produces the eight items below, from strategy to tracking.** Turnaround and monthly volume are [[pages per month and turnaround per page]].",
     "items": [
      ["Content strategy document", "Topics, priorities and timeline"],
      ["Content calendar", "What is published and when"],
@@ -131,11 +131,11 @@
     "heading": "SEO content writing FAQ",
     "intro": "AI tools, volume, location pages, approval, regulated industries and results.",
     "items": [
-     ["Do you use AI to write content?", "No, people write every page. Writers may use tools for research, but every page is planned, written, edited and fact-checked by a person, because Google's spam policies cover scaled, low-value content however it is made."],
+     ["How do you use AI tools in content writing?", "Every page is planned, edited and fact-checked by a person and approved by you before it goes live, because Google's spam policies cover scaled, low-value content however it is made. [[State the AI-use policy from the how we work page here, in the same words.]]"],
      ["How many pages per month can you write?", "The number of pages per month is [[pages per month and turnaround per page]]. It depends on page length, how much research each topic needs and how quickly your team reviews drafts."],
      ["Can you write location pages without them being doorway pages?", "Yes. Each location page needs unique, useful detail about that town and a real reason for the customer to be there, and we do not write one where you have nothing local to say."],
      ["Who approves the content?", "You do. Nothing is published without your sign-off, and you can request changes at the brief and draft stages."],
-     ["Can you write for regulated industries?", "Yes, with review from your qualified team before publishing. Our {{law firm SEO|industries/law-firms}}, {{immigration lawyer SEO|industries/immigration-lawyers}} and {{med spa SEO|industries/med-spas}} pages show the rules each field follows."],
+     ["Can you write for regulated industries?", "Yes, with review from your qualified team before publishing. Our {{law firm SEO|industries/law-firms}} and {{dental SEO|industries/dentists}} pages show the rules each field follows."],
      ["How do you measure content success?", "We measure each page by its rankings, organic traffic and the enquiries it drives, reported per piece. A {{free SEO audit|free-seo-audit}} shows which pages your site is missing today."]
     ]
    },
@@ -185,7 +185,7 @@
     "type": "page_hero",
     "eyebrow": "Ecommerce SEO",
     "h1": "Ecommerce SEO Edmonton, for Shopify and WooCommerce Stores",
-    "lead": "Ecommerce SEO Edmonton stores can measure in revenue starts with category and product pages that match how people shop. We help online stores in Edmonton, Alberta get found on Google and turn that organic traffic into sales, as part of our {{Edmonton SEO services|}}.",
+    "lead": "We offer ecommerce SEO Edmonton stores can measure in revenue, starting with category and product pages that match how people shop. We help online stores in Edmonton, Alberta get found on Google and turn that organic traffic into sales, as part of our {{Edmonton SEO services|}}.",
     "cta": ["Get a free SEO audit", "free-seo-audit"]
    },
    {
@@ -224,7 +224,7 @@
     "type": "steps",
     "eyebrow": "Process",
     "heading": "How our ecommerce SEO grows store revenue",
-    "intro": "**Our ecommerce SEO follows the same four steps as every engagement: audit, plan, build and report.** The report step is revenue-based reporting through GA4 ecommerce tracking.",
+    "intro": "**Ecommerce SEO runs through our audit, plan, build and report steps, with store revenue as the measure.** The report step is revenue-based reporting through GA4 ecommerce tracking.",
     "items": [
      ["Audit", "Store structure, duplicates and product data."],
      ["Plan", "Categories mapped to search demand, in priority order."],
@@ -263,7 +263,7 @@
     "eyebrow": "Deliverables",
     "heading": "What an ecommerce SEO engagement delivers",
     "bg": "",
-    "intro": "**Ecommerce SEO comes with eight deliverables, from the audit to the revenue report.** Each one is something your team keeps.",
+    "intro": "**An ecommerce SEO engagement delivers eight things, from the store audit to the revenue report.** Each one is something your team keeps.",
     "items": [
      ["Ecommerce SEO audit", "Store-specific issues ranked"],
      ["Category keyword map", "Every category matched to demand"],
@@ -316,7 +316,7 @@
    },
    {
     "type": "cta",
-    "heading": "Talk to us about Ecommerce SEO in Edmonton",
+    "heading": "Talk to us about ecommerce SEO in Edmonton",
     "text": "Get a free SEO audit and we will show you which categories and products could earn more organic revenue.",
     "button": ["Get a free SEO audit", "free-seo-audit"]
    }
@@ -396,13 +396,13 @@
    },
    {
     "type": "statement",
-    "text": "Google says no special schema or AI text files are needed for its AI features. [em]Strong SEO is AI search readiness.[/em]"
+    "text": "[em]Strong SEO is AI search readiness.[/em] The same indexed, clearly written pages serve Google Search and its AI features."
    },
    {
     "type": "steps",
     "eyebrow": "Process",
     "heading": "How our AI search optimization runs",
-    "intro": "**Our AI search optimization follows the same four steps as every engagement: audit, plan, build and report.** The report shows citations and AI-driven traffic over time.",
+    "intro": "**AI search optimization moves through our audit, plan, build and report steps, starting from what Google already sees.** The report shows citations and AI-driven traffic over time.",
     "items": [
      ["Audit", "Indexing, snippet eligibility, crawl access and current AI citations."],
      ["Plan", "The questions to answer and the pages to fix first."],
@@ -429,7 +429,7 @@
     "eyebrow": "Deliverables",
     "heading": "What you receive from AI search optimization",
     "bg": "",
-    "intro": "**AI search optimization comes with eight deliverables, all checked against Google's published guidance.** How we measure: Search Console, AI referral traffic in Google Analytics and the citation log.",
+    "intro": "**You receive eight AI search optimization deliverables, each checked against Google's published guidance.** How we measure: Search Console, AI referral traffic in Google Analytics and the citation log.",
     "items": [
      ["AI readiness audit", "Against Google's published best practices"],
      ["Crawl access report", "Including CDN and hosting rules"],
@@ -481,7 +481,7 @@
    },
    {
     "type": "cta",
-    "heading": "Talk to us about AI Search Optimization in Edmonton",
+    "heading": "Talk to us about AI search optimization in Edmonton",
     "text": "Get a free SEO audit and we will check whether your key pages are eligible for AI Overviews and AI answers.",
     "button": ["Get a free SEO audit", "free-seo-audit"]
    }

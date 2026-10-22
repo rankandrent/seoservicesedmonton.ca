@@ -39,7 +39,7 @@ function anchorFor(slug: string): string {
   if (slug.startsWith('industries/')) return 'SEO for ' + lower(label);
   if (slug.startsWith('services/')) return label + ' services';
   if (slug.startsWith('blog/')) return 'Read ' + label;
-  if (slug.startsWith('case-studies/')) return 'Read the ' + label + ' case study';
+  if (slug.startsWith('case-studies/')) return 'Read the ' + label.replace(/\s*case study$/i, '') + ' case study';
   return label;
 }
 

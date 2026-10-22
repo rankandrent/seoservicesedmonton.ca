@@ -5,13 +5,14 @@
 // Inline marks: [[placeholder]]  **bold**  {{link text|slug}}  ({{text|}} links to the homepage)
 import type { Page, Section } from './types';
 import KEPT from './services-more.json';
+import { FREE_AUDIT } from './core';
 
 const UPDATED = '2026-10-23';
 const CASES = ['case-studies/local-service-business', 'case-studies/ecommerce-store', 'case-studies/professional-firm'];
 
-// One wording for the free audit's open facts (F25). content/core.ts (free-seo-audit page) uses the same strings.
-const FREE_AUDIT_FORMAT = '[[Short video or PDF]]';
-const FREE_AUDIT_TURNAROUND = '[[0]] business days';
+// One wording for the free audit's open facts (F25): imported from content/core.ts, filled once there.
+const FREE_AUDIT_FORMAT = FREE_AUDIT.format.replace('[[s', '[[S');
+const FREE_AUDIT_TURNAROUND = FREE_AUDIT.turnaround;
 // The paid SEO audit's own open facts, used in the table and the FAQ so both always match.
 const AUDIT_TURNAROUND = '[[Full audit turnaround in business days]]';
 const AUDIT_PRICE = '[[Full audit price or price range in CAD]]';
@@ -24,7 +25,10 @@ type Svc = {
 };
 
 function svc(o: Svc): Page {
-  const name = o.nav.toLowerCase().replace(/\bseo\b/g, 'SEO').replace('google business profile', 'Google Business Profile');
+  const name = o.nav.toLowerCase().replace(/\bseo\b/g, 'SEO').replace(/\bai\b/g, 'AI').replace('google business profile', 'Google Business Profile');
+  // Sentence subject and object forms (an SEO audit needs its article; other services read as mass nouns).
+  const obj = o.slug === 'seo-audit' ? 'an SEO audit' : name;
+  const subj = obj.charAt(0).toUpperCase() + obj.slice(1);
   return {
     slug: 'services/' + o.slug, nav_label: o.nav, keyword: o.keyword, icon: o.icon, illus: o.illus, title: o.title, description: o.description,
     card: o.card, long_card: o.description, crumbs: [['Services', 'services']], service: o.nav + ' in Edmonton', area: 'Edmonton, AB',
@@ -35,10 +39,10 @@ function svc(o: Svc): Page {
       { type: 'posts', eyebrow: 'Proof', heading: 'Related case studies', items: CASES },
       { type: 'faq', eyebrow: 'FAQ', heading: o.faqHeading, intro: o.faqIntro, items: o.faq },
       { type: 'links', eyebrow: 'Who we do this for', heading: o.industriesHeading, bg: 'soft', items: o.industries,
-        intro: `**${o.nav} works the same way in every trade, but the searches, seasons and rules differ.** Each industry page below shows what changes for that kind of business.` },
+        intro: `**${subj} works the same way in every trade, but the searches, seasons and rules differ.** Each industry page below shows what changes for that kind of business.` },
       { type: 'links', eyebrow: 'Related services', heading: o.relatedHeading, items: o.related,
-        intro: `**${o.nav} works best next to the services below**, because each one fixes a part of search that ${name} alone does not reach.` },
-      { type: 'cta', heading: `Talk to us about ${o.nav} in Edmonton`, text: o.ctaText ?? 'Start with a free SEO audit. A person checks your site and profile and shows you the biggest opportunities, in plain language.', button: ['Get a free SEO audit', 'free-seo-audit'] },
+        intro: `**${subj} works best next to the services below**, because each one fixes a part of search that ${obj} alone does not reach.` },
+      { type: 'cta', heading: `Talk to us about ${obj} in Edmonton`, text: o.ctaText ?? 'Start with a free SEO audit. A person checks your site and profile and shows you the biggest opportunities, in plain language.', button: ['Get a free SEO audit', 'free-seo-audit'] },
     ],
   };
 }
@@ -51,8 +55,8 @@ const G_SPAM = ['Google Search Central: Spam policies', 'https://developers.goog
 const G_AI = ['Google Search Central: AI features and your website', 'https://developers.google.com/search/docs/appearance/ai-features'];
 
 // Shared answers (one answer site-wide; the homepage and blog use the same facts).
-const FAQ_FIND = (angle: string) => ['Where can I find SEO services in Edmonton?', `Search Google Maps for "SEO Edmonton", then compare agencies on their Google reviews, their own Business Profile and their profiles on agency directories such as Clutch. ${angle} Our guide on {{how to choose an SEO agency|blog/choosing-an-seo-agency-in-edmonton}} lists the questions Google suggests asking before you hire anyone.`] as [string, string];
-const FAQ_8020 = (angle: string) => ['What is the 80/20 rule in SEO?', `The 80/20 rule in SEO is a rule of thumb, not a measured law: a small share of pages and tasks usually drives most of the results. ${angle}`] as [string, string];
+// The homepage owns "Where can I find SEO services in Edmonton?" and "What is the 80/20 rule in SEO?" (head-term
+// PAA). Service pages answer the same PAA intent with their own question and answer, never a copy.
 
 export const PAGES: Page[] = [
 // ------------------------------------------------------------------ HUB
@@ -88,7 +92,7 @@ export const PAGES: Page[] = [
    items: [['Audit', 'Your site, Business Profile, competitors and current rankings.'], ['Plan', 'A written roadmap with priorities and expected outcomes.'],
            ['Build', 'Fixes, content and outreach, with every change logged.'], ['Report', 'Calls, forms, rankings and traffic in plain language every month.']]},
   { type: 'faq', eyebrow: 'FAQ', heading: 'SEO services FAQ', intro: 'Where to start and how the services combine.', items: [
-     ['Which SEO service do I need first?', 'Usually an audit, because it shows which problems cost you the most. Most businesses do not need every service at once, and a {{free SEO audit|free-seo-audit}} is the place to start, so the first months of work go where they make a difference.'],
+     ['Which SEO service do I need first?', 'An audit, because it shows which problems cost you the most. Most businesses do not need every service at once, and a {{free SEO audit|free-seo-audit}} is the place to start, so the first months of work go where they make a difference.'],
      ['Can I combine services?', 'Yes. Most businesses combine two or three, such as local SEO with Google Business Profile management and link building. Our {{SEO pricing|pricing}} page shows the common combinations as packages.']]},
   { type: 'cta', heading: 'Not sure which SEO service you need?', text: 'Get a free SEO audit and we will recommend where to start.', button: ['Get a free SEO audit', 'free-seo-audit'] },
  ]},
@@ -99,7 +103,7 @@ svc({
  title: 'Local SEO Edmonton | Rank in Google Maps and Local Search',
  description: 'Local SEO Edmonton businesses can measure in calls, built on your Business Profile, citations, reviews and local pages. Start with a free SEO audit.',
  card: 'Rank in Google Maps and local results across Edmonton.',
- hero: ['Local SEO', 'Local SEO Edmonton, Rank in the Google Map Pack', 'Local SEO Edmonton businesses can measure starts in the Google Map Pack. We help businesses in Edmonton, Alberta show up there and in local search results when people nearby search for what they sell, then turn those searches into calls, directions and bookings. It is the core of our {{Edmonton SEO services|}}.'],
+ hero: ['Local SEO', 'Local SEO Edmonton, Rank in the Google Map Pack', 'The local SEO Edmonton businesses can measure in calls starts in the Google Map Pack. We help businesses in Edmonton, Alberta show up there and in local search results when people nearby search for what they sell, then turn those searches into calls, directions and bookings. It is the core of our {{Edmonton SEO services|}}.'],
  sections: [
   { type: 'split', eyebrow: 'What it is', heading: 'What local SEO is, and who it suits', visual: 'map', vdata: { title: 'Your business', sub: 'Top 3 in the Map Pack' },
    body: ['**Local search engine optimization (SEO) is the work that gets your business into the Map Pack, the three businesses Google shows on a map above the regular results.** That is our working definition, and it also covers the local organic results underneath, for searches like "plumber near me" or "dentist Edmonton".',
@@ -110,7 +114,7 @@ svc({
    items: [
      { icon: 'store', title: 'Business Profile optimization', text: 'Primary and secondary categories, services, hours, attributes, photos and posts, kept accurate. See {{Google Business Profile optimization|services/google-business-profile-optimization}}.' },
      { icon: 'star', title: 'Google reviews', text: 'A steady, genuine flow: ask every customer for an honest review with a direct link, and post an owner reply to each one. No incentives and no review gating.' },
-     { icon: 'map', title: 'Local citations', text: 'Your name, address and phone number (NAP) kept consistent across Yelp.ca, YellowPages.ca, Canpages, Clutch and local chambers.' },
+     { icon: 'map', title: 'Local citations', text: 'Your name, address and phone number (NAP) kept consistent across Yelp.ca, YellowPages.ca, Canada411, Clutch and local chambers.' },
      { icon: 'doc', title: 'Local landing pages', text: 'Useful pages for the services and areas you actually serve, never thin copies with the town name swapped.' },
      { icon: 'link', title: 'Local links', text: 'Mentions from Edmonton organizations, suppliers, events and media. See {{link building|services/link-building}}.' },
      { icon: 'chart', title: 'Rank tracking by neighbourhood', text: 'Map Pack positions checked on a grid across the city, because rankings in Windermere differ from rankings in St. Albert.' }]},
@@ -122,9 +126,9 @@ svc({
   { type: 'table', eyebrow: 'Your setup', heading: 'Service area business vs storefront for local SEO', cols: ['', 'Storefront', 'Service area business'],
    intro: '**Local SEO works differently for a storefront and a service area business, and Google treats the two differently.** This table compares them, because the wrong setting is a common cause of weak rankings or suspensions.',
    rows: [['Customers come to you', 'Yes', 'No, you go to them'], ['Address shown on Google', 'Yes', 'Hidden; you list the areas you serve'],
-          ['Typical examples', 'Dental clinic, law office, retail', 'Plumber, roofing company (see {{roofing SEO|industries/roofers}}), cleaning company'], ['Main local SEO focus', 'Proximity to the office and reviews', 'Service area settings, service pages and reviews']]},
+          ['Typical examples', 'Dental clinic, law office, retail', 'Plumber, heating, ventilation and air conditioning (HVAC) company, roofing company (see {{roofing SEO|industries/roofers}})'], ['Main local SEO focus', 'Proximity to the office and reviews', 'Service area settings, service pages and reviews']]},
   { type: 'steps', eyebrow: 'Process', heading: 'Our local SEO process', bg: 'soft',
-   intro: '**Our local SEO process follows the same four steps as every engagement: audit, plan, build and report.** Each step below shows what it means for your Map Pack position.',
+   intro: '**Local SEO uses our usual audit, plan, build and report steps, aimed at your Map Pack position.** Each step below shows what it changes for your Business Profile and rankings.',
    items: [
      ['Audit', 'Business Profile, local citations, reviews and Map Pack rankings across the city.'], ['Plan', 'Fixes ranked by impact: accurate NAP, the right categories and settings first.'],
      ['Build', 'Reviews, local links and local pages that earn prominence.'], ['Report', 'Calls, direction requests, website clicks and rankings every month.']]},
@@ -139,8 +143,8 @@ svc({
   ['Can I rank in areas where I have no office?', 'Yes, in the regular results, but distance limits how far your Map Pack rankings reach. A service area business can list the areas it serves, and useful service and area pages help you rank in nearby towns. We never create fake offices, which Google can suspend.'],
   ['What is the difference between local SEO and regular SEO?', 'Regular SEO helps your website rank in the organic results anywhere. Local SEO adds the Map Pack and local results, which depend on your Business Profile, reviews, citations and distance as well as your website.'],
   ['Is SEO dead now with AI?', 'No. Google says a page must be indexed and eligible to show in Search with a snippet to appear as a link in AI Overviews or AI Mode, so the same SEO work feeds both. Our {{AI search optimization|services/ai-search-optimization}} page explains what changes and what does not.'],
-  FAQ_FIND('For local SEO, ask each agency to show its own Map Pack work and how it handles reviews.'),
-  FAQ_8020('In local SEO that small share is usually your Business Profile, your top service pages and your reviews, which is why every engagement starts with an audit that finds them.')],
+  ['Where can I find local SEO services in Edmonton?', 'Look at who already wins the Map Pack for searches like "SEO Edmonton", then shortlist agencies that can show their own Business Profile work, real Google reviews and a clear review policy. Ask each one how it would improve your relevance and prominence, and use our guide on {{how to choose an SEO agency|blog/choosing-an-seo-agency-in-edmonton}} for the questions Google suggests.'],
+  ['What is the 80/20 rule in local SEO?', 'It is a rule of thumb, not a measured law: a few tasks usually bring most of the local results. For a local business those few are typically the Business Profile, the top service pages and steady reviews, so our audit finds them before anything else.']],
  industries: ['industries/hvac', 'industries/plumbers', 'industries/roofers', 'industries/dentists', 'industries/law-firms'],
  related: ['services/google-business-profile-optimization', 'services/link-building', 'services/content-writing'],
 }),
@@ -151,7 +155,7 @@ svc({
  title: 'Google Business Profile Optimization Edmonton | More Calls',
  description: 'Google Business Profile optimization Edmonton businesses can measure. We set up, fix and manage your profile for more calls, directions and reviews.',
  card: 'Your Business Profile set up right and kept active.',
- hero: ['Google Business Profile', 'Google Business Profile Optimization Edmonton, Set Up and Managed', 'Google Business Profile optimization Edmonton businesses can measure starts with an accurate, verified listing. Your profile is often the first thing customers in Edmonton, Alberta see. We set it up properly, keep it accurate and active, and turn Google Maps views into calls. It is one part of the search engine optimization (SEO) work in our {{Edmonton SEO services|}}.'],
+ hero: ['Google Business Profile', 'Google Business Profile Optimization Edmonton, Set Up and Managed', 'The Google Business Profile optimization Edmonton businesses can measure in calls starts with an accurate, verified listing. Your profile is often the first thing customers in Edmonton, Alberta see. We set it up properly, keep it accurate and active, and turn Google Maps views into calls. It is one part of the search engine optimization (SEO) work in our {{Edmonton SEO services|}}.'],
  sections: [
   { type: 'split', eyebrow: 'What it is', heading: 'What a Google Business Profile is', visual: 'map', vdata: { title: 'Your Business Profile', sub: 'Call · Directions · Website' },
    body: ['**A Google Business Profile (GBP), formerly Google My Business, is the free listing that shows your business in Google Maps and the Map Pack, the three businesses Google shows on a map above the regular results.** It shows your hours, Google reviews, photos and contact options.',
@@ -160,7 +164,7 @@ svc({
   { type: 'cards', eyebrow: 'What we optimize', heading: 'What we optimize on your Business Profile', bg: 'soft', cols: 3,
    intro: '**Business Profile optimization covers six areas, and each one is a field Google reads or a customer acts on.** Here is what we set and keep current.',
    items: [
-     { icon: 'tag', title: 'Categories', text: 'The primary category is one of the strongest relevance signals on your profile. We choose it, and any secondary categories, to match what you actually sell.' },
+     { icon: 'tag', title: 'Categories', text: 'The primary category is one of the strongest relevance signals on your profile. We choose it, and any secondary categories, to match what you actually sell, such as "HVAC contractor" for a heating, ventilation and air conditioning (HVAC) company.' },
      { icon: 'layers', title: 'Services, products and attributes', text: 'Services that mirror your website\'s service pages, products for businesses that sell goods, and attributes customers filter by, such as wheelchair access or online appointments.' },
      { icon: 'image', title: 'GBP posts and photos', text: 'Real photos of your team, work and premises, and regular posts with offers and news, give customers more reasons for engagement with your profile.' },
      { icon: 'star', title: 'Reviews and replies', text: 'Ask every customer for a review, then post a calm, helpful reply to each one, positive or negative. No incentives and no asking only happy customers.' },
@@ -194,7 +198,7 @@ svc({
  title: 'Technical SEO Edmonton | Speed, Indexing and Site Health',
  description: 'Technical SEO Edmonton businesses can verify in Search Console. We fix crawl errors, slow pages, indexing and Core Web Vitals. Get a free SEO audit.',
  card: 'Crawling, indexing, Core Web Vitals and site health.',
- hero: ['Technical SEO', 'Technical SEO Edmonton, Speed, Indexing and Site Health', 'Technical SEO Edmonton sites need starts with crawling and indexing: great content cannot rank if Google cannot crawl it, render it or pick the right version of it. We find the technical problems holding back websites in Edmonton, Alberta and fix them, directly or with your developer, as part of our {{Edmonton SEO services|}}.'],
+ hero: ['Technical SEO', 'Technical SEO Edmonton, Speed, Indexing and Site Health', 'The technical SEO Edmonton sites need starts with crawling and indexing: great content cannot rank if Google cannot crawl it, render it or pick the right version of it. We find the technical problems holding back websites in Edmonton, Alberta and fix them, directly or with your developer, as part of our {{Edmonton SEO services|}}.'],
  sections: [
   { type: 'split', eyebrow: 'What it is', heading: 'What technical SEO is', visual: 'code',
    body: ['**Technical search engine optimization (SEO) makes sure Googlebot can crawl your pages, render them, index the right version of each one and understand them through structured data.** It also covers page speed and mobile usability, since Google uses mobile-first indexing.',
@@ -237,7 +241,7 @@ svc({
  title: 'On-Page SEO Edmonton | Pages Built to Rank and Convert',
  description: 'On-page SEO Edmonton service for titles, headings, copy, schema and internal links, matched to one search intent per page. Get a free SEO audit.',
  card: 'Titles, headings, copy and internal links matched to intent.',
- hero: ['On-Page SEO', 'On-Page SEO Edmonton, Pages Built to Rank and Convert', 'On-page SEO Edmonton customers respond to makes every page clear to people and to Google: what it is about, who it is for and what to do next. We optimize the pages of businesses in Edmonton, Alberta so they rank for the right searches and turn visits into calls, as part of our {{Edmonton SEO services|}}.'],
+ hero: ['On-Page SEO', 'On-Page SEO Edmonton, Pages Built to Rank and Convert', 'The on-page SEO Edmonton customers respond to makes every page clear to people and to Google: what it is about, who it is for and what to do next. We optimize the pages of businesses in Edmonton, Alberta so they rank for the right searches and turn visits into calls, as part of our {{Edmonton SEO services|}}.'],
  sections: [
   { type: 'split', eyebrow: 'What it is', heading: 'On-page SEO means one page, one search intent', visual: 'serp', vdata: { query: 'emergency plumber edmonton', rows: ['Emergency Plumber in Edmonton | 24/7', 'Plumbing Services | Home', 'Directory page'] },
    body: ['**On-page search engine optimization (SEO) is everything on the page itself: the title link in Google, the meta description, the headings, the copy, images and the internal links between your pages.** It also covers conversion elements such as calls to action and a tap-to-call phone number.',
@@ -276,7 +280,7 @@ svc({
  title: 'Link Building Edmonton | Local, Safe and Relevant Links',
  description: 'Link building Edmonton businesses can trust. We earn relevant local, Alberta and Canadian backlinks, never paid links. Start with a free SEO audit.',
  card: 'Relevant local links and mentions, earned the right way.',
- hero: ['Link Building', 'Link Building Edmonton, Local Links Earned the Safe Way', 'Link building Edmonton businesses can trust means links Google sees as earned. Links from other websites help Google judge how well known your business is, so we earn relevant backlinks from Edmonton, Alberta and Canadian sites through real relationships, as part of our {{Edmonton SEO services|}}.'],
+ hero: ['Link Building', 'Link Building Edmonton, Local Links Earned the Safe Way', 'The link building Edmonton businesses can trust produces links Google sees as earned, never bought. Links from other websites help Google judge how well known your business is, so we earn relevant backlinks from Edmonton, Alberta and Canadian sites through real relationships, as part of our {{Edmonton SEO services|}}.'],
  sections: [
   { type: 'split', eyebrow: 'Why links matter', heading: 'Why link building builds a reputation Google can see', visual: 'cards',
    vdata: { items: [['users', 'Local organizations', 'Chambers and associations'], ['message', 'Edmonton media', 'Stories worth covering'], ['handshake', 'Suppliers and partners', 'People who know you']] },
@@ -296,7 +300,7 @@ svc({
           'A sponsorship is fine when its link is marked rel="sponsored" or rel="nofollow". We use natural, descriptive anchor text rather than exact-match keywords. Ask any agency you consider to show you every link it built.']},
   { type: 'table', eyebrow: 'Citations vs links', heading: 'Citations and editorial links do different link building jobs', cols: ['', 'Local citations', 'Editorial links'],
    intro: '**Citations and editorial links are both part of link building, but they do different jobs.** This table compares what each one is, what it does and how many you need.',
-   rows: [['What they are', 'Directory listings (Yelp.ca, YellowPages.ca, Canpages, Clutch)', 'A site choosing to link to you in its content'],
+   rows: [['What they are', 'Directory listings (Yelp.ca, YellowPages.ca, Canada411, Clutch)', 'A site choosing to link to you in its content'],
           ['Main benefit', 'Consistent name, address and phone (NAP), discovery', 'Prominence and authority'], ['How many you need', 'The relevant few, done accurately', 'Quality over quantity']]},
   { type: 'prose', blocks: [['callout', '[[Add a real example of a local link earned for a client (for example a chamber feature or a news mention), anonymized and used with permission.]]'],
      ['src', [G_SPAM, G_STARTER, G_LOCAL]]] },
@@ -339,7 +343,7 @@ svc({
      ['Competitor gap analysis', 'Where they beat you and why'], ['Backlink profile review', 'Strengths and risks'], ['Walkthrough call', 'Questions answered, next steps agreed']]},
   { type: 'table', eyebrow: 'Two different things', heading: 'Free audit vs full SEO audit', cols: ['', 'Free SEO audit', 'Full SEO audit'],
    intro: '**The free SEO audit is a quick local snapshot, while the full SEO audit is a complete diagnosis.** This table compares them; start with the {{free SEO audit|free-seo-audit}} if you want a quick view.',
-   rows: [['Purpose', 'A quick local snapshot', 'A complete diagnosis and action plan'], ['Covers', 'Business Profile, top on-page issues, Map Pack competitors (the three businesses Google shows on a map)', 'Technical, on-page, local, links and content'],
+   rows: [['Purpose', 'A quick local snapshot', 'A complete diagnosis and action plan'], ['Covers', 'Business Profile, reviews, citations, site speed, on-page basics and Map Pack competitors (the three businesses Google shows on a map)', 'Technical, on-page, local, links and content'],
           ['Format', FREE_AUDIT_FORMAT, 'Full report, fix list and walkthrough call'], ['Turnaround', FREE_AUDIT_TURNAROUND, AUDIT_TURNAROUND], ['Cost', 'Free, no obligation', AUDIT_PRICE]]},
   { type: 'split', eyebrow: 'Before you hire', heading: 'The questions Google suggests asking before an SEO audit', reverse: true, visual: 'cards',
    vdata: { items: [['book', 'Past work', 'Examples and results'], ['shield', 'Search Essentials', 'Do they follow them'], ['eye', 'Shared changes', 'Will they show every change']] },
@@ -354,10 +358,10 @@ svc({
   ['What does an SEO audit include?', 'An SEO audit includes a technical review (crawling, indexing, speed, structured data), an on-page review (titles, headings, internal links), a local review (Business Profile, citations, reviews), a backlink review, a content gap check and a competitor comparison. Every finding is ranked by impact.'],
   ['How much does an SEO audit cost?', `A full SEO audit costs ${AUDIT_PRICE}. The free SEO audit costs nothing and is the quick version, so you can see the approach before you pay for the full one.`],
   ['How long does an audit take?', `A full SEO audit takes ${AUDIT_TURNAROUND}. The exact time depends on the size of your site and how much data is available in Search Console and Google Analytics.`],
-  ['Can ChatGPT do an SEO audit?', 'No, not on its own. A chatbot can explain issues and summarize data you paste in, but it does not see your Search Console, crawl data or Business Profile insights unless you export them, and its answers need checking, so a person verifies every finding in our audit.'],
+  ['Can ChatGPT do an SEO audit?', 'No. A chatbot can explain issues and summarize data you paste in, but it does not see your Search Console, crawl data or Business Profile insights unless you export them, and its answers need checking, so a person verifies every finding in our audit.'],
   ['Can my developer implement the fixes?', 'Yes. Findings are written so any competent developer can act on them, with the affected URLs and how to check each fix. We can also implement them for you.'],
-  FAQ_FIND('Ask each agency for a sample audit, so you can see whether it ranks issues by impact or only lists tool warnings.'),
-  FAQ_8020('An SEO audit applies it by ranking issues by impact, so the few fixes that matter most come first instead of hundreds of minor warnings.')],
+  ['Where can I get an SEO audit in Edmonton?', 'Agencies, freelancers and site audit tools all offer one, but only a person can rank the findings for your business. Ask any provider for a sample audit and check that it ranks issues by impact instead of listing tool warnings, or compare it with the free SEO audit in the table above.'],
+  ['How does the 80/20 rule apply to an SEO audit?', 'An SEO audit applies the 80/20 rule of thumb by ranking issues by impact and effort, because a few fixes usually matter more than hundreds of minor warnings. Those few fixes go to the top of your list.']],
  industries: ['industries/law-firms', 'industries/dentists', 'industries/contractors'],
  related: ['services/technical-seo', 'services/on-page-seo', 'services/local-seo'],
 }),

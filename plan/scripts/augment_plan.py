@@ -234,7 +234,7 @@ for p in pages + NEW:
             exp = ['dated map-pack screenshot for the main industry search in Edmonton', 'a real (anonymised) Business Profile audit for a client in this industry', 'seasonal demand chart for the industry terms']
             if slug in IND_EXP: exp.insert(0, IND_EXP[slug])
             trust = BASE_TRUST[:3] + (['follows the industry regulator\'s advertising rules and says so'] if slug in IND_SRC else [])
-            eeat = mk_eeat('[[SEO strategist who has worked with %s clients]]' % slug.replace('-', ' '), YMYL_REVIEW.get(group), exp, trust, src('local', *IND_SRC.get(slug, [])))
+            eeat = mk_eeat('[[SEO strategist who has worked with %s]]' % {'hvac': 'HVAC companies', 'pest-control': 'pest control companies', 'appliance-repair': 'appliance repair companies'}.get(slug, slug.replace('-', ' ')), YMYL_REVIEW.get(group), exp, trust, src('local', *IND_SRC.get(slug, [])))
     elif parts[0] == 'areas':
         if len(parts) == 1:
             about = [e('edmonton-metro')]; mentions = [e(k) for k in REGION]; area = [e(k) for k in HOME_AREA + ['morinville', 'devon', 'gibbons', 'leduc-county', 'strathcona-county', 'parkland-county', 'sturgeon-county']]

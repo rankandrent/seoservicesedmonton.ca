@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T23:29:48.677Z",
+ "generated": "2026-10-22T23:41:57.460Z",
  "average": 98,
  "pages": [
   {
@@ -14,17 +14,17 @@
    "score": 63,
    "failed": [
     "title-keyword: title contains \"contact edmonton seo company\"",
-    "title-keyword-first: title starts with the exact keyword, then \" | \" (is \"Contact Our Edmonton SEO Team | Free Consultation\")",
+    "title-keyword-first: title starts with the exact keyword, then \" | \" (is \"Contact Us | Call, Email or Request a Free SEO Audit\")",
     "h1-keyword: H1 contains \"contact edmonton seo company\"",
     "desc-keyword: meta description contains the keyword",
     "first-60-words: keyword in the first 60 words after the H1",
     "keyword-field: page `keyword` field is the primary keyword \"contact edmonton seo company\" (is \"\"; the template builds meta keywords from it)",
     "og-keyword: og:title and og:description contain the keyword"
    ],
-   "placeholders": 7,
-   "title": "Contact Our Edmonton SEO Team | Free Consultation",
-   "h1": "Contact Our Edmonton SEO Team",
-   "words": 328
+   "placeholders": 8,
+   "title": "Contact Us | Call, Email or Request a Free SEO Audit",
+   "h1": "Contact Us About SEO for Your Edmonton Business",
+   "words": 338
   },
   {
    "type": "other",
@@ -42,7 +42,7 @@
    "placeholders": 2,
    "title": "SEO for Local Businesses Edmonton | Trades, Legal, Health",
    "h1": "SEO for Local Businesses Edmonton, Industry by Industry",
-   "words": 442
+   "words": 449
   },
   {
    "type": "blog",
@@ -78,7 +78,7 @@
    "placeholders": 2,
    "title": "How to Choose an SEO Agency | Edmonton Buyer's Guide",
    "h1": "How to Choose an SEO Agency in Edmonton",
-   "words": 1552
+   "words": 1555
   },
   {
    "type": "blog",
@@ -96,7 +96,7 @@
    "placeholders": 3,
    "title": "How Google Ranks Local Businesses | Edmonton Guide",
    "h1": "How Google Ranks Local Businesses in Edmonton",
-   "words": 1574
+   "words": 1572
   },
   {
    "type": "content",
@@ -114,7 +114,7 @@
    "placeholders": 3,
    "title": "Dental SEO Edmonton | More New Patient Bookings",
    "h1": "Dental SEO in Edmonton, for Dentists Who Want New Patients",
-   "words": 1487
+   "words": 1506
   },
   {
    "type": "content",
@@ -132,7 +132,7 @@
    "placeholders": 3,
    "title": "Plumbing SEO Edmonton | More Calls from Google Maps",
    "h1": "Plumbing SEO in Edmonton, for Plumbers Who Want More Calls",
-   "words": 1616
+   "words": 1629
   },
   {
    "type": "content",
@@ -150,7 +150,7 @@
    "placeholders": 3,
    "title": "Roofing SEO Edmonton | Roof Repair and Hail Season Leads",
    "h1": "Roofing SEO in Edmonton, for Roof Repair and Replacement",
-   "words": 1409
+   "words": 1436
   },
   {
    "type": "content",
@@ -168,7 +168,7 @@
    "placeholders": 2,
    "title": "Ecommerce SEO Edmonton | Shopify and WooCommerce SEO",
    "h1": "Ecommerce SEO Edmonton, for Shopify and WooCommerce Stores",
-   "words": 1006
+   "words": 1011
   },
   {
    "type": "content",
@@ -186,7 +186,7 @@
    "placeholders": 3,
    "title": "On-Page SEO Edmonton | Pages Built to Rank and Convert",
    "h1": "On-Page SEO Edmonton, Pages Built to Rank and Convert",
-   "words": 889
+   "words": 890
   },
   {
    "type": "content",
@@ -204,7 +204,7 @@
    "placeholders": 4,
    "title": "Technical SEO Edmonton | Speed, Indexing and Site Health",
    "h1": "Technical SEO Edmonton, Speed, Indexing and Site Health",
-   "words": 992
+   "words": 993
   },
   {
    "type": "content",
@@ -217,10 +217,10 @@
    "volume": null,
    "score": 100,
    "failed": [],
-   "placeholders": 13,
-   "title": "About Our Edmonton SEO Team | Who We Are",
-   "h1": "About Our Edmonton SEO Team",
-   "words": 607
+   "placeholders": 14,
+   "title": "About Us | An SEO Team Serving Edmonton Businesses",
+   "h1": "About Us, an SEO Team Built for Edmonton Businesses",
+   "words": 609
   },
   {
    "type": "other",
@@ -252,7 +252,7 @@
    "placeholders": 8,
    "title": "Free SEO Audit Edmonton | Checked by a Person",
    "h1": "Free SEO Audit Edmonton, Checked by a Person",
-   "words": 633
+   "words": 638
   },
   {
    "type": "other",
@@ -268,7 +268,7 @@
    "placeholders": 3,
    "title": "How We Work | Our SEO Process and Editorial Policy",
    "h1": "How We Work",
-   "words": 636
+   "words": 653
   },
   {
    "type": "content",
@@ -284,7 +284,7 @@
    "placeholders": 7,
    "title": "Edmonton SEO Services | Local SEO That Drives Calls",
    "h1": "Edmonton SEO Services That Bring Real Calls and Leads",
-   "words": 1642
+   "words": 1644
   },
   {
    "type": "content",
@@ -300,7 +300,7 @@
    "placeholders": 3,
    "title": "Contractor SEO Edmonton | Renovation and General Contractors",
    "h1": "Contractor SEO in Edmonton, for Renovation and General Contractors",
-   "words": 1435
+   "words": 1475
   },
   {
    "type": "content",
@@ -316,7 +316,7 @@
    "placeholders": 3,
    "title": "Electrician SEO Edmonton | More Service Calls",
    "h1": "Electrician SEO in Edmonton, Residential and Commercial",
-   "words": 1514
+   "words": 1535
   },
   {
    "type": "content",
@@ -332,7 +332,7 @@
    "placeholders": 3,
    "title": "HVAC SEO Edmonton | Win Every Furnace Season",
    "h1": "HVAC SEO in Edmonton, for Furnace and Heating Companies",
-   "words": 1602
+   "words": 1621
   },
   {
    "type": "content",
@@ -348,7 +348,7 @@
    "placeholders": 3,
    "title": "Law Firm SEO Edmonton | Compliant Lawyer SEO",
    "h1": "Law Firm SEO in Edmonton, Compliant Lawyer SEO",
-   "words": 1844
+   "words": 1881
   },
   {
    "type": "other",
@@ -364,7 +364,7 @@
    "placeholders": 18,
    "title": "SEO Pricing Edmonton | Monthly Packages in CAD",
    "h1": "SEO Pricing Edmonton, Packages and What Is Included",
-   "words": 690
+   "words": 694
   },
   {
    "type": "other",
@@ -396,7 +396,7 @@
    "placeholders": 2,
    "title": "AI Search Optimization Edmonton | AI Overviews and GEO",
    "h1": "AI Search Optimization for Edmonton Businesses",
-   "words": 1250
+   "words": 1249
   },
   {
    "type": "content",
@@ -409,10 +409,10 @@
    "volume": 30,
    "score": 100,
    "failed": [],
-   "placeholders": 3,
+   "placeholders": 4,
    "title": "Content Writing Edmonton | SEO Pages and Blogs That Rank",
    "h1": "Content Writing Edmonton, SEO Pages and Guides That Rank",
-   "words": 1247
+   "words": 1271
   },
   {
    "type": "content",
@@ -428,7 +428,7 @@
    "placeholders": 3,
    "title": "Google Business Profile Optimization Edmonton | More Calls",
    "h1": "Google Business Profile Optimization Edmonton, Set Up and Managed",
-   "words": 1064
+   "words": 1080
   },
   {
    "type": "other",
@@ -444,7 +444,7 @@
    "placeholders": 1,
    "title": "SEO Services | Local, Technical and On-Page SEO",
    "h1": "SEO Services for Local Businesses",
-   "words": 666
+   "words": 665
   },
   {
    "type": "content",
@@ -460,7 +460,7 @@
    "placeholders": 2,
    "title": "Link Building Edmonton | Local, Safe and Relevant Links",
    "h1": "Link Building Edmonton, Local Links Earned the Safe Way",
-   "words": 890
+   "words": 893
   },
   {
    "type": "content",
@@ -476,7 +476,7 @@
    "placeholders": 2,
    "title": "Local SEO Edmonton | Rank in Google Maps and Local Search",
    "h1": "Local SEO Edmonton, Rank in the Google Map Pack",
-   "words": 1449
+   "words": 1444
   },
   {
    "type": "content",
@@ -492,7 +492,7 @@
    "placeholders": 9,
    "title": "SEO Audit Edmonton | Find What Is Holding You Back",
    "h1": "SEO Audit Edmonton, a Prioritized Fix List for Your Site",
-   "words": 1182
+   "words": 1161
   },
   {
    "type": "other",
@@ -505,10 +505,10 @@
    "volume": null,
    "score": 100,
    "failed": [],
-   "placeholders": 13,
+   "placeholders": 14,
    "title": "Edmonton SEO Team | The People Behind Our Work",
    "h1": "Meet Our Edmonton SEO Team",
-   "words": 304
+   "words": 311
   },
   {
    "type": "other",

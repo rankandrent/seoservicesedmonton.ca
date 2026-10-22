@@ -482,9 +482,9 @@
     "kd": null
    },
    "secondary": [],
-   "title": "About Our Edmonton SEO Team | Who We Are",
-   "h1": "About Our Edmonton SEO Team",
-   "meta": "About our Edmonton SEO team, who we are, how we work and the rules we follow to help businesses in Edmonton, Alberta grow through Google search.",
+   "title": "About Us | An SEO Team Serving Edmonton Businesses",
+   "h1": "About Us, an SEO Team Built for Edmonton Businesses",
+   "meta": "About us, the SEO team serving businesses in Edmonton, Alberta. See who we are, how we work and the rules we follow, then meet the people behind the work.",
    "breadcrumb": [
     "Home",
     "About"
@@ -623,8 +623,8 @@
    "notes": "Spreadsheet gave About \"edmonton seo agency\"; moved to the homepage to avoid two pages competing for the same SERP.",
    "status": "planned",
    "slug": "about",
-   "title_len": 40,
-   "meta_len": 144,
+   "title_len": 50,
+   "meta_len": 154,
    "about": [
     {
      "name": "[[Brand name]]",
@@ -1090,9 +1090,9 @@
     "kd": null
    },
    "secondary": [],
-   "title": "Contact Our Edmonton SEO Team | Free Consultation",
-   "h1": "Contact Our Edmonton SEO Team",
-   "meta": "Contact our Edmonton SEO team for a free consultation. Call, email or send a message and we reply within one business day with clear next steps.",
+   "title": "Contact Us | Call, Email or Request a Free SEO Audit",
+   "h1": "Contact Us About SEO for Your Edmonton Business",
+   "meta": "Contact us about SEO for your Edmonton business. Call, email or send a message, and we reply within one business day to book a short call, no obligation.",
    "breadcrumb": [
     "Home",
     "Contact"
@@ -1199,8 +1199,8 @@
    "status": "planned",
    "notes": "",
    "slug": "contact",
-   "title_len": 49,
-   "meta_len": 144,
+   "title_len": 52,
+   "meta_len": 153,
    "about": [
     {
      "name": "[[Brand name]]",
@@ -6007,7 +6007,7 @@
    ],
    "service_type": "SEO for renovation and general contractors",
    "eeat": {
-    "author": "[[SEO strategist who has worked with contractors clients]]",
+    "author": "[[SEO strategist who has worked with contractors]]",
     "experience_signals": [
      "dated map-pack screenshot for the main industry search in Edmonton",
      "a real (anonymised) Business Profile audit for a client in this industry",
@@ -6413,7 +6413,7 @@
    ],
    "service_type": "SEO for dental clinics",
    "eeat": {
-    "author": "[[SEO strategist who has worked with dentists clients]]",
+    "author": "[[SEO strategist who has worked with dentists]]",
     "experience_signals": [
      "example \"accepting new patients\" page result (anonymised, with permission)",
      "dated map-pack screenshot for the main industry search in Edmonton",
@@ -6799,7 +6799,7 @@
    ],
    "service_type": "SEO for electrical contractors",
    "eeat": {
-    "author": "[[SEO strategist who has worked with electricians clients]]",
+    "author": "[[SEO strategist who has worked with electricians]]",
     "experience_signals": [
      "dated map-pack screenshot for the main industry search in Edmonton",
      "a real (anonymised) Business Profile audit for a client in this industry",
@@ -7209,7 +7209,7 @@
    ],
    "service_type": "SEO for HVAC and furnace companies",
    "eeat": {
-    "author": "[[SEO strategist who has worked with hvac clients]]",
+    "author": "[[SEO strategist who has worked with HVAC companies]]",
     "experience_signals": [
      "map-pack screenshot for \"furnace repair edmonton\" with date; seasonal search curve for furnace terms (Ahrefs/Google Trends)",
      "dated map-pack screenshot for the main industry search in Edmonton",
@@ -7629,7 +7629,7 @@
    ],
    "service_type": "SEO for law firms",
    "eeat": {
-    "author": "[[SEO strategist who has worked with law firms clients]]",
+    "author": "[[SEO strategist who has worked with law firms]]",
     "experience_signals": [
      "how a law firm GBP was set up within Law Society marketing rules (anonymised)",
      "dated map-pack screenshot for the main industry search in Edmonton",
@@ -8045,7 +8045,7 @@
    ],
    "service_type": "SEO for plumbing companies",
    "eeat": {
-    "author": "[[SEO strategist who has worked with plumbers clients]]",
+    "author": "[[SEO strategist who has worked with plumbers]]",
     "experience_signals": [
      "map-pack screenshot for \"emergency plumber edmonton\" with date; how frozen-pipe searches spike in cold snaps (own data)",
      "dated map-pack screenshot for the main industry search in Edmonton",
@@ -8427,7 +8427,7 @@
    ],
    "service_type": "SEO for roofing companies",
    "eeat": {
-    "author": "[[SEO strategist who has worked with roofers clients]]",
+    "author": "[[SEO strategist who has worked with roofers]]",
     "experience_signals": [
      "search spike after a named Edmonton hail event (date) and how a client responded",
      "dated map-pack screenshot for the main industry search in Edmonton",
@@ -8819,7 +8819,7 @@
    ],
    "service_type": "SEO for accountants",
    "eeat": {
-    "author": "[[SEO strategist who has worked with accountants clients]]",
+    "author": "[[SEO strategist who has worked with accountants]]",
     "experience_signals": [
      "dated map-pack screenshot for the main industry search in Edmonton",
      "a real (anonymised) Business Profile audit for a client in this industry",
@@ -9192,7 +9192,7 @@
    ],
    "service_type": "SEO for cleaning companies",
    "eeat": {
-    "author": "[[SEO strategist who has worked with cleaning companies clients]]",
+    "author": "[[SEO strategist who has worked with cleaning companies]]",
     "experience_signals": [
      "dated map-pack screenshot for the main industry search in Edmonton",
      "a real (anonymised) Business Profile audit for a client in this industry",
@@ -9590,7 +9590,7 @@
    ],
    "service_type": "SEO for immigration lawyers",
    "eeat": {
-    "author": "[[SEO strategist who has worked with immigration lawyers clients]]",
+    "author": "[[SEO strategist who has worked with immigration lawyers]]",
     "experience_signals": [
      "example of a multilingual page plan and which languages Edmonton searchers use",
      "dated map-pack screenshot for the main industry search in Edmonton",
@@ -9978,7 +9978,7 @@
    ],
    "service_type": "SEO for landscaping and snow removal companies",
    "eeat": {
-    "author": "[[SEO strategist who has worked with landscapers clients]]",
+    "author": "[[SEO strategist who has worked with landscapers]]",
     "experience_signals": [
      "dated map-pack screenshot for the main industry search in Edmonton",
      "a real (anonymised) Business Profile audit for a client in this industry",
@@ -10368,7 +10368,7 @@
    ],
    "service_type": "SEO for medical spas",
    "eeat": {
-    "author": "[[SEO strategist who has worked with med spas clients]]",
+    "author": "[[SEO strategist who has worked with med spas]]",
     "experience_signals": [
      "dated map-pack screenshot for the main industry search in Edmonton",
      "a real (anonymised) Business Profile audit for a client in this industry",
@@ -10729,7 +10729,7 @@
    ],
    "service_type": "SEO for moving companies",
    "eeat": {
-    "author": "[[SEO strategist who has worked with movers clients]]",
+    "author": "[[SEO strategist who has worked with movers]]",
     "experience_signals": [
      "dated map-pack screenshot for the main industry search in Edmonton",
      "a real (anonymised) Business Profile audit for a client in this industry",
@@ -11121,7 +11121,7 @@
    ],
    "service_type": "SEO for personal injury lawyers",
    "eeat": {
-    "author": "[[SEO strategist who has worked with personal injury lawyers clients]]",
+    "author": "[[SEO strategist who has worked with personal injury lawyers]]",
     "experience_signals": [
      "how injury-lawyer search demand is shifting before Care-First (own observations, dated)",
      "dated map-pack screenshot for the main industry search in Edmonton",
@@ -11493,7 +11493,7 @@
    ],
    "service_type": "SEO for pest control companies",
    "eeat": {
-    "author": "[[SEO strategist who has worked with pest control clients]]",
+    "author": "[[SEO strategist who has worked with pest control companies]]",
     "experience_signals": [
      "dated map-pack screenshot for the main industry search in Edmonton",
      "a real (anonymised) Business Profile audit for a client in this industry",
@@ -11897,7 +11897,7 @@
    ],
    "service_type": "SEO for real estate agents",
    "eeat": {
-    "author": "[[SEO strategist who has worked with realtors clients]]",
+    "author": "[[SEO strategist who has worked with realtors]]",
     "experience_signals": [
      "neighbourhood guide example with RECA brokerage disclosure on the page",
      "dated map-pack screenshot for the main industry search in Edmonton",
@@ -12259,7 +12259,7 @@
    ],
    "service_type": "SEO for appliance repair companies",
    "eeat": {
-    "author": "[[SEO strategist who has worked with appliance repair clients]]",
+    "author": "[[SEO strategist who has worked with appliance repair companies]]",
     "experience_signals": [
      "dated map-pack screenshot for the main industry search in Edmonton",
      "a real (anonymised) Business Profile audit for a client in this industry",
@@ -12603,7 +12603,7 @@
    ],
    "service_type": "SEO for carpenters",
    "eeat": {
-    "author": "[[SEO strategist who has worked with carpenters clients]]",
+    "author": "[[SEO strategist who has worked with carpenters]]",
     "experience_signals": [
      "dated map-pack screenshot for the main industry search in Edmonton",
      "a real (anonymised) Business Profile audit for a client in this industry",
@@ -12955,7 +12955,7 @@
    ],
    "service_type": "SEO for chiropractic clinics",
    "eeat": {
-    "author": "[[SEO strategist who has worked with chiropractors clients]]",
+    "author": "[[SEO strategist who has worked with chiropractors]]",
     "experience_signals": [
      "dated map-pack screenshot for the main industry search in Edmonton",
      "a real (anonymised) Business Profile audit for a client in this industry",
@@ -13310,7 +13310,7 @@
    ],
    "service_type": "SEO for concrete contractors",
    "eeat": {
-    "author": "[[SEO strategist who has worked with concrete contractors clients]]",
+    "author": "[[SEO strategist who has worked with concrete contractors]]",
     "experience_signals": [
      "dated map-pack screenshot for the main industry search in Edmonton",
      "a real (anonymised) Business Profile audit for a client in this industry",
@@ -13694,7 +13694,7 @@
    ],
    "service_type": "SEO for family lawyers",
    "eeat": {
-    "author": "[[SEO strategist who has worked with family lawyers clients]]",
+    "author": "[[SEO strategist who has worked with family lawyers]]",
     "experience_signals": [
      "dated map-pack screenshot for the main industry search in Edmonton",
      "a real (anonymised) Business Profile audit for a client in this industry",
@@ -14047,7 +14047,7 @@
    ],
    "service_type": "SEO for garage door companies",
    "eeat": {
-    "author": "[[SEO strategist who has worked with garage door companies clients]]",
+    "author": "[[SEO strategist who has worked with garage door companies]]",
     "experience_signals": [
      "dated map-pack screenshot for the main industry search in Edmonton",
      "a real (anonymised) Business Profile audit for a client in this industry",
@@ -14407,7 +14407,7 @@
    ],
    "service_type": "SEO for locksmiths",
    "eeat": {
-    "author": "[[SEO strategist who has worked with locksmiths clients]]",
+    "author": "[[SEO strategist who has worked with locksmiths]]",
     "experience_signals": [
      "example of spam locksmith listings in the Edmonton map pack (screenshot, dated) and how a licensed locksmith stands out",
      "dated map-pack screenshot for the main industry search in Edmonton",
@@ -14761,7 +14761,7 @@
    ],
    "service_type": "SEO for painting companies",
    "eeat": {
-    "author": "[[SEO strategist who has worked with painters clients]]",
+    "author": "[[SEO strategist who has worked with painters]]",
     "experience_signals": [
      "dated map-pack screenshot for the main industry search in Edmonton",
      "a real (anonymised) Business Profile audit for a client in this industry",
@@ -15130,7 +15130,7 @@
    ],
    "service_type": "SEO for physiotherapy clinics",
    "eeat": {
-    "author": "[[SEO strategist who has worked with physiotherapists clients]]",
+    "author": "[[SEO strategist who has worked with physiotherapists]]",
     "experience_signals": [
      "dated map-pack screenshot for the main industry search in Edmonton",
      "a real (anonymised) Business Profile audit for a client in this industry",
@@ -15496,7 +15496,7 @@
    ],
    "service_type": "SEO for real estate lawyers",
    "eeat": {
-    "author": "[[SEO strategist who has worked with real estate lawyers clients]]",
+    "author": "[[SEO strategist who has worked with real estate lawyers]]",
     "experience_signals": [
      "dated map-pack screenshot for the main industry search in Edmonton",
      "a real (anonymised) Business Profile audit for a client in this industry",
@@ -17427,7 +17427,7 @@
    "secondary": [],
    "title": "SEO Case Studies | Edmonton Results",
    "h1": "SEO Case Studies and Results",
-   "meta": "SEO case studies from Edmonton businesses. See the starting point, what we changed and the measured results for each client.",
+   "meta": "SEO case studies from Edmonton businesses will show the starting point, the work and the measured results, each published with the client's permission.",
    "breadcrumb": [
     "Home",
     "Case Studies"

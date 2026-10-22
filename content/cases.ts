@@ -9,9 +9,9 @@ export const PAGES: Page[] = [
   "icon": "chart",
   "page_type": "CollectionPage",
   "title": "SEO Case Studies | Edmonton Results",
-  "description": "SEO case studies from Edmonton businesses. See the starting point, what we changed and the measured results for each client.",
+  "description": "SEO case studies from Edmonton businesses will show the starting point, the work and the measured results, each published with the client's permission.",
   "keyword": "seo case studies",
-  "card": "Real projects and measured results.",
+  "card": "Client results, published only with permission.",
   "sections": [
    {
     "type": "page_hero",
