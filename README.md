@@ -39,6 +39,21 @@ Links to pages from later phases (areas, more industries, more blog posts) are w
 - Every content page shows a byline (author, reviewer, last updated, link to How We Work) and sets `dateModified`.
 - Real people go in `content/people.ts`. Each person gets an author page at `/team/<slug>/` with Person schema (worksFor, knowsAbout, sameAs, hasCredential); set `author` / `reviewer` on a page to credit them. Until then bylines show role placeholders and no Person schema is emitted. Never add invented people, reviews, credentials or results.
 
+## Content agents and SEO checks
+
+An agent team writes and audits content against the plan (`plan/`). Start with `CLAUDE.md` and
+`docs/content-system/RULES.md`; agents live in `.claude/agents/`, workflows in `.claude/skills/`
+(`/content-pipeline`, `/onpage-audit`, `/site-audit`, `/train-agent`, `seo-patent-rules`).
+
+- `npm run seo:check` checks `out/` (one H1, title/description length, no ":" in titles or H1, canonical,
+  og:image, alt text, JSON-LD, broken links, plan rules, writing rules, live-page title lock). Pre-launch it
+  reports errors without failing; `-- --strict` fails on them, and a named draft route is checked too.
+- `npm run onpage` scores every page against `docs/content-system/ONPAGE-CHECKLIST.md` into
+  `docs/data/onpage/latest.json`; `npm run onpage -- /services/local-seo/` prints one page.
+- `npm run links:find -- "/target/" "phrase"` lists pages that mention a phrase but do not link the target.
+- `.github/workflows/gsc-data.yml` pulls Search Console data weekly into `docs/data/gsc/` (secret
+  `GSC_SERVICE_ACCOUNT`, property `sc-domain:seoservicesedmonton.ca`).
+
 ## SEO baseline (on every page)
 
 Meta title, meta description, canonical, robots, Open Graph and Twitter tags, hreflang en-CA, JSON-LD (ProfessionalService, WebSite, WebPage, BreadcrumbList, Service, FAQPage, BlogPosting where relevant). Site files: `sitemap.xml`, `robots.txt`, `llms.txt`.

@@ -1,0 +1,7 @@
+{
+ "note": "Shared memory for the content agents: what was planned, shipped and audited. The orchestrator (/content-pipeline) updates it on every run; /site-audit and /onpage-audit add to audits.",
+ "runs": [],
+ "posts": [],
+ "pages": [],
+ "audits": []
+}

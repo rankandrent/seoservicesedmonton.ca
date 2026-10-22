@@ -1,0 +1,64 @@
+Lessons carried over on 2026-10-23 from the owner's uiuxdesignservices.us content system (niche-independent lessons only; that site's facts, pages, prices and clients were dropped).
+
+# Learnings: semantic-content-writer
+
+Lessons this agent has learned. Read before every run; add new lessons at the end of every run.
+Each lesson: date, what happened (evidence), the rule to follow next time. Keep the file under
+80 lessons; merge duplicates and delete lessons proven wrong.
+
+## Owner rules (highest priority — written by the site owner, never removed by agents)
+
+- (owner) A page must be semantically complete: every heading fully answered (answer → detail → example), every brief point covered with substance, no unfinished paragraphs or thin FAQs. Follow QA's "Guidance for the writer" item by item in repair rounds.
+- (owner) Keep the bold extractive answer under each H2 to one sentence of at most ~30 words. Put the detail in the plain sentence that follows.
+- (owner) The primary keyword must be in the meta title, the description, the H1, the first 60 words and at least 40% of the H2s, and be the most-mentioned entity on the page. Cover at least 80% of the brief's entities and 70% of its attributes in visible text, each with a real fact or explanation, never a bare list of names. Useful first: no padding to hit counts.
+- (owner, layout-aware pages) Each H2 is followed by its bold text answer, never a visual. One sentence before every table says what it compares (`table.intro`). Bold only the direct answer and key terms. Nothing important collapsed: only FAQs.
+- (owner) Section text on service, industry and area pages is 50–70 words per block (90 max). Keep every named entity and attribute; cut filler.
+- (owner, concept bindings) Use each brief `bindings.synonyms` entry at least once, name the parent early, give each child its own H3, list item or table row. Keep composite concepts whole and define each in one sentence when first used. The first sentence under every H2 names the central entity (or a synonym) plus one `essential` concept. Put the context word next to every `ambiguous` word. Answer every `queryVariants` entry with the same answer, using only `siteFacts` numbers. Good H2 opener: "Local SEO for Edmonton plumbers starts with a Google Business Profile in the Plumber category." Bad: "It usually starts with data."
+- (owner, final) No ":" in any title, og:title or H1. The meta title starts with the exact primary keyword, then " | " and a short benefit; the H1 carries the exact keyword joined with plain words or a comma.
+- (owner) Google's AI Overview and People Also Ask for the primary keyword are required inputs: cover every `aiOverview` entity, attribute and term with a real fact and answer every `paa` question in an H2/H3 or FAQ.
+- (owner, final) Protect live rankings: after launch never change a live page's slug, and never change its meta title without the owner's explicit approval. H1, body, sections, FAQs and links may be improved.
+- (escalated rule from the source site) The description ends with the reader's next step, using the site's own offer words (free SEO audit, strategy call, contact). Never call something free that the site does not call free. When the full offer clause does not fit, end with the verb of the page's own CTA in 3–4 words and shorten the contents list to nouns.
+- (escalated rule from the source site) Every sentence that holds the exact keyword must read as correct English aloud. A keyword is never stacked as a modifier onto another noun. Test: swap the keyword for "this service"; "a this service project" shows the defect. Good: "an Edmonton plumbing SEO campaign". Bad: "a plumbing seo edmonton campaign". "X vs Y" strings need a carrier ("the local SEO vs Google Ads question") or an article on both halves.
+
+## Lessons (learned from runs, QA, audits and results)
+
+- Budget words before drafting: about 150 words per H2 (tables included) and about 40 per FAQ; with 9+ H2s cap the two heaviest sections at about 200 words before writing the lighter ones. When the outline carries 40+ points, write one sentence per point (fact + example together).
+- Apply density to the central entity phrase, not a long question keyword: use the exact long keyword 2–3 times and the entity phrase in H2 answer sentences, where it reads naturally. Compute word-share density yourself (uses × phrase words ÷ body words) and stop at 2.0%, whatever count the brief gives.
+- Nothing goes after the last FAQ answer: a closing line placed there is rendered into that question's FAQPage schema answer. Keep each FAQ answer in one paragraph (multi-paragraph answers glue sentences together in schema).
+- When the money page owns a definition, rephrase it from the reader's angle; never reuse its sentence.
+- Before writing any CTA or capability line, grep the site (How We Work, About, the money page) for the exact offer wording and use only that. Never add call lengths, roles, deliverables, turnaround times or guarantees the site does not state.
+- Check every red flag or "good answer" in a buyer checklist (e.g. "how to choose an SEO agency") against the site's own positioning: a criterion must never disqualify us, and must never claim we meet it when the site does not say so.
+- Copy numbers and conditions from the source exactly and keep its "only when" qualifiers; name the primary study and year for a named finding; never turn a past finding into a present-tense law in takeaways or bold answers. Keep "average", "median" or the population qualifier with any range.
+- Write the anchor words in the prose; the link wraps existing words. Read every linked sentence with the link removed: it must still say what the paragraph argues.
+- Expand named acronyms on first visible use, including inside link anchors; when a brief entity holds an abbreviation, expand it in a clause before the entity and then print the entity whole, so the entity check still matches.
+- Treat the brief's leadAngle as the angle only. Check every promised deliverable against the site and write process steps the site does not state as advice to the reader ("Before you hire anyone, list…"), not as "we do…".
+- Open the description with the exact keyword phrase, question words included, then what the reader gets and a next step.
+- Every bullet carries its reason (a "because"/"so" clause); every "ask X" item says what a good answer looks like; no table cell says "varies" or is a fragment.
+- When a page defines a test and then grades examples against it, grade each example part by part against that exact list.
+- Before writing the closing, read the last 3 pages' final paragraphs and CTA sentences and open with an angle that belongs to this page only. Vary the lead, the anchor and the sentence order, never the offer itself. Keep one contact CTA (the closing); other sections end on a reader action that is not "contact us".
+- After a fact-check repair, reread the bold answer together with the next sentence: the sentence after a bold answer adds how/why, it never restates the answer's figures.
+- A participle after a comma ("priced", "based", "built") must describe the noun right before the comma; rebuild the clause when that noun is "how to X" or a verb phrase.
+- Spell out a number that starts a sentence or a bold answer; phrase a question H2 with the same verb its answer uses.
+- When a list shares one verb, test each item with the verb on its own and fix any item that fails.
+- A bold answer under a "Why" H2 restates the subject and the claim, then the reason, all in ≤ 30 words; never start it with "Because". Test: hide the H2 and read only the bold sentence.
+- After each trim pass, reread every sentence that points elsewhere ("both", "these", "the next step", "above") and check that its referent still exists.
+- Read the last sentence of every H2 before handing off: it must tell the reader what to do with the section. When a repair appends a paragraph at the end of a section, its last sentence must still be a reader action.
+- Test every "every / always / all / never / the one / the only" claim against the page's own decision rules, tables and lists; drop the universal word when it contradicts them.
+- When a decision tree or routing logic exists, finish it first, walk every path, then write the intro, bold answers, takeaways and FAQs from its outcomes, in its own grouping and wording.
+- Before drawing any time or cost comparison, add up the parts and compare with the stated total; when prose describes a calculation, the words must name the same operation as the formula.
+- When the page defines a total as a sum of parts, list each later summary's parts against that definition so nothing is counted twice or left out. Test every intro promise against the sections it names.
+- When the brief puts the same fact in a section and an FAQ, give it in full once (the FAQ) and point to it from the section.
+- Secondary n-grams need an article and a full verb; read each n-gram sentence aloud.
+- A checklist or table carrying brief entities needs 60–90 words of open prose next to it that explain why the key lines matter.
+- When reviewers' replacement lines conflict, keep the fact-checker's attribution, figures and dates and apply only QA's logic fix; report each conflict as "intent applied, wording kept". Check reviewer replacement text against the site like your own drafting.
+- After pasting repair text, re-run the hedge, banned-phrase and abbreviation checks: repair text is drafted fast and reintroduces them.
+- At the start of a repair round, total the words the fixes add and pick the same number of cuts from duplicated sentences before editing, so the trim never touches fact-fixed text.
+- Cite sources as links on the claim, never as hidden comments that can ship in the HTML.
+- When a source cannot be opened, search the exact phrase; if no snippet carries the figure, drop it and flag it rather than citing a near match. Before citing a range, search the publisher for a newer version of the same metric and cite the newest.
+- Describe a tool by what its own docs say it does, at the same level of detail; copy plan/tier lists from the vendor's help page word for word instead of summarising them as "paid".
+- When adding an FAQ, rewrite any count in the FAQ intro and replace "questions customers ask most" claims (inquiry data we do not have) with a topic list.
+- Run the implied-client test on every string field, including cards, intros and FAQ intros: present-tense habits of a town's or industry's businesses ("Sherwood Park roofers bring us…") imply clients we do not have. Write capability ("can hire", "we offer X to Y") instead.
+- On area and industry pages, 5-gram overlap with the closest sibling page stays under 12%: keep only the required fact strings and write every other sentence fresh. Name no language, market or capability that no other sentence on the page explains.
+- Before handing off, run `npm run onpage -- /<route>/`; for each entity reported missing that you did explain, use the brief's exact noun once in the sentence that already carries its fact. Never add it as a name-drop.
+- Check which component renders each field (`components/sections.tsx`) before writing: a section `heading` is the H2, `intro` prints under it, card `text` and FAQ answers render inline marks, and a field you put a link in must render through `rich()`.
+- Grep the page for spelling variants of the house style before handoff (here: Canadian English — colour, centre, neighbourhood, favourite, behaviour, catalogue, licence as a noun).

@@ -1,0 +1,21 @@
+{
+ "note": "Structural fingerprint of every published blog post and new page, so new content never repeats the same pattern. The orchestrator appends one entry per shipped page.",
+ "fields": [
+  "slug",
+  "url",
+  "type",
+  "cluster",
+  "funnel",
+  "introStyle",
+  "h2Frames",
+  "sectionOrder",
+  "sectionTypes",
+  "visualTypes",
+  "ctaAngle",
+  "faqCount",
+  "words",
+  "tableCount",
+  "listStyle"
+ ],
+ "posts": []
+}

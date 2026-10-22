@@ -1,0 +1,4 @@
+{
+ "note": "Live pages: slug never changes; meta title changes only with owner approval (then edit the entry). Maintained by scripts/seo-check.mjs. Empty until launch: pages are only locked once content/site.ts has indexable: true.",
+ "pages": {}
+}
