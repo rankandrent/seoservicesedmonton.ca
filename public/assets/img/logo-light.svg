@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="168" height="36" viewBox="0 0 168 36" role="img" aria-label="BrandName">
-  <rect x="0" y="2" width="32" height="32" rx="10" fill="#a9f8ba"/>
-  <circle cx="14.5" cy="16.5" r="6" fill="none" stroke="#283220" stroke-width="2.6"/>
-  <path d="M19 21l5.5 5.5" stroke="#283220" stroke-width="2.6" stroke-linecap="round"/>
-  <text x="42" y="26" font-family="Fraunces, Georgia, serif" font-weight="700" font-size="22" fill="#ffffff">BrandName</text>
-</svg>
