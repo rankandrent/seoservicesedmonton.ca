@@ -155,21 +155,7 @@ Visual: stacked icon cards: Do not hide CSS and JavaScript (Let Google render pa
 
 ---
 
-<!-- Section 9: posts -->
-
-*Eyebrow:* Proof
-
-## Related case studies
-
-- [[Local service business]](https://seoservicesedmonton.ca/case-studies/local-service-business/): [Short summary of the result for a local service business.]
-
-- [[Edmonton online store]](https://seoservicesedmonton.ca/case-studies/ecommerce-store/): [Short summary of the result for an online store.]
-
-- [[Professional services firm]](https://seoservicesedmonton.ca/case-studies/professional-firm/): [Short summary of the result for a professional firm.]
-
----
-
-<!-- Section 10: faq -->
+<!-- Section 9: faq -->
 
 *Eyebrow:* FAQ
 
@@ -195,7 +181,7 @@ WordPress, Shopify, Webflow, Wix and custom builds. [Confirm your supported plat
 
 ---
 
-<!-- Section 11: links -->
+<!-- Section 10: links -->
 
 *Eyebrow:* Related services
 
@@ -209,7 +195,7 @@ WordPress, Shopify, Webflow, Wix and custom builds. [Confirm your supported plat
 
 ---
 
-<!-- Section 12: cta -->
+<!-- Section 11: cta -->
 
 ## Talk to us about Technical SEO in Edmonton
 

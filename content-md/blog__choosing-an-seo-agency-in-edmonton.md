@@ -49,7 +49,7 @@ Hiring an SEO agency is a big decision. Google has a help page written for exact
 
 ## How we answer these questions
 
-We share [case studies](https://seoservicesedmonton.ca/case-studies/), follow Google Search Essentials, log every change and give expected results in writing after an audit. If you want to test us, start with an [SEO Audit](https://seoservicesedmonton.ca/services/seo-audit/).
+We share case studies, follow Google Search Essentials, log every change and give expected results in writing after an audit. If you want to test us, start with an [SEO Audit](https://seoservicesedmonton.ca/services/seo-audit/).
 
 Sources: [Google Search Central: Do you need an SEO?](https://developers.google.com/search/docs/fundamentals/do-i-need-seo), [Google Search Central: Spam policies](https://developers.google.com/search/docs/essentials/spam-policies)
 

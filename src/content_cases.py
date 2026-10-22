@@ -50,3 +50,6 @@ case('local-service-business', '[[Local service business]]', 'Local service', 'p
 case('ecommerce-store', '[[Edmonton online store]]', 'Ecommerce', 'cart', '[[Short summary of the result for an online store.]]', 'Ecommerce SEO, Technical SEO'),
 case('professional-firm', '[[Professional services firm]]', 'Professional services', 'book', '[[Short summary of the result for a professional firm.]]', 'Content SEO, Link Building'),
 ]
+
+# The hub stays a hidden draft until at least one case study is published (its 'noindex' removed).
+PAGES[0]['noindex'] = all(p.get('noindex') for p in PAGES[1:])

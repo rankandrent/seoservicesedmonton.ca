@@ -155,21 +155,7 @@ Visual: stacked icon cards: Verify your business (Confirm you can represent it);
 
 ---
 
-<!-- Section 9: posts -->
-
-*Eyebrow:* Proof
-
-## Related case studies
-
-- [[Local service business]](https://seoservicesedmonton.ca/case-studies/local-service-business/): [Short summary of the result for a local service business.]
-
-- [[Professional services firm]](https://seoservicesedmonton.ca/case-studies/professional-firm/): [Short summary of the result for a professional firm.]
-
-- [[Edmonton online store]](https://seoservicesedmonton.ca/case-studies/ecommerce-store/): [Short summary of the result for an online store.]
-
----
-
-<!-- Section 10: faq -->
+<!-- Section 9: faq -->
 
 *Eyebrow:* FAQ
 
@@ -195,7 +181,7 @@ Yes. Google recommends responding to reviews. A calm, helpful reply shows future
 
 ---
 
-<!-- Section 11: links -->
+<!-- Section 10: links -->
 
 *Eyebrow:* Related services
 
@@ -209,7 +195,7 @@ Yes. Google recommends responding to reviews. A calm, helpful reply shows future
 
 ---
 
-<!-- Section 12: cta -->
+<!-- Section 11: cta -->
 
 ## Talk to us about Google Business Profile in Edmonton
 

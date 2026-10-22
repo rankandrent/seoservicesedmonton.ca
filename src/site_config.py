@@ -10,8 +10,9 @@ SITE = {
  'schema_phone': '[Phone number]', 'schema_email': '[Email address]',
  'hours': '[[Business hours]]',
  'form_action': '#',  # replace with your form endpoint (Formspree, Netlify Forms, HubSpot, etc.)
- 'socials': [('Facebook', 'facebook', 'https://www.facebook.com/'), ('Instagram', 'instagram', 'https://www.instagram.com/'),
-             ('LinkedIn', 'linkedin', 'https://www.linkedin.com/'), ('YouTube', 'youtube', 'https://www.youtube.com/')],
+ # Real profile URLs only. They show as footer icons and as sameAs in the business schema; leave empty to hide both.
+ # Icons available: facebook, instagram, linkedin, youtube. Example: ('LinkedIn', 'linkedin', 'https://www.linkedin.com/company/your-page/')
+ 'socials': [],
  'cta_photo': 'https://images.unsplash.com/photo-1617336422396-e1dfc4210ec5?auto=format&fit=crop&w=1200&q=80',
  'cta_photo_alt': 'City skyline at night across the river valley',
  'marquee': ['Free SEO review for Edmonton businesses', 'Local SEO, technical SEO and content under one roof',

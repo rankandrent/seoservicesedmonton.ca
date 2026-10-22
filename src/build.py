@@ -23,6 +23,8 @@ TODAY = datetime.date.today().isoformat()
 PAGES = (content_core.PAGES + content_services.PAGES + content_locations.PAGES
          + content_cases.PAGES + content_blog.PAGES)
 BY_SLUG = {p['slug']: p for p in PAGES}
+# Drafts: noindex pages waiting on real content (case studies). They are built but never linked from live pages.
+DRAFTS = {p['slug'] for p in PAGES if p.get('noindex') and p['slug'] != '404'}
 
 # ---------------------------------------------------------------- helpers
 def esc(s):
@@ -33,14 +35,18 @@ def rich(s):
     s = esc(s)
     s = re.sub(r'\[\[(.+?)\]\]', r'<span class="ph">[\1]</span>', s)
     s = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', s)
-    s = re.sub(r'\{\{(.+?)\|(.+?)\}\}', lambda m: '<a href="%s">%s</a>' % (link(CUR['slug'], m.group(2)), m.group(1)), s)
+    s = re.sub(r'\{\{(.+?)\|(.+?)\}\}', lambda m: '<a href="%s">%s</a>' % (link(CUR['slug'], m.group(2)), m.group(1)) if linkable(m.group(2)) else m.group(1), s)
     return s
 
 def md(s):
     s = str(s)
     s = re.sub(r'\[\[(.+?)\]\]', r'[\1]', s)
-    s = re.sub(r'\{\{(.+?)\|(.+?)\}\}', lambda m: '[%s](%s)' % (m.group(1), url_of(m.group(2))), s)
+    s = re.sub(r'\{\{(.+?)\|(.+?)\}\}', lambda m: '[%s](%s)' % (m.group(1), url_of(m.group(2))) if linkable(m.group(2)) else m.group(1), s)
     return s
+
+def linkable(to):
+    """Live pages never link to drafts; drafts may link to each other so they still preview properly."""
+    return to.split('#')[0] not in DRAFTS or CUR.get('slug') in DRAFTS
 
 def strip(s):
     s = re.sub(r'\[\[(.+?)\]\]', r'[\1]', str(s))
@@ -284,11 +290,13 @@ def r_cta(s, p):
     return h, ['## %s' % md(s['heading']), md(s['text']), 'Button: [%s](%s)' % (btn[0], url_of(btn[1]))]
 
 def r_links(s, p):
+    slugs = [x for x in s['items'] if linkable(x)]
+    if not slugs: return '', []
     items = ''.join('<a class="card linked reveal" href="%s"><span class="icon-chip %s">%s</span><h3>%s</h3><p>%s</p><span class="link-arrow">View %s</span></a>' % (
         link(p['slug'], slug), CHIPS[i % 4], icon(BY_SLUG[slug].get('icon', 'spark')), esc(BY_SLUG[slug]['nav_label']), rich(BY_SLUG[slug]['card']), icon('arrow', 'currentColor'))
-        for i, slug in enumerate(s['items']))
+        for i, slug in enumerate(slugs))
     h = sec_open(s) + head_block(s.get('eyebrow'), s.get('heading'), s.get('intro'), True) + '<div class="grid cols-%d">%s</div>' % (s.get('cols', 3), items) + SEC_CLOSE
-    m = md_head(s) + ['- [%s](%s): %s' % (BY_SLUG[x]['nav_label'], url_of(x), md(BY_SLUG[x]['card'])) for x in s['items']]
+    m = md_head(s) + ['- [%s](%s): %s' % (BY_SLUG[x]['nav_label'], url_of(x), md(BY_SLUG[x]['card'])) for x in slugs]
     return h, m
 
 def r_team(s, p):
@@ -314,8 +322,10 @@ def r_packages(s, p):
     return h, m
 
 def r_posts(s, p):
+    slugs = [x for x in s['items'] if linkable(x)]
+    if not slugs: return '', []
     out = ''
-    for i, slug in enumerate(s['items']):
+    for i, slug in enumerate(slugs):
         q = BY_SLUG[slug]
         kp = '<div class="kpis">%s</div>' % ''.join('<span>%s</span>' % rich(k) for k in q['kpis']) if q.get('kpis') else ''
         date = '<p class="date">%s</p>' % (rich(q.get('tag', '')) + (' · [[Publish date]]' if q.get('article') else '')).replace('[[Publish date]]', '<span class="ph">[Publish date]</span>')
@@ -324,7 +334,7 @@ def r_posts(s, p):
             i % 3 + 1, PASTELS[i % 4], link(p['slug'], slug), illus(q.get('illus', 'search')) if not q.get('photo') else '', photo(p, q.get('photo') or (slug.replace('/', '-') + '.jpg'), strip(q['nav_label'])),
             link(p['slug'], slug), rich(q['nav_label']), date, kp, rich(q['card']), link(p['slug'], slug), 'Read case study' if q.get('kpis') else 'Continue reading', ARROW)
     h = sec_open(s) + head_block(s.get('eyebrow'), s.get('heading'), s.get('intro'), True) + '<div class="grid cols-3 posts">%s</div>' % out + SEC_CLOSE
-    return h, md_head(s) + ['- [%s](%s): %s' % (strip(BY_SLUG[x]['nav_label']), url_of(x), md(BY_SLUG[x]['card'])) for x in s['items']]
+    return h, md_head(s) + ['- [%s](%s): %s' % (strip(BY_SLUG[x]['nav_label']), url_of(x), md(BY_SLUG[x]['card'])) for x in slugs]
 
 def r_meta(s, p):
     items = ''.join('<div class="reveal"><b>%s</b>%s</div>' % (esc(k), rich(v)) for k, v in s['items'])
@@ -437,21 +447,23 @@ def nav_html(p):
             '<nav aria-label="Main"><ul class="menu" id="menu">'
             '<li class="has-drop"><button aria-expanded="false" aria-haspopup="true">Services%s</button><div class="drop wide"><a href="%s"><strong>All SEO services</strong></a>%s</div></li>'
             '<li class="has-drop"><button aria-expanded="false" aria-haspopup="true">Locations%s</button><div class="drop">%s</div></li>'
-            '<li><a href="%s"%s>Case Studies</a></li>'
+            '%s'
             '<li class="has-drop"><button aria-expanded="false" aria-haspopup="true">Company%s</button><div class="drop">%s</div></li>'
             '<li><a href="%s"%s>Blog</a></li><li><a href="%s"%s>Contact</a></li></ul></nav>'
             '<div class="nav-cta"><a class="btn btn-dark btn-sm" href="%s">Free SEO Review</a><button class="burger" aria-label="Open menu" aria-controls="menu" aria-expanded="false"><span></span></button></div></div></header>') % (
         link(sl, ''), esc(SITE['brand']), asset(sl, 'assets/img/logo.svg'), esc(SITE['brand']),
-        chev, link(sl, 'services'), svc, chev, loc, link(sl, 'case-studies'), cur('case-studies'), chev, company,
+        chev, link(sl, 'services'), svc, chev, loc,
+        '<li><a href="%s"%s>Case Studies</a></li>' % (link(sl, 'case-studies'), cur('case-studies')) if linkable('case-studies') else '', chev, company,
         link(sl, 'blog'), cur('blog'), link(sl, 'contact'), cur('contact'), link(sl, 'contact'))
 
 def footer_html(p):
     sl = p['slug']
-    col = lambda title, slugs: '<div><h4>%s</h4><ul>%s</ul></div>' % (title, ''.join('<li><a href="%s">%s</a></li>' % (link(sl, s), esc(BY_SLUG[s]['nav_label'])) for s in slugs))
+    col = lambda title, slugs: '<div><h4>%s</h4><ul>%s</ul></div>' % (title, ''.join('<li><a href="%s">%s</a></li>' % (link(sl, s), esc(BY_SLUG[s]['nav_label'])) for s in slugs if linkable(s)))
     svcs = [x['slug'] for x in content_services.PAGES if x['slug'] != 'services'][:6]
     soc = ''.join('<a href="%s" aria-label="%s" rel="noopener">%s</a>' % (esc(u), n, icon(i, 'currentColor')) for n, i, u in SITE['socials'])
+    soc = '<div class="socials">%s</div>' % soc if soc else ''
     return ('<footer class="site-footer"><div class="container"><div class="footer-top"><div><a class="logo" href="%s"><img src="%s" alt="%s logo" width="168" height="36"></a>'
-            '<p>%s</p><p>%s<br>%s<br>%s</p><div class="socials">%s</div></div>%s%s%s%s</div>'
+            '<p>%s</p><p>%s<br>%s<br>%s</p>%s</div>%s%s%s%s</div>'
             '<div class="footer-bottom"><span>&copy; <span id="year">%s</span> %s. All rights reserved.</span><span><a href="%s">Privacy Policy</a> &nbsp;&middot;&nbsp; <a href="%s">Terms</a> &nbsp;&middot;&nbsp; <a href="%s">Sitemap</a></span></div></div></footer>') % (
         link(sl, ''), asset(sl, 'assets/img/logo.svg'), esc(SITE['brand']), rich(SITE['footer_blurb']),
         rich(SITE['address_html']), rich(SITE['phone']), rich(SITE['email']), soc,
@@ -466,20 +478,23 @@ def marquee_html():
 
 # ---------------------------------------------------------------- schema
 def org_schema():
-    return {
+    org = {
         '@type': 'ProfessionalService', '@id': SITE['domain'] + '/#business', 'name': SITE['brand'], 'url': SITE['domain'] + '/',
         'logo': SITE['domain'] + '/assets/img/logo.svg', 'image': SITE['domain'] + '/assets/img/og-default.png',
         'description': SITE['org_description'], 'telephone': SITE['schema_phone'], 'email': SITE['schema_email'],
         'address': {'@type': 'PostalAddress', 'streetAddress': SITE['street'], 'addressLocality': 'Edmonton', 'addressRegion': 'AB', 'postalCode': SITE['postal'], 'addressCountry': 'CA'},
         'areaServed': {'@type': 'City', 'name': 'Edmonton', 'sameAs': 'https://en.wikipedia.org/wiki/Edmonton'},
-        'sameAs': [u for _, _, u in SITE['socials']],
     }
+    if SITE['socials']:
+        org['sameAs'] = [u for _, _, u in SITE['socials']]
+    return org
 
 def schema_for(p):
     graph = [org_schema(), {'@type': 'WebSite', '@id': SITE['domain'] + '/#website', 'url': SITE['domain'] + '/', 'name': SITE['brand'], 'publisher': {'@id': SITE['domain'] + '/#business'}}]
     url = url_of(p['slug'])
-    graph.append({'@type': p.get('page_type', 'WebPage'), '@id': url + '#webpage', 'url': url, 'name': p['title'], 'description': p['description'],
-                  'isPartOf': {'@id': SITE['domain'] + '/#website'}, 'inLanguage': 'en-CA'})
+    webpage = {'@type': p.get('page_type', 'WebPage'), '@id': url + '#webpage', 'url': url, 'name': p['title'], 'description': p['description'],
+               'isPartOf': {'@id': SITE['domain'] + '/#website'}, 'inLanguage': 'en-CA'}
+    graph.append(webpage)
     crumbs = [('Home', '')] + list(p.get('crumbs', [])) + ([(p['nav_label'], p['slug'])] if p['slug'] else [])
     if p['slug']:
         graph.append({'@type': 'BreadcrumbList', 'itemListElement': [{'@type': 'ListItem', 'position': i + 1, 'name': strip(n), 'item': url_of(s)} for i, (n, s) in enumerate(crumbs)]})
@@ -492,7 +507,10 @@ def schema_for(p):
                       'publisher': {'@id': SITE['domain'] + '/#business'}, 'image': SITE['domain'] + '/assets/img/og-default.png'})
     faqs = [s for s in p['sections'] if s['type'] == 'faq']
     if faqs:
-        graph.append({'@type': 'FAQPage', 'mainEntity': [{'@type': 'Question', 'name': strip(q), 'acceptedAnswer': {'@type': 'Answer', 'text': strip(a)}} for f in faqs for q, a in f['items']]})
+        questions = [{'@type': 'Question', 'name': strip(q), 'acceptedAnswer': {'@type': 'Answer', 'text': strip(a)}} for f in faqs for q, a in f['items']]
+        # A page typed FAQPage carries the questions itself; anything else gets one separate FAQPage node.
+        if webpage['@type'] == 'FAQPage': webpage['mainEntity'] = questions
+        else: graph.append({'@type': 'FAQPage', 'mainEntity': questions})
     return json.dumps({'@context': 'https://schema.org', '@graph': graph}, indent=1, ensure_ascii=False)
 
 # ---------------------------------------------------------------- page
@@ -501,7 +519,8 @@ def build_page(p):
     body, mdl = [], []
     for s in p['sections']:
         h, m = RENDER[s['type']](s, p)
-        body.append(h); mdl.append('\n\n'.join(x for x in m if x))
+        if not h: continue  # section had nothing linkable to show
+        body.append(h); mdl.append((s, '\n\n'.join(x for x in m if x)))
     url = url_of(p['slug'])
     robots = 'noindex, follow' if p.get('noindex') else 'index, follow, max-image-preview:large'
     head = '''<!doctype html>
@@ -558,7 +577,7 @@ def build_page(p):
     md_dir = os.path.join(ROOT, 'content-md')
     os.makedirs(md_dir, exist_ok=True)
     blocks = []
-    for i, (s, m) in enumerate(zip(p['sections'], mdl)):
+    for i, (s, m) in enumerate(mdl):
         blocks.append('<!-- Section %d: %s -->\n\n%s' % (i + 1, s['type'], m))
     with open(os.path.join(md_dir, mdname), 'w') as f:
         f.write('\n'.join(front) + '\n\n---\n\n'.join(blocks) + '\n')
@@ -586,10 +605,23 @@ def seo_files():
     # Netlify / Cloudflare Pages friendly 404 + headers
     open(os.path.join(OUT, '_headers'), 'w').write('/assets/*\n  Cache-Control: public, max-age=31536000, immutable\n')
 
+KEEP = {'assets'}  # hand-maintained files in dist/ that a production build must not delete
+
+def clean(folder, keep=()):
+    """Remove the previous build so renamed or deleted pages do not linger."""
+    if not os.path.isdir(folder): return
+    for name in os.listdir(folder):
+        if name in keep: continue
+        path = os.path.join(folder, name)
+        shutil.rmtree(path) if os.path.isdir(path) else os.remove(path)
+
 def main():
-    if os.path.exists(OUT) and PREVIEW: shutil.rmtree(OUT)
+    clean(os.path.join(ROOT, 'content-md'))
     if PREVIEW:
+        if os.path.exists(OUT): shutil.rmtree(OUT)
         shutil.copytree(os.path.join(ROOT, 'dist', 'assets'), os.path.join(OUT, 'assets'))
+    else:
+        clean(OUT, KEEP)
     seen = set()
     for p in PAGES:
         assert p['slug'] not in seen, 'duplicate slug ' + p['slug']; seen.add(p['slug'])

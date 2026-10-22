@@ -5,7 +5,7 @@ meta_title: "SEO Case Studies | Edmonton Results | BrandName"
 meta_description: "SEO case studies from Edmonton businesses. See the starting point, what we changed and the measured results for each client."
 primary_keyword: "edmonton seo case studies"
 schema: [ProfessionalService, WebSite, CollectionPage, BreadcrumbList]
-robots: index, follow, max-image-preview:large
+robots: noindex, follow
 ---
 <!-- Section 1: page_hero -->
 

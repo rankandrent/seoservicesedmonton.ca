@@ -4,7 +4,7 @@ Static HTML website for an Edmonton SEO agency. 35 pages, one Markdown content f
 
 ## Folders
 
-- `dist/` The live site. Upload this folder to your host (Netlify, Cloudflare Pages, Vercel or any static host). Uses clean URLs like `/services/local-seo/`.
+- `dist/` The live site. Upload this folder to your host (Netlify, Cloudflare Pages, Vercel or any static host). Uses clean URLs like `/services/local-seo/`. Each build wipes everything in `dist/` except `assets/` (and `content-md/` entirely), so add any other hand-made files (for example `_redirects`) to `KEEP` in `src/build.py`.
 - `preview/` Same site with links that work when you open `preview/index.html` straight from your computer.
 - `content-md/` One Markdown file per page with meta title, meta description, primary keyword, schema types and every section in order.
 - `src/` The generator. Edit content in `content_*.py`, then run `python3 src/build.py` (live) and `python3 src/build.py --preview` (local preview).
@@ -26,11 +26,11 @@ Meta title, meta description, canonical, robots, Open Graph and Twitter tags, hr
 
 1. Find and replace `BrandName` and `https://www.yourdomain.ca` in `src/site_config.py` and the SVG logos in `dist/assets/img/`, then rebuild.
 2. Fill every `[placeholder]`. They show in square brackets with a dotted green underline so they are easy to spot. Key ones: address, phone, email, hours, team names, stats bands, careers perks and roles, contract terms.
-3. Case studies are set to noindex and left out of the sitemap until real client data replaces the placeholders. Remove `'noindex': True` in `src/content_cases.py` once filled.
+3. Case studies are drafts: set to noindex, left out of the sitemap and not linked from any live page (menu, footer, service pages, About, 404, blog) until real client data replaces the placeholders. Remove `'noindex': True` from a case study in `src/content_cases.py` once it is filled; the Case Studies hub and every link to it come back automatically.
 4. Photos: the hero, about, why us, blog and contact band use free Unsplash photos (Unsplash License: free for commercial use, no attribution required, https://unsplash.com/license). Replace them with real photos of your team, office and clients for the most authentic result. Optional hero video: add `dist/assets/video/hero.mp4` and it replaces the hero photo automatically.
 5. Fonts (DM Sans and Fraunces, SIL Open Font License) are self-hosted in `dist/assets/fonts/`, so no Google Fonts request is needed.
 6. Point the contact form at a real endpoint: `form_action` in `src/site_config.py`.
-7. Replace social profile links in `src/site_config.py`.
+7. Add your real social profile URLs to `socials` in `src/site_config.py`. The list starts empty, so no footer icons or schema `sameAs` links appear until you do.
 8. Have the Privacy Policy and Terms reviewed before publishing.
 9. Verify the site in Google Search Console and submit `sitemap.xml`.
 

@@ -107,8 +107,6 @@ Visual: search result mock for "best [service] near me"
 
 - [Our Team](https://seoservicesedmonton.ca/team/): The people behind the work.
 
-- [Case Studies](https://seoservicesedmonton.ca/case-studies/): Real projects and measured results.
-
 - [Careers](https://seoservicesedmonton.ca/career/): Open roles and how we hire.
 
 ---
