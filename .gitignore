@@ -1,8 +1,9 @@
 .DS_Store
-preview/
-__pycache__/
-*.pyc
 .env
 .dev.vars
 .wrangler/
 node_modules/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
