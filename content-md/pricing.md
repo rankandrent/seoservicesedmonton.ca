@@ -1,6 +1,6 @@
 ---
 page: SEO Packages
-url: https://www.yourdomain.ca/pricing/
+url: https://seoservicesedmonton.ca/pricing/
 meta_title: "SEO Packages for Edmonton Businesses | BrandName"
 meta_description: "Compare BrandName SEO packages for Edmonton businesses: Local, Growth and Ecommerce. See what each includes and request a custom quote."
 primary_keyword: "seo packages edmonton"
@@ -123,7 +123,7 @@ Scope depends on your site, competition and goals. We give you a written quote a
 
 ### Can we start with just an audit?
 
-Yes. Our [SEO Audit](https://www.yourdomain.ca/services/seo-audit/) is a stand-alone project.
+Yes. Our [SEO Audit](https://seoservicesedmonton.ca/services/seo-audit/) is a stand-alone project.
 
 ---
 
@@ -133,4 +133,4 @@ Yes. Our [SEO Audit](https://www.yourdomain.ca/services/seo-audit/) is a stand-a
 
 Tell us your goals and we will recommend the right package.
 
-Button: [Book a free SEO review](https://www.yourdomain.ca/contact/)
+Button: [Book a free SEO review](https://seoservicesedmonton.ca/contact/)

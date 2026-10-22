@@ -1,6 +1,6 @@
 ---
 page: Terms and Conditions
-url: https://www.yourdomain.ca/terms/
+url: https://seoservicesedmonton.ca/terms/
 meta_title: "Terms and Conditions | BrandName"
 meta_description: "The terms that apply to using the BrandName website."
 primary_keyword: ""

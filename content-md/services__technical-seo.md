@@ -1,6 +1,6 @@
 ---
 page: Technical SEO
-url: https://www.yourdomain.ca/services/technical-seo/
+url: https://seoservicesedmonton.ca/services/technical-seo/
 meta_title: "Technical SEO Services Edmonton | Crawl, Index, Speed | BrandName"
 meta_description: "Technical SEO in Edmonton: crawling, indexing, site structure, canonicals, structured data and page experience fixes so Google can read every page."
 primary_keyword: "technical seo edmonton"
@@ -161,11 +161,11 @@ Visual: stacked icon cards: Do not hide CSS and JavaScript (Let Google render pa
 
 ## Related case studies
 
-- [[Local service business]](https://www.yourdomain.ca/case-studies/local-service-business/): [Short summary of the result for a local service business.]
+- [[Local service business]](https://seoservicesedmonton.ca/case-studies/local-service-business/): [Short summary of the result for a local service business.]
 
-- [[Edmonton online store]](https://www.yourdomain.ca/case-studies/ecommerce-store/): [Short summary of the result for an online store.]
+- [[Edmonton online store]](https://seoservicesedmonton.ca/case-studies/ecommerce-store/): [Short summary of the result for an online store.]
 
-- [[Professional services firm]](https://www.yourdomain.ca/case-studies/professional-firm/): [Short summary of the result for a professional firm.]
+- [[Professional services firm]](https://seoservicesedmonton.ca/case-studies/professional-firm/): [Short summary of the result for a professional firm.]
 
 ---
 
@@ -201,11 +201,11 @@ WordPress, Shopify, Webflow, Wix and custom builds. [Confirm your supported plat
 
 ## Services that work well alongside Technical SEO
 
-- [SEO Audit](https://www.yourdomain.ca/services/seo-audit/): Know exactly what to fix first.
+- [SEO Audit](https://seoservicesedmonton.ca/services/seo-audit/): Know exactly what to fix first.
 
-- [On-Page SEO](https://www.yourdomain.ca/services/on-page-seo/): Pages shaped around what your customers search for.
+- [On-Page SEO](https://seoservicesedmonton.ca/services/on-page-seo/): Pages shaped around what your customers search for.
 
-- [AI Search Optimization](https://www.yourdomain.ca/services/ai-search-optimization/): Be ready for AI Overviews and AI assistants.
+- [AI Search Optimization](https://seoservicesedmonton.ca/services/ai-search-optimization/): Be ready for AI Overviews and AI assistants.
 
 ---
 
@@ -215,4 +215,4 @@ WordPress, Shopify, Webflow, Wix and custom builds. [Confirm your supported plat
 
 Book a free review and we will show you the biggest opportunities for your business.
 
-Button: [Book a free SEO review](https://www.yourdomain.ca/contact/)
+Button: [Book a free SEO review](https://seoservicesedmonton.ca/contact/)

@@ -1,6 +1,6 @@
 ---
 page: Summerside
-url: https://www.yourdomain.ca/locations/summerside/
+url: https://seoservicesedmonton.ca/locations/summerside/
 meta_title: "SEO Services Summerside Edmonton | Local SEO | BrandName"
 meta_description: "SEO services for businesses in Summerside, Edmonton. How to build location and service area pages that help customers instead of looking like doorway pages."
 primary_keyword: "seo services summerside edmonton"
@@ -127,11 +127,11 @@ Projects, staff, photos, testimonials and answers specific to that area.
 
 ## Other Edmonton neighbourhoods we cover
 
-- [Downtown](https://www.yourdomain.ca/locations/downtown-edmonton/): Storefront vs service area profiles
+- [Downtown](https://seoservicesedmonton.ca/locations/downtown-edmonton/): Storefront vs service area profiles
 
-- [Oliver](https://www.yourdomain.ca/locations/oliver/): Building a steady review process
+- [Oliver](https://seoservicesedmonton.ca/locations/oliver/): Building a steady review process
 
-- [Strathcona](https://www.yourdomain.ca/locations/strathcona/): Photos, hours and keeping your profile current
+- [Strathcona](https://seoservicesedmonton.ca/locations/strathcona/): Photos, hours and keeping your profile current
 
 ---
 
@@ -141,4 +141,4 @@ Projects, staff, photos, testimonials and answers specific to that area.
 
 Book a free review. We will check how you appear to customers searching in Summerside.
 
-Button: [Book a free SEO review](https://www.yourdomain.ca/contact/)
+Button: [Book a free SEO review](https://seoservicesedmonton.ca/contact/)

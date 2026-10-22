@@ -1,6 +1,6 @@
 ---
 page: Terwillegar Towne
-url: https://www.yourdomain.ca/locations/terwillegar-towne/
+url: https://seoservicesedmonton.ca/locations/terwillegar-towne/
 meta_title: "SEO Services Terwillegar Towne Edmonton | Local SEO | BrandName"
 meta_description: "SEO services for businesses in Terwillegar Towne, Edmonton. How consistent business details across listings and your website support local search."
 primary_keyword: "seo services terwillegar towne edmonton"
@@ -127,11 +127,11 @@ Your Business Profile, then your website, then major listings.
 
 ## Other Edmonton neighbourhoods we cover
 
-- [Downtown](https://www.yourdomain.ca/locations/downtown-edmonton/): Storefront vs service area profiles
+- [Downtown](https://seoservicesedmonton.ca/locations/downtown-edmonton/): Storefront vs service area profiles
 
-- [Oliver](https://www.yourdomain.ca/locations/oliver/): Building a steady review process
+- [Oliver](https://seoservicesedmonton.ca/locations/oliver/): Building a steady review process
 
-- [Strathcona](https://www.yourdomain.ca/locations/strathcona/): Photos, hours and keeping your profile current
+- [Strathcona](https://seoservicesedmonton.ca/locations/strathcona/): Photos, hours and keeping your profile current
 
 ---
 
@@ -141,4 +141,4 @@ Your Business Profile, then your website, then major listings.
 
 Book a free review. We will check how you appear to customers searching in Terwillegar Towne.
 
-Button: [Book a free SEO review](https://www.yourdomain.ca/contact/)
+Button: [Book a free SEO review](https://seoservicesedmonton.ca/contact/)

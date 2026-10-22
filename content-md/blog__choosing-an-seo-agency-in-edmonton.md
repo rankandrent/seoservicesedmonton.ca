@@ -1,6 +1,6 @@
 ---
 page: How to Choose an SEO Agency in Edmonton
-url: https://www.yourdomain.ca/blog/choosing-an-seo-agency-in-edmonton/
+url: https://seoservicesedmonton.ca/blog/choosing-an-seo-agency-in-edmonton/
 meta_title: "How to Choose an SEO Agency in Edmonton | BrandName Blog"
 meta_description: "Questions to ask before hiring an SEO agency in Edmonton, based on Google's own advice, plus the red flags that should make you walk away."
 primary_keyword: "choose seo agency edmonton"
@@ -49,7 +49,7 @@ Hiring an SEO agency is a big decision. Google has a help page written for exact
 
 ## How we answer these questions
 
-We share [case studies](https://www.yourdomain.ca/case-studies/), follow Google Search Essentials, log every change and give expected results in writing after an audit. If you want to test us, start with an [SEO Audit](https://www.yourdomain.ca/services/seo-audit/).
+We share [case studies](https://seoservicesedmonton.ca/case-studies/), follow Google Search Essentials, log every change and give expected results in writing after an audit. If you want to test us, start with an [SEO Audit](https://seoservicesedmonton.ca/services/seo-audit/).
 
 Sources: [Google Search Central: Do you need an SEO?](https://developers.google.com/search/docs/fundamentals/do-i-need-seo), [Google Search Central: Spam policies](https://developers.google.com/search/docs/essentials/spam-policies)
 
@@ -61,9 +61,9 @@ Sources: [Google Search Central: Do you need an SEO?](https://developers.google.
 
 ## More from the blog
 
-- [How Google Ranks Local Businesses in Edmonton](https://www.yourdomain.ca/blog/how-google-ranks-local-businesses/): The three factors Google uses for local results and what you can do about each one.
+- [How Google Ranks Local Businesses in Edmonton](https://seoservicesedmonton.ca/blog/how-google-ranks-local-businesses/): The three factors Google uses for local results and what you can do about each one.
 
-- [AI Overviews and Your Website: What Google Says](https://www.yourdomain.ca/blog/ai-overviews-and-your-website/): Google's own answer on what it takes to appear in AI Overviews and AI Mode.
+- [AI Overviews and Your Website: What Google Says](https://seoservicesedmonton.ca/blog/ai-overviews-and-your-website/): Google's own answer on what it takes to appear in AI Overviews and AI Mode.
 
 ---
 
@@ -73,4 +73,4 @@ Sources: [Google Search Central: Do you need an SEO?](https://developers.google.
 
 Book a free SEO review and we will apply it to your site and profile.
 
-Button: [Book a free SEO review](https://www.yourdomain.ca/contact/)
+Button: [Book a free SEO review](https://seoservicesedmonton.ca/contact/)

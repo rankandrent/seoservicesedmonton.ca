@@ -1,6 +1,6 @@
 ---
 page: Downtown
-url: https://www.yourdomain.ca/locations/downtown-edmonton/
+url: https://seoservicesedmonton.ca/locations/downtown-edmonton/
 meta_title: "SEO Services Downtown Edmonton | Local SEO | BrandName"
 meta_description: "SEO services for Downtown Edmonton businesses. Learn how storefront and service area profiles work and how we help you rank in local results."
 primary_keyword: "seo services downtown edmonton"
@@ -127,11 +127,11 @@ No. We work across Edmonton. This page focuses on one topic many Downtown busine
 
 ## Other Edmonton neighbourhoods we cover
 
-- [Oliver](https://www.yourdomain.ca/locations/oliver/): Building a steady review process
+- [Oliver](https://seoservicesedmonton.ca/locations/oliver/): Building a steady review process
 
-- [Strathcona](https://www.yourdomain.ca/locations/strathcona/): Photos, hours and keeping your profile current
+- [Strathcona](https://seoservicesedmonton.ca/locations/strathcona/): Photos, hours and keeping your profile current
 
-- [Windermere](https://www.yourdomain.ca/locations/windermere/): Launching a new business on Google
+- [Windermere](https://seoservicesedmonton.ca/locations/windermere/): Launching a new business on Google
 
 ---
 
@@ -141,4 +141,4 @@ No. We work across Edmonton. This page focuses on one topic many Downtown busine
 
 Book a free review. We will check how you appear to customers searching in Downtown.
 
-Button: [Book a free SEO review](https://www.yourdomain.ca/contact/)
+Button: [Book a free SEO review](https://seoservicesedmonton.ca/contact/)

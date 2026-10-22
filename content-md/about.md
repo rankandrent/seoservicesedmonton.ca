@@ -1,6 +1,6 @@
 ---
 page: About
-url: https://www.yourdomain.ca/about/
+url: https://seoservicesedmonton.ca/about/
 meta_title: "About BrandName | Edmonton SEO Agency"
 meta_description: "Meet BrandName, an Edmonton SEO agency focused on local search, honest reporting and work you can see. Learn how we work and what we believe."
 primary_keyword: "edmonton seo agency"
@@ -105,11 +105,11 @@ Visual: search result mock for "best [service] near me"
 
 ## More about BrandName
 
-- [Our Team](https://www.yourdomain.ca/team/): The people behind the work.
+- [Our Team](https://seoservicesedmonton.ca/team/): The people behind the work.
 
-- [Case Studies](https://www.yourdomain.ca/case-studies/): Real projects and measured results.
+- [Case Studies](https://seoservicesedmonton.ca/case-studies/): Real projects and measured results.
 
-- [Careers](https://www.yourdomain.ca/career/): Open roles and how we hire.
+- [Careers](https://seoservicesedmonton.ca/career/): Open roles and how we hire.
 
 ---
 
@@ -119,4 +119,4 @@ Visual: search result mock for "best [service] near me"
 
 Tell us about your business and we will show you where the opportunities are.
 
-Button: [Book a free SEO review](https://www.yourdomain.ca/contact/)
+Button: [Book a free SEO review](https://seoservicesedmonton.ca/contact/)

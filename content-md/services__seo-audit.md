@@ -1,6 +1,6 @@
 ---
 page: SEO Audit
-url: https://www.yourdomain.ca/services/seo-audit/
+url: https://seoservicesedmonton.ca/services/seo-audit/
 meta_title: "SEO Audit Edmonton | Full Website SEO Audit | BrandName"
 meta_description: "A full SEO audit for Edmonton businesses: technical, on-page, content, links and local search reviewed, with a prioritized fix list you can act on."
 primary_keyword: "seo audit edmonton"
@@ -157,11 +157,11 @@ Visual: stacked icon cards: Examples of past work (Success stories); Search Esse
 
 ## Related case studies
 
-- [[Local service business]](https://www.yourdomain.ca/case-studies/local-service-business/): [Short summary of the result for a local service business.]
+- [[Local service business]](https://seoservicesedmonton.ca/case-studies/local-service-business/): [Short summary of the result for a local service business.]
 
-- [[Edmonton online store]](https://www.yourdomain.ca/case-studies/ecommerce-store/): [Short summary of the result for an online store.]
+- [[Edmonton online store]](https://seoservicesedmonton.ca/case-studies/ecommerce-store/): [Short summary of the result for an online store.]
 
-- [[Professional services firm]](https://www.yourdomain.ca/case-studies/professional-firm/): [Short summary of the result for a professional firm.]
+- [[Professional services firm]](https://seoservicesedmonton.ca/case-studies/professional-firm/): [Short summary of the result for a professional firm.]
 
 ---
 
@@ -197,11 +197,11 @@ We use crawling tools, but every finding is checked and explained by a person.
 
 ## Services that work well alongside SEO Audit
 
-- [Technical SEO](https://www.yourdomain.ca/services/technical-seo/): Fix the foundations so Google can crawl and index every page.
+- [Technical SEO](https://seoservicesedmonton.ca/services/technical-seo/): Fix the foundations so Google can crawl and index every page.
 
-- [On-Page SEO](https://www.yourdomain.ca/services/on-page-seo/): Pages shaped around what your customers search for.
+- [On-Page SEO](https://seoservicesedmonton.ca/services/on-page-seo/): Pages shaped around what your customers search for.
 
-- [Local SEO](https://www.yourdomain.ca/services/local-seo/): Rank in Google Maps and local results across Edmonton.
+- [Local SEO](https://seoservicesedmonton.ca/services/local-seo/): Rank in Google Maps and local results across Edmonton.
 
 ---
 
@@ -211,4 +211,4 @@ We use crawling tools, but every finding is checked and explained by a person.
 
 Book a free review and we will show you the biggest opportunities for your business.
 
-Button: [Book a free SEO review](https://www.yourdomain.ca/contact/)
+Button: [Book a free SEO review](https://seoservicesedmonton.ca/contact/)

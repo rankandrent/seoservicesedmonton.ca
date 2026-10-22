@@ -1,6 +1,6 @@
 ---
 page: Privacy Policy
-url: https://www.yourdomain.ca/privacy-policy/
+url: https://seoservicesedmonton.ca/privacy-policy/
 meta_title: "Privacy Policy | BrandName"
 meta_description: "How BrandName collects, uses and protects personal information submitted through this website."
 primary_keyword: ""

@@ -1,6 +1,6 @@
 ---
 page: Careers
-url: https://www.yourdomain.ca/career/
+url: https://seoservicesedmonton.ca/career/
 meta_title: "Careers | SEO Jobs in Edmonton | BrandName"
 meta_description: "Explore SEO careers at BrandName in Edmonton. See open roles, what we look for and how our hiring process works."
 primary_keyword: "seo jobs edmonton"
@@ -75,4 +75,4 @@ Join a team that values clear thinking, honest reporting and doing the work prop
 
 Send us your CV anyway. We are always happy to hear from good people.
 
-Button: [Get in touch](https://www.yourdomain.ca/contact/)
+Button: [Get in touch](https://seoservicesedmonton.ca/contact/)

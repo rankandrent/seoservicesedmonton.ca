@@ -1,6 +1,6 @@
 ---
 page: Windermere
-url: https://www.yourdomain.ca/locations/windermere/
+url: https://seoservicesedmonton.ca/locations/windermere/
 meta_title: "SEO Services Windermere Edmonton | Local SEO | BrandName"
 meta_description: "SEO services for businesses in Windermere, Edmonton. A launch checklist for new businesses: verification, website basics and first local signals."
 primary_keyword: "seo services windermere edmonton"
@@ -127,11 +127,11 @@ Google says a sitemap is optional and most pages are found through links, but it
 
 ## Other Edmonton neighbourhoods we cover
 
-- [Downtown](https://www.yourdomain.ca/locations/downtown-edmonton/): Storefront vs service area profiles
+- [Downtown](https://seoservicesedmonton.ca/locations/downtown-edmonton/): Storefront vs service area profiles
 
-- [Oliver](https://www.yourdomain.ca/locations/oliver/): Building a steady review process
+- [Oliver](https://seoservicesedmonton.ca/locations/oliver/): Building a steady review process
 
-- [Strathcona](https://www.yourdomain.ca/locations/strathcona/): Photos, hours and keeping your profile current
+- [Strathcona](https://seoservicesedmonton.ca/locations/strathcona/): Photos, hours and keeping your profile current
 
 ---
 
@@ -141,4 +141,4 @@ Google says a sitemap is optional and most pages are found through links, but it
 
 Book a free review. We will check how you appear to customers searching in Windermere.
 
-Button: [Book a free SEO review](https://www.yourdomain.ca/contact/)
+Button: [Book a free SEO review](https://seoservicesedmonton.ca/contact/)

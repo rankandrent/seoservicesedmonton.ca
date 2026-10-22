@@ -1,6 +1,6 @@
 ---
 page: All Locations
-url: https://www.yourdomain.ca/locations/
+url: https://seoservicesedmonton.ca/locations/
 meta_title: "Edmonton SEO Locations | Neighbourhoods We Serve | BrandName"
 meta_description: "SEO services across Edmonton neighbourhoods including Downtown, Oliver, Strathcona, Windermere, Summerside and Terwillegar Towne."
 primary_keyword: "seo edmonton neighbourhoods"
@@ -43,17 +43,17 @@ Visual: map card with pin, label "Results vary by location"
 
 Each page covers a different local SEO topic, so they are worth reading even if you are elsewhere in the city.
 
-- [Downtown](https://www.yourdomain.ca/locations/downtown-edmonton/): Storefront vs service area profiles
+- [Downtown](https://seoservicesedmonton.ca/locations/downtown-edmonton/): Storefront vs service area profiles
 
-- [Oliver](https://www.yourdomain.ca/locations/oliver/): Building a steady review process
+- [Oliver](https://seoservicesedmonton.ca/locations/oliver/): Building a steady review process
 
-- [Strathcona](https://www.yourdomain.ca/locations/strathcona/): Photos, hours and keeping your profile current
+- [Strathcona](https://seoservicesedmonton.ca/locations/strathcona/): Photos, hours and keeping your profile current
 
-- [Windermere](https://www.yourdomain.ca/locations/windermere/): Launching a new business on Google
+- [Windermere](https://seoservicesedmonton.ca/locations/windermere/): Launching a new business on Google
 
-- [Summerside](https://www.yourdomain.ca/locations/summerside/): Location pages done right
+- [Summerside](https://seoservicesedmonton.ca/locations/summerside/): Location pages done right
 
-- [Terwillegar Towne](https://www.yourdomain.ca/locations/terwillegar-towne/): Citations and consistent business details
+- [Terwillegar Towne](https://seoservicesedmonton.ca/locations/terwillegar-towne/): Citations and consistent business details
 
 ---
 
@@ -87,4 +87,4 @@ Each page covers a different local SEO topic, so they are worth reading even if 
 
 We work across Edmonton. Tell us where your customers are and we will plan around it.
 
-Button: [Book a free SEO review](https://www.yourdomain.ca/contact/)
+Button: [Book a free SEO review](https://seoservicesedmonton.ca/contact/)

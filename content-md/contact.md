@@ -1,6 +1,6 @@
 ---
 page: Contact
-url: https://www.yourdomain.ca/contact/
+url: https://seoservicesedmonton.ca/contact/
 meta_title: "Contact BrandName | Free SEO Review in Edmonton"
 meta_description: "Contact BrandName for a free SEO review. Tell us about your Edmonton business and we will show you what to fix first on Google."
 primary_keyword: "edmonton seo company contact"
@@ -39,7 +39,7 @@ Prefer to call or email? Use the details below.
 
 Form fields: Full name, Work email, Website, Phone, Service (Local SEO, Technical SEO, On-Page SEO, Content SEO, Link Building, Google Business Profile, Ecommerce SEO, SEO Audit, AI Search Optimization, Not sure yet), Message. Button: [Send message]
 
-We reply within one business day. Your details are used only to respond to your enquiry. See our [Privacy Policy](https://www.yourdomain.ca/privacy-policy/).
+We reply within one business day. Your details are used only to respond to your enquiry. See our [Privacy Policy](https://seoservicesedmonton.ca/privacy-policy/).
 
 ---
 

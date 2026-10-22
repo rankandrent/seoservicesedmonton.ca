@@ -1,6 +1,6 @@
 ---
 page: Home
-url: https://www.yourdomain.ca/
+url: https://seoservicesedmonton.ca/
 meta_title: "SEO Services Edmonton | Local SEO Agency | BrandName"
 meta_description: "SEO services in Edmonton for businesses that want more calls, bookings and sales from Google. Local SEO, technical SEO, content and link building."
 primary_keyword: "seo services edmonton"
@@ -89,39 +89,39 @@ Pick one service or combine them into a single plan. Every engagement starts wit
 
 ### Local SEO
 
-Rank in Google Maps and local results across Edmonton. [Learn more](https://www.yourdomain.ca/services/local-seo/)
+Rank in Google Maps and local results across Edmonton. [Learn more](https://seoservicesedmonton.ca/services/local-seo/)
 
 ### Technical SEO
 
-Fix the foundations so Google can crawl and index every page. [Learn more](https://www.yourdomain.ca/services/technical-seo/)
+Fix the foundations so Google can crawl and index every page. [Learn more](https://seoservicesedmonton.ca/services/technical-seo/)
 
 ### On-Page SEO
 
-Pages shaped around what your customers search for. [Learn more](https://www.yourdomain.ca/services/on-page-seo/)
+Pages shaped around what your customers search for. [Learn more](https://seoservicesedmonton.ca/services/on-page-seo/)
 
 ### Content SEO
 
-Helpful content written for Edmonton customers. [Learn more](https://www.yourdomain.ca/services/content-seo/)
+Helpful content written for Edmonton customers. [Learn more](https://seoservicesedmonton.ca/services/content-seo/)
 
 ### Link Building
 
-Earn relevant links without breaking Google's rules. [Learn more](https://www.yourdomain.ca/services/link-building/)
+Earn relevant links without breaking Google's rules. [Learn more](https://seoservicesedmonton.ca/services/link-building/)
 
 ### Google Business Profile
 
-A complete, verified profile that wins the map. [Learn more](https://www.yourdomain.ca/services/google-business-profile/)
+A complete, verified profile that wins the map. [Learn more](https://seoservicesedmonton.ca/services/google-business-profile/)
 
 ### Ecommerce SEO
 
-More organic sales for online stores. [Learn more](https://www.yourdomain.ca/services/ecommerce-seo/)
+More organic sales for online stores. [Learn more](https://seoservicesedmonton.ca/services/ecommerce-seo/)
 
 ### SEO Audit
 
-Know exactly what to fix first. [Learn more](https://www.yourdomain.ca/services/seo-audit/)
+Know exactly what to fix first. [Learn more](https://seoservicesedmonton.ca/services/seo-audit/)
 
 ### AI Search Optimization
 
-Be ready for AI Overviews and AI assistants. [Learn more](https://www.yourdomain.ca/services/ai-search-optimization/)
+Be ready for AI Overviews and AI assistants. [Learn more](https://seoservicesedmonton.ca/services/ai-search-optimization/)
 
 ---
 
@@ -243,17 +243,17 @@ Button: [Get a quote]
 
 Each neighbourhood page covers a different part of local search, so you can learn something useful wherever you start.
 
-- [Downtown](https://www.yourdomain.ca/locations/downtown-edmonton/): Storefront vs service area profiles
+- [Downtown](https://seoservicesedmonton.ca/locations/downtown-edmonton/): Storefront vs service area profiles
 
-- [Oliver](https://www.yourdomain.ca/locations/oliver/): Building a steady review process
+- [Oliver](https://seoservicesedmonton.ca/locations/oliver/): Building a steady review process
 
-- [Strathcona](https://www.yourdomain.ca/locations/strathcona/): Photos, hours and keeping your profile current
+- [Strathcona](https://seoservicesedmonton.ca/locations/strathcona/): Photos, hours and keeping your profile current
 
-- [Windermere](https://www.yourdomain.ca/locations/windermere/): Launching a new business on Google
+- [Windermere](https://seoservicesedmonton.ca/locations/windermere/): Launching a new business on Google
 
-- [Summerside](https://www.yourdomain.ca/locations/summerside/): Location pages done right
+- [Summerside](https://seoservicesedmonton.ca/locations/summerside/): Location pages done right
 
-- [Terwillegar Towne](https://www.yourdomain.ca/locations/terwillegar-towne/): Citations and consistent business details
+- [Terwillegar Towne](https://seoservicesedmonton.ca/locations/terwillegar-towne/): Citations and consistent business details
 
 ---
 
@@ -295,11 +295,11 @@ Yes. Every change is logged and shared with you. Google lists this as one of the
 
 Practical SEO advice, checked against Google's own documentation.
 
-- [How Google Ranks Local Businesses in Edmonton](https://www.yourdomain.ca/blog/how-google-ranks-local-businesses/): The three factors Google uses for local results and what you can do about each one.
+- [How Google Ranks Local Businesses in Edmonton](https://seoservicesedmonton.ca/blog/how-google-ranks-local-businesses/): The three factors Google uses for local results and what you can do about each one.
 
-- [AI Overviews and Your Website: What Google Says](https://www.yourdomain.ca/blog/ai-overviews-and-your-website/): Google's own answer on what it takes to appear in AI Overviews and AI Mode.
+- [AI Overviews and Your Website: What Google Says](https://seoservicesedmonton.ca/blog/ai-overviews-and-your-website/): Google's own answer on what it takes to appear in AI Overviews and AI Mode.
 
-- [How to Choose an SEO Agency in Edmonton](https://www.yourdomain.ca/blog/choosing-an-seo-agency-in-edmonton/): The questions Google suggests asking and the red flags to watch for.
+- [How to Choose an SEO Agency in Edmonton](https://seoservicesedmonton.ca/blog/choosing-an-seo-agency-in-edmonton/): The questions Google suggests asking and the red flags to watch for.
 
 ---
 
@@ -309,4 +309,4 @@ Practical SEO advice, checked against Google's own documentation.
 
 Book a free SEO review. We will look at your site and Business Profile and tell you what to fix first.
 
-Button: [Contact Us](https://www.yourdomain.ca/contact/)
+Button: [Contact Us](https://seoservicesedmonton.ca/contact/)

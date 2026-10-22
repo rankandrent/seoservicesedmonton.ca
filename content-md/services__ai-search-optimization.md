@@ -1,6 +1,6 @@
 ---
 page: AI Search Optimization
-url: https://www.yourdomain.ca/services/ai-search-optimization/
+url: https://seoservicesedmonton.ca/services/ai-search-optimization/
 meta_title: "AI Search Optimization Edmonton | AI Overviews and GEO | BrandName"
 meta_description: "AI search optimization in Edmonton: make your content ready for Google AI Overviews, AI Mode and AI assistants using proven SEO fundamentals."
 primary_keyword: "ai search optimization edmonton"
@@ -159,11 +159,11 @@ Visual: stacked icon cards: Allow crawling (robots.txt and CDN); Internal links 
 
 ## Related case studies
 
-- [[Local service business]](https://www.yourdomain.ca/case-studies/local-service-business/): [Short summary of the result for a local service business.]
+- [[Local service business]](https://seoservicesedmonton.ca/case-studies/local-service-business/): [Short summary of the result for a local service business.]
 
-- [[Edmonton online store]](https://www.yourdomain.ca/case-studies/ecommerce-store/): [Short summary of the result for an online store.]
+- [[Edmonton online store]](https://seoservicesedmonton.ca/case-studies/ecommerce-store/): [Short summary of the result for an online store.]
 
-- [[Professional services firm]](https://www.yourdomain.ca/case-studies/professional-firm/): [Short summary of the result for a professional firm.]
+- [[Professional services firm]](https://seoservicesedmonton.ca/case-studies/professional-firm/): [Short summary of the result for a professional firm.]
 
 ---
 
@@ -199,11 +199,11 @@ Google says AI specific text files are not needed for its AI features. Some othe
 
 ## Services that work well alongside AI Search Optimization
 
-- [Technical SEO](https://www.yourdomain.ca/services/technical-seo/): Fix the foundations so Google can crawl and index every page.
+- [Technical SEO](https://seoservicesedmonton.ca/services/technical-seo/): Fix the foundations so Google can crawl and index every page.
 
-- [Content SEO](https://www.yourdomain.ca/services/content-seo/): Helpful content written for Edmonton customers.
+- [Content SEO](https://seoservicesedmonton.ca/services/content-seo/): Helpful content written for Edmonton customers.
 
-- [Google Business Profile](https://www.yourdomain.ca/services/google-business-profile/): A complete, verified profile that wins the map.
+- [Google Business Profile](https://seoservicesedmonton.ca/services/google-business-profile/): A complete, verified profile that wins the map.
 
 ---
 
@@ -213,4 +213,4 @@ Google says AI specific text files are not needed for its AI features. Some othe
 
 Book a free review and we will show you the biggest opportunities for your business.
 
-Button: [Book a free SEO review](https://www.yourdomain.ca/contact/)
+Button: [Book a free SEO review](https://seoservicesedmonton.ca/contact/)

@@ -1,6 +1,6 @@
 ---
 page: How Google Ranks Local Businesses in Edmonton
-url: https://www.yourdomain.ca/blog/how-google-ranks-local-businesses/
+url: https://seoservicesedmonton.ca/blog/how-google-ranks-local-businesses/
 meta_title: "How Google Ranks Local Businesses in Edmonton | BrandName Blog"
 meta_description: "What Google says decides local rankings, the tips it recommends and what that means for Edmonton businesses competing in the map pack."
 primary_keyword: "how google ranks local businesses"
@@ -55,7 +55,7 @@ Distance is the one factor you cannot change, and it is why results look differe
 
 ## Where to start
 
-Open your Business Profile and check every field against your real details. Then read our [Local SEO](https://www.yourdomain.ca/services/local-seo/) page to see how we handle the rest.
+Open your Business Profile and check every field against your real details. Then read our [Local SEO](https://seoservicesedmonton.ca/services/local-seo/) page to see how we handle the rest.
 
 Sources: [Google Business Profile Help: How to improve your local ranking](https://support.google.com/business/answer/7091?hl=en), [Google Maps contribution policy: Prohibited and restricted content](https://support.google.com/contributionpolicy/answer/7400114?hl=en)
 
@@ -67,9 +67,9 @@ Sources: [Google Business Profile Help: How to improve your local ranking](https
 
 ## More from the blog
 
-- [AI Overviews and Your Website: What Google Says](https://www.yourdomain.ca/blog/ai-overviews-and-your-website/): Google's own answer on what it takes to appear in AI Overviews and AI Mode.
+- [AI Overviews and Your Website: What Google Says](https://seoservicesedmonton.ca/blog/ai-overviews-and-your-website/): Google's own answer on what it takes to appear in AI Overviews and AI Mode.
 
-- [How to Choose an SEO Agency in Edmonton](https://www.yourdomain.ca/blog/choosing-an-seo-agency-in-edmonton/): The questions Google suggests asking and the red flags to watch for.
+- [How to Choose an SEO Agency in Edmonton](https://seoservicesedmonton.ca/blog/choosing-an-seo-agency-in-edmonton/): The questions Google suggests asking and the red flags to watch for.
 
 ---
 
@@ -79,4 +79,4 @@ Sources: [Google Business Profile Help: How to improve your local ranking](https
 
 Book a free SEO review and we will apply it to your site and profile.
 
-Button: [Book a free SEO review](https://www.yourdomain.ca/contact/)
+Button: [Book a free SEO review](https://seoservicesedmonton.ca/contact/)

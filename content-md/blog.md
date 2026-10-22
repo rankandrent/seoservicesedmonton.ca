@@ -1,6 +1,6 @@
 ---
 page: Blog
-url: https://www.yourdomain.ca/blog/
+url: https://seoservicesedmonton.ca/blog/
 meta_title: "SEO Blog | Edmonton SEO Tips | BrandName"
 meta_description: "Practical SEO advice for Edmonton businesses, checked against Google's own documentation. Local SEO, AI search and choosing an agency."
 primary_keyword: "edmonton seo blog"
@@ -25,11 +25,11 @@ Practical guides, checked against Google's own documentation, with sources linke
 
 ## Recent articles
 
-- [How Google Ranks Local Businesses in Edmonton](https://www.yourdomain.ca/blog/how-google-ranks-local-businesses/): The three factors Google uses for local results and what you can do about each one.
+- [How Google Ranks Local Businesses in Edmonton](https://seoservicesedmonton.ca/blog/how-google-ranks-local-businesses/): The three factors Google uses for local results and what you can do about each one.
 
-- [AI Overviews and Your Website: What Google Says](https://www.yourdomain.ca/blog/ai-overviews-and-your-website/): Google's own answer on what it takes to appear in AI Overviews and AI Mode.
+- [AI Overviews and Your Website: What Google Says](https://seoservicesedmonton.ca/blog/ai-overviews-and-your-website/): Google's own answer on what it takes to appear in AI Overviews and AI Mode.
 
-- [How to Choose an SEO Agency in Edmonton](https://www.yourdomain.ca/blog/choosing-an-seo-agency-in-edmonton/): The questions Google suggests asking and the red flags to watch for.
+- [How to Choose an SEO Agency in Edmonton](https://seoservicesedmonton.ca/blog/choosing-an-seo-agency-in-edmonton/): The questions Google suggests asking and the red flags to watch for.
 
 ---
 
@@ -39,4 +39,4 @@ Practical guides, checked against Google's own documentation, with sources linke
 
 Book a free review and we will tell you what to fix first.
 
-Button: [Book a free SEO review](https://www.yourdomain.ca/contact/)
+Button: [Book a free SEO review](https://seoservicesedmonton.ca/contact/)

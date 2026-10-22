@@ -1,6 +1,6 @@
 ---
 page: AI Overviews and Your Website: What Google Says
-url: https://www.yourdomain.ca/blog/ai-overviews-and-your-website/
+url: https://seoservicesedmonton.ca/blog/ai-overviews-and-your-website/
 meta_title: "AI Overviews and Your Website: What Google Says | BrandName Blog"
 meta_description: "Do you need special optimization for Google AI Overviews or AI Mode? What Google's own guidance says and the best practices it recommends."
 primary_keyword: "ai overviews seo"
@@ -53,7 +53,7 @@ According to the same page, you do not need new machine readable files, AI speci
 
 ## Next step
 
-Our [AI Search Optimization](https://www.yourdomain.ca/services/ai-search-optimization/) service checks your site against each of these practices.
+Our [AI Search Optimization](https://seoservicesedmonton.ca/services/ai-search-optimization/) service checks your site against each of these practices.
 
 Sources: [Google Search Central: AI features and your website](https://developers.google.com/search/docs/appearance/ai-features)
 
@@ -65,9 +65,9 @@ Sources: [Google Search Central: AI features and your website](https://developer
 
 ## More from the blog
 
-- [How Google Ranks Local Businesses in Edmonton](https://www.yourdomain.ca/blog/how-google-ranks-local-businesses/): The three factors Google uses for local results and what you can do about each one.
+- [How Google Ranks Local Businesses in Edmonton](https://seoservicesedmonton.ca/blog/how-google-ranks-local-businesses/): The three factors Google uses for local results and what you can do about each one.
 
-- [How to Choose an SEO Agency in Edmonton](https://www.yourdomain.ca/blog/choosing-an-seo-agency-in-edmonton/): The questions Google suggests asking and the red flags to watch for.
+- [How to Choose an SEO Agency in Edmonton](https://seoservicesedmonton.ca/blog/choosing-an-seo-agency-in-edmonton/): The questions Google suggests asking and the red flags to watch for.
 
 ---
 
@@ -77,4 +77,4 @@ Sources: [Google Search Central: AI features and your website](https://developer
 
 Book a free SEO review and we will apply it to your site and profile.
 
-Button: [Book a free SEO review](https://www.yourdomain.ca/contact/)
+Button: [Book a free SEO review](https://seoservicesedmonton.ca/contact/)

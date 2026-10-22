@@ -1,6 +1,6 @@
 ---
 page: Our Team
-url: https://www.yourdomain.ca/team/
+url: https://seoservicesedmonton.ca/team/
 meta_title: "Our Team | BrandName Edmonton SEO Agency"
 meta_description: "Meet the BrandName team: the strategists, writers and technical specialists behind our SEO work for Edmonton businesses."
 primary_keyword: "edmonton seo team"
@@ -69,11 +69,11 @@ Writers and outreach specialists create pages and earn links.
 
 ## Next steps
 
-- [Careers](https://www.yourdomain.ca/career/): Open roles and how we hire.
+- [Careers](https://seoservicesedmonton.ca/career/): Open roles and how we hire.
 
-- [About](https://www.yourdomain.ca/about/): Who we are and how we work.
+- [About](https://seoservicesedmonton.ca/about/): Who we are and how we work.
 
-- [Contact](https://www.yourdomain.ca/contact/): Book a free SEO review.
+- [Contact](https://seoservicesedmonton.ca/contact/): Book a free SEO review.
 
 ---
 
@@ -83,4 +83,4 @@ Writers and outreach specialists create pages and earn links.
 
 Book a free SEO review and meet the people who would run your account.
 
-Button: [Book a free SEO review](https://www.yourdomain.ca/contact/)
+Button: [Book a free SEO review](https://seoservicesedmonton.ca/contact/)

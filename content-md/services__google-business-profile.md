@@ -1,6 +1,6 @@
 ---
 page: Google Business Profile
-url: https://www.yourdomain.ca/services/google-business-profile/
+url: https://seoservicesedmonton.ca/services/google-business-profile/
 meta_title: "Google Business Profile Optimization Edmonton | BrandName"
 meta_description: "Google Business Profile optimization in Edmonton: verification, categories, hours, photos, posts, products and review management that supports local rankings."
 primary_keyword: "google business profile optimization edmonton"
@@ -161,11 +161,11 @@ Visual: stacked icon cards: Verify your business (Confirm you can represent it);
 
 ## Related case studies
 
-- [[Local service business]](https://www.yourdomain.ca/case-studies/local-service-business/): [Short summary of the result for a local service business.]
+- [[Local service business]](https://seoservicesedmonton.ca/case-studies/local-service-business/): [Short summary of the result for a local service business.]
 
-- [[Professional services firm]](https://www.yourdomain.ca/case-studies/professional-firm/): [Short summary of the result for a professional firm.]
+- [[Professional services firm]](https://seoservicesedmonton.ca/case-studies/professional-firm/): [Short summary of the result for a professional firm.]
 
-- [[Edmonton online store]](https://www.yourdomain.ca/case-studies/ecommerce-store/): [Short summary of the result for an online store.]
+- [[Edmonton online store]](https://seoservicesedmonton.ca/case-studies/ecommerce-store/): [Short summary of the result for an online store.]
 
 ---
 
@@ -201,11 +201,11 @@ Yes. Google recommends responding to reviews. A calm, helpful reply shows future
 
 ## Services that work well alongside Google Business Profile
 
-- [Local SEO](https://www.yourdomain.ca/services/local-seo/): Rank in Google Maps and local results across Edmonton.
+- [Local SEO](https://seoservicesedmonton.ca/services/local-seo/): Rank in Google Maps and local results across Edmonton.
 
-- [Content SEO](https://www.yourdomain.ca/services/content-seo/): Helpful content written for Edmonton customers.
+- [Content SEO](https://seoservicesedmonton.ca/services/content-seo/): Helpful content written for Edmonton customers.
 
-- [Link Building](https://www.yourdomain.ca/services/link-building/): Earn relevant links without breaking Google's rules.
+- [Link Building](https://seoservicesedmonton.ca/services/link-building/): Earn relevant links without breaking Google's rules.
 
 ---
 
@@ -215,4 +215,4 @@ Yes. Google recommends responding to reviews. A calm, helpful reply shows future
 
 Book a free review and we will show you the biggest opportunities for your business.
 
-Button: [Book a free SEO review](https://www.yourdomain.ca/contact/)
+Button: [Book a free SEO review](https://seoservicesedmonton.ca/contact/)

@@ -1,6 +1,6 @@
 ---
 page: Content SEO
-url: https://www.yourdomain.ca/services/content-seo/
+url: https://seoservicesedmonton.ca/services/content-seo/
 meta_title: "Content SEO Edmonton | SEO Content Writing | BrandName"
 meta_description: "SEO content writing in Edmonton: service pages, guides and articles planned around real searches and written to be helpful, original and accurate."
 primary_keyword: "seo content writing edmonton"
@@ -159,11 +159,11 @@ Visual: stacked icon cards: Easy to read (Organized with headings); Unique (Not 
 
 ## Related case studies
 
-- [[Local service business]](https://www.yourdomain.ca/case-studies/local-service-business/): [Short summary of the result for a local service business.]
+- [[Local service business]](https://seoservicesedmonton.ca/case-studies/local-service-business/): [Short summary of the result for a local service business.]
 
-- [[Edmonton online store]](https://www.yourdomain.ca/case-studies/ecommerce-store/): [Short summary of the result for an online store.]
+- [[Edmonton online store]](https://seoservicesedmonton.ca/case-studies/ecommerce-store/): [Short summary of the result for an online store.]
 
-- [[Professional services firm]](https://www.yourdomain.ca/case-studies/professional-firm/): [Short summary of the result for a professional firm.]
+- [[Professional services firm]](https://seoservicesedmonton.ca/case-studies/professional-firm/): [Short summary of the result for a professional firm.]
 
 ---
 
@@ -199,11 +199,11 @@ Rankings, organic traffic and the enquiries each page drives.
 
 ## Services that work well alongside Content SEO
 
-- [On-Page SEO](https://www.yourdomain.ca/services/on-page-seo/): Pages shaped around what your customers search for.
+- [On-Page SEO](https://seoservicesedmonton.ca/services/on-page-seo/): Pages shaped around what your customers search for.
 
-- [Link Building](https://www.yourdomain.ca/services/link-building/): Earn relevant links without breaking Google's rules.
+- [Link Building](https://seoservicesedmonton.ca/services/link-building/): Earn relevant links without breaking Google's rules.
 
-- [AI Search Optimization](https://www.yourdomain.ca/services/ai-search-optimization/): Be ready for AI Overviews and AI assistants.
+- [AI Search Optimization](https://seoservicesedmonton.ca/services/ai-search-optimization/): Be ready for AI Overviews and AI assistants.
 
 ---
 
@@ -213,4 +213,4 @@ Rankings, organic traffic and the enquiries each page drives.
 
 Book a free review and we will show you the biggest opportunities for your business.
 
-Button: [Book a free SEO review](https://www.yourdomain.ca/contact/)
+Button: [Book a free SEO review](https://seoservicesedmonton.ca/contact/)

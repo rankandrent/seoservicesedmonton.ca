@@ -1,6 +1,6 @@
 ---
 page: Case Studies
-url: https://www.yourdomain.ca/case-studies/
+url: https://seoservicesedmonton.ca/case-studies/
 meta_title: "SEO Case Studies | Edmonton Results | BrandName"
 meta_description: "SEO case studies from Edmonton businesses. See the starting point, what we changed and the measured results for each client."
 primary_keyword: "edmonton seo case studies"
@@ -25,11 +25,11 @@ Every case study shows where the client started, what we changed and what the da
 
 ## Featured case studies
 
-- [[Local service business]](https://www.yourdomain.ca/case-studies/local-service-business/): [Short summary of the result for a local service business.]
+- [[Local service business]](https://seoservicesedmonton.ca/case-studies/local-service-business/): [Short summary of the result for a local service business.]
 
-- [[Edmonton online store]](https://www.yourdomain.ca/case-studies/ecommerce-store/): [Short summary of the result for an online store.]
+- [[Edmonton online store]](https://seoservicesedmonton.ca/case-studies/ecommerce-store/): [Short summary of the result for an online store.]
 
-- [[Professional services firm]](https://www.yourdomain.ca/case-studies/professional-firm/): [Short summary of the result for a professional firm.]
+- [[Professional services firm]](https://seoservicesedmonton.ca/case-studies/professional-firm/): [Short summary of the result for a professional firm.]
 
 ---
 
@@ -69,4 +69,4 @@ Visual: stacked icon cards: Search Console (Clicks and impressions); Google Anal
 
 Book a free review and let's find out.
 
-Button: [Book a free SEO review](https://www.yourdomain.ca/contact/)
+Button: [Book a free SEO review](https://seoservicesedmonton.ca/contact/)

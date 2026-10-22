@@ -1,6 +1,6 @@
 ---
 page: FAQ
-url: https://www.yourdomain.ca/faq/
+url: https://seoservicesedmonton.ca/faq/
 meta_title: "SEO FAQ | Edmonton SEO Questions Answered | BrandName"
 meta_description: "Answers to common questions about SEO services in Edmonton: timelines, guarantees, reporting, local SEO and how we work with your team."
 primary_keyword: "seo faq edmonton"
@@ -59,7 +59,7 @@ Straight answers to the questions Edmonton business owners ask us most.
 
 ### What affects my ranking in Google Maps?
 
-Google says local ranking is based mainly on relevance, distance and prominence. Prominence includes things like links to your business and your review count. See our [Local SEO](https://www.yourdomain.ca/services/local-seo/) page for how we work on each.
+Google says local ranking is based mainly on relevance, distance and prominence. Prominence includes things like links to your business and your review count. See our [Local SEO](https://seoservicesedmonton.ca/services/local-seo/) page for how we work on each.
 
 ### Can I pay Google for a better local ranking?
 
@@ -93,7 +93,7 @@ Usually yes, so we can make fixes directly. If you prefer, we can hand changes t
 
 ### How do we get started?
 
-Book a [free SEO review](https://www.yourdomain.ca/contact/). We will look at your site, then propose a plan.
+Book a [free SEO review](https://seoservicesedmonton.ca/contact/). We will look at your site, then propose a plan.
 
 ---
 
@@ -103,4 +103,4 @@ Book a [free SEO review](https://www.yourdomain.ca/contact/). We will look at yo
 
 Ask us directly. We usually reply within one business day.
 
-Button: [Contact us](https://www.yourdomain.ca/contact/)
+Button: [Contact us](https://seoservicesedmonton.ca/contact/)

@@ -1,6 +1,6 @@
 ---
 page: Link Building
-url: https://www.yourdomain.ca/services/link-building/
+url: https://seoservicesedmonton.ca/services/link-building/
 meta_title: "Link Building Services Edmonton | Earned Local Links | BrandName"
 meta_description: "Link building in Edmonton that follows Google's spam policies: digital PR, local partnerships, community mentions and content worth linking to."
 primary_keyword: "link building edmonton"
@@ -161,11 +161,11 @@ Visual: stacked icon cards: Buying or selling links (For ranking purposes); Exce
 
 ## Related case studies
 
-- [[Local service business]](https://www.yourdomain.ca/case-studies/local-service-business/): [Short summary of the result for a local service business.]
+- [[Local service business]](https://seoservicesedmonton.ca/case-studies/local-service-business/): [Short summary of the result for a local service business.]
 
-- [[Edmonton online store]](https://www.yourdomain.ca/case-studies/ecommerce-store/): [Short summary of the result for an online store.]
+- [[Edmonton online store]](https://seoservicesedmonton.ca/case-studies/ecommerce-store/): [Short summary of the result for an online store.]
 
-- [[Professional services firm]](https://www.yourdomain.ca/case-studies/professional-firm/): [Short summary of the result for a professional firm.]
+- [[Professional services firm]](https://seoservicesedmonton.ca/case-studies/professional-firm/): [Short summary of the result for a professional firm.]
 
 ---
 
@@ -201,11 +201,11 @@ No. Google advises that you should never have to link to an SEO.
 
 ## Services that work well alongside Link Building
 
-- [Content SEO](https://www.yourdomain.ca/services/content-seo/): Helpful content written for Edmonton customers.
+- [Content SEO](https://seoservicesedmonton.ca/services/content-seo/): Helpful content written for Edmonton customers.
 
-- [Local SEO](https://www.yourdomain.ca/services/local-seo/): Rank in Google Maps and local results across Edmonton.
+- [Local SEO](https://seoservicesedmonton.ca/services/local-seo/): Rank in Google Maps and local results across Edmonton.
 
-- [SEO Audit](https://www.yourdomain.ca/services/seo-audit/): Know exactly what to fix first.
+- [SEO Audit](https://seoservicesedmonton.ca/services/seo-audit/): Know exactly what to fix first.
 
 ---
 
@@ -215,4 +215,4 @@ No. Google advises that you should never have to link to an SEO.
 
 Book a free review and we will show you the biggest opportunities for your business.
 
-Button: [Book a free SEO review](https://www.yourdomain.ca/contact/)
+Button: [Book a free SEO review](https://seoservicesedmonton.ca/contact/)

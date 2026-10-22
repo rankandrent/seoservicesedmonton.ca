@@ -1,7 +1,7 @@
 # Replace every value marked with [[ ]] or "yourdomain" before launch.
 SITE = {
  'brand': 'BrandName',
- 'domain': 'https://www.yourdomain.ca',
+ 'domain': 'https://seoservicesedmonton.ca',
  'org_description': 'BrandName is an SEO agency serving Edmonton, Alberta, offering local SEO, technical SEO, content, link building, ecommerce SEO, SEO audits and AI search optimization for Edmonton businesses.',
  'footer_blurb': 'SEO for Edmonton businesses that want more calls, bookings and sales from Google.',
  'address_html': '[[Street address]], Edmonton, AB [[Postal code]]',

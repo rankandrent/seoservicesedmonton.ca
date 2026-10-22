@@ -1,6 +1,6 @@
 ---
 page: On-Page SEO
-url: https://www.yourdomain.ca/services/on-page-seo/
+url: https://seoservicesedmonton.ca/services/on-page-seo/
 meta_title: "On-Page SEO Services Edmonton | Titles, Copy, Links | BrandName"
 meta_description: "On-page SEO in Edmonton: page titles, meta descriptions, headings, copy, images and internal links optimized around what your customers search for."
 primary_keyword: "on page seo edmonton"
@@ -161,11 +161,11 @@ Visual: stacked icon cards: Unique titles (Clear, concise and accurate); Short d
 
 ## Related case studies
 
-- [[Local service business]](https://www.yourdomain.ca/case-studies/local-service-business/): [Short summary of the result for a local service business.]
+- [[Local service business]](https://seoservicesedmonton.ca/case-studies/local-service-business/): [Short summary of the result for a local service business.]
 
-- [[Edmonton online store]](https://www.yourdomain.ca/case-studies/ecommerce-store/): [Short summary of the result for an online store.]
+- [[Edmonton online store]](https://seoservicesedmonton.ca/case-studies/ecommerce-store/): [Short summary of the result for an online store.]
 
-- [[Professional services firm]](https://www.yourdomain.ca/case-studies/professional-firm/): [Short summary of the result for a professional firm.]
+- [[Professional services firm]](https://seoservicesedmonton.ca/case-studies/professional-firm/): [Short summary of the result for a professional firm.]
 
 ---
 
@@ -201,11 +201,11 @@ We start with pages closest to page one for valuable searches, where small chang
 
 ## Services that work well alongside On-Page SEO
 
-- [Content SEO](https://www.yourdomain.ca/services/content-seo/): Helpful content written for Edmonton customers.
+- [Content SEO](https://seoservicesedmonton.ca/services/content-seo/): Helpful content written for Edmonton customers.
 
-- [Technical SEO](https://www.yourdomain.ca/services/technical-seo/): Fix the foundations so Google can crawl and index every page.
+- [Technical SEO](https://seoservicesedmonton.ca/services/technical-seo/): Fix the foundations so Google can crawl and index every page.
 
-- [Local SEO](https://www.yourdomain.ca/services/local-seo/): Rank in Google Maps and local results across Edmonton.
+- [Local SEO](https://seoservicesedmonton.ca/services/local-seo/): Rank in Google Maps and local results across Edmonton.
 
 ---
 
@@ -215,4 +215,4 @@ We start with pages closest to page one for valuable searches, where small chang
 
 Book a free review and we will show you the biggest opportunities for your business.
 
-Button: [Book a free SEO review](https://www.yourdomain.ca/contact/)
+Button: [Book a free SEO review](https://seoservicesedmonton.ca/contact/)

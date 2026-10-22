@@ -1,6 +1,6 @@
 ---
 page: Oliver
-url: https://www.yourdomain.ca/locations/oliver/
+url: https://seoservicesedmonton.ca/locations/oliver/
 meta_title: "SEO Services Oliver Edmonton | Local SEO | BrandName"
 meta_description: "SEO services for businesses in Oliver, Edmonton. How a steady, genuine review process supports local rankings and how we help you build one."
 primary_keyword: "seo services oliver edmonton"
@@ -127,11 +127,11 @@ There is no fixed number. Steady, recent reviews matter more than a one-time spi
 
 ## Other Edmonton neighbourhoods we cover
 
-- [Downtown](https://www.yourdomain.ca/locations/downtown-edmonton/): Storefront vs service area profiles
+- [Downtown](https://seoservicesedmonton.ca/locations/downtown-edmonton/): Storefront vs service area profiles
 
-- [Strathcona](https://www.yourdomain.ca/locations/strathcona/): Photos, hours and keeping your profile current
+- [Strathcona](https://seoservicesedmonton.ca/locations/strathcona/): Photos, hours and keeping your profile current
 
-- [Windermere](https://www.yourdomain.ca/locations/windermere/): Launching a new business on Google
+- [Windermere](https://seoservicesedmonton.ca/locations/windermere/): Launching a new business on Google
 
 ---
 
@@ -141,4 +141,4 @@ There is no fixed number. Steady, recent reviews matter more than a one-time spi
 
 Book a free review. We will check how you appear to customers searching in Oliver.
 
-Button: [Book a free SEO review](https://www.yourdomain.ca/contact/)
+Button: [Book a free SEO review](https://seoservicesedmonton.ca/contact/)

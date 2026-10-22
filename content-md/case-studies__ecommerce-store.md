@@ -1,6 +1,6 @@
 ---
 page: [Edmonton online store]
-url: https://www.yourdomain.ca/case-studies/ecommerce-store/
+url: https://seoservicesedmonton.ca/case-studies/ecommerce-store/
 meta_title: "[[Edmonton online store]] Case Study | Edmonton SEO | BrandName"
 meta_description: "How BrandName helped an Edmonton ecommerce grow through SEO. [Replace with the real result before publishing.]"
 primary_keyword: ""
@@ -129,9 +129,9 @@ Visual: stacked icon cards: Visibility ([[Starting point]]); Local presence ([[S
 
 ## Other case studies
 
-- [[Local service business]](https://www.yourdomain.ca/case-studies/local-service-business/): [Short summary of the result for a local service business.]
+- [[Local service business]](https://seoservicesedmonton.ca/case-studies/local-service-business/): [Short summary of the result for a local service business.]
 
-- [[Professional services firm]](https://www.yourdomain.ca/case-studies/professional-firm/): [Short summary of the result for a professional firm.]
+- [[Professional services firm]](https://seoservicesedmonton.ca/case-studies/professional-firm/): [Short summary of the result for a professional firm.]
 
 ---
 
@@ -141,4 +141,4 @@ Visual: stacked icon cards: Visibility ([[Starting point]]); Local presence ([[S
 
 Book a free review and we will show you where your growth could come from.
 
-Button: [Book a free SEO review](https://www.yourdomain.ca/contact/)
+Button: [Book a free SEO review](https://seoservicesedmonton.ca/contact/)

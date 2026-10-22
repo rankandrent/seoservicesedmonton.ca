@@ -127,7 +127,7 @@ def visual(kind, data=None):
             '<span class="c">// robots.txt</span>',
             '<span class="k">User-agent:</span> *',
             '<span class="k">Allow:</span> /',
-            '<span class="k">Sitemap:</span> <span class="s">https://yourdomain.ca/sitemap.xml</span>',
+            '<span class="k">Sitemap:</span> <span class="s">https://seoservicesedmonton.ca/sitemap.xml</span>',
             '',
             '<span class="c">&lt;!-- head --&gt;</span>',
             '&lt;<span class="k">link</span> rel=<span class="s">"canonical"</span> href=<span class="s">"/services/"</span>&gt;',

@@ -1,6 +1,6 @@
 ---
 page: Local SEO
-url: https://www.yourdomain.ca/services/local-seo/
+url: https://seoservicesedmonton.ca/services/local-seo/
 meta_title: "Local SEO Edmonton | Rank in Google Maps | BrandName"
 meta_description: "Local SEO services in Edmonton. We help you rank in Google Maps and local results with Business Profile work, reviews, citations and local pages."
 primary_keyword: "local seo edmonton"
@@ -157,11 +157,11 @@ Visual: stacked icon cards: Relevance (How well you match the search); Distance 
 
 ## Related case studies
 
-- [[Local service business]](https://www.yourdomain.ca/case-studies/local-service-business/): [Short summary of the result for a local service business.]
+- [[Local service business]](https://seoservicesedmonton.ca/case-studies/local-service-business/): [Short summary of the result for a local service business.]
 
-- [[Professional services firm]](https://www.yourdomain.ca/case-studies/professional-firm/): [Short summary of the result for a professional firm.]
+- [[Professional services firm]](https://seoservicesedmonton.ca/case-studies/professional-firm/): [Short summary of the result for a professional firm.]
 
-- [[Edmonton online store]](https://www.yourdomain.ca/case-studies/ecommerce-store/): [Short summary of the result for an online store.]
+- [[Edmonton online store]](https://seoservicesedmonton.ca/case-studies/ecommerce-store/): [Short summary of the result for an online store.]
 
 ---
 
@@ -197,11 +197,11 @@ A Business Profile can rank without one, but a strong website gives Google and c
 
 ## Services that work well alongside Local SEO
 
-- [Google Business Profile](https://www.yourdomain.ca/services/google-business-profile/): A complete, verified profile that wins the map.
+- [Google Business Profile](https://seoservicesedmonton.ca/services/google-business-profile/): A complete, verified profile that wins the map.
 
-- [Link Building](https://www.yourdomain.ca/services/link-building/): Earn relevant links without breaking Google's rules.
+- [Link Building](https://seoservicesedmonton.ca/services/link-building/): Earn relevant links without breaking Google's rules.
 
-- [Content SEO](https://www.yourdomain.ca/services/content-seo/): Helpful content written for Edmonton customers.
+- [Content SEO](https://seoservicesedmonton.ca/services/content-seo/): Helpful content written for Edmonton customers.
 
 ---
 
@@ -211,4 +211,4 @@ A Business Profile can rank without one, but a strong website gives Google and c
 
 Book a free review and we will show you the biggest opportunities for your business.
 
-Button: [Book a free SEO review](https://www.yourdomain.ca/contact/)
+Button: [Book a free SEO review](https://seoservicesedmonton.ca/contact/)
