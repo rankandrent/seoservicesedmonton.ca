@@ -5,7 +5,7 @@ meta_title: "AI Search Optimization Edmonton | AI Overviews and GEO | BrandName"
 meta_description: "AI search optimization in Edmonton: make your content ready for Google AI Overviews, AI Mode and AI assistants using proven SEO fundamentals."
 primary_keyword: "ai search optimization edmonton"
 schema: [ProfessionalService, WebSite, WebPage, BreadcrumbList, Service, FAQPage]
-robots: index, follow, max-image-preview:large
+robots: noindex, nofollow
 ---
 <!-- Section 1: page_hero -->
 

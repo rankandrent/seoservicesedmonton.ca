@@ -37,5 +37,9 @@
     if(r.ok){v.src=v.getAttribute('data-src');v.style.display='block';v.style.position='absolute';v.style.inset='0';v.style.width='100%';v.style.height='100%';v.style.objectFit='cover';v.play&&v.play().catch(function(){})}
   }).catch(function(){})}
 
+  // Contact form errors come back from /api/contact as ?error=invalid|send
+  var fe=document.querySelector('.form-error');var err=(location.search.match(/[?&]error=(\w+)/)||[])[1];
+  if(fe&&err){fe.textContent=err==='invalid'?'Please enter your name and a valid email address.':'Sorry, your message could not be sent. Please try again or contact us by phone or email.';fe.hidden=false}
+
   var y=document.getElementById('year');if(y){y.textContent=new Date().getFullYear()}
 })();

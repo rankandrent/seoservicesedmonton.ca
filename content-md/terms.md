@@ -5,7 +5,7 @@ meta_title: "Terms and Conditions | BrandName"
 meta_description: "The terms that apply to using the BrandName website."
 primary_keyword: ""
 schema: [ProfessionalService, WebSite, WebPage, BreadcrumbList]
-robots: index, follow, max-image-preview:large
+robots: noindex, nofollow
 ---
 <!-- Section 1: page_hero -->
 

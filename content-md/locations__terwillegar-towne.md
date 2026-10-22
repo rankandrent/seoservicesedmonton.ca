@@ -5,7 +5,7 @@ meta_title: "SEO Services Terwillegar Towne Edmonton | Local SEO | BrandName"
 meta_description: "SEO services for businesses in Terwillegar Towne, Edmonton. How consistent business details across listings and your website support local search."
 primary_keyword: "seo services terwillegar towne edmonton"
 schema: [ProfessionalService, WebSite, WebPage, BreadcrumbList, Service, FAQPage]
-robots: index, follow, max-image-preview:large
+robots: noindex, nofollow
 ---
 <!-- Section 1: page_hero -->
 

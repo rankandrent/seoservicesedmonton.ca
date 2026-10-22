@@ -5,7 +5,7 @@ meta_title: "SEO Services Oliver Edmonton | Local SEO | BrandName"
 meta_description: "SEO services for businesses in Oliver, Edmonton. How a steady, genuine review process supports local rankings and how we help you build one."
 primary_keyword: "seo services oliver edmonton"
 schema: [ProfessionalService, WebSite, WebPage, BreadcrumbList, Service, FAQPage]
-robots: index, follow, max-image-preview:large
+robots: noindex, nofollow
 ---
 <!-- Section 1: page_hero -->
 

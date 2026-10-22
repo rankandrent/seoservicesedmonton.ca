@@ -5,7 +5,7 @@ meta_title: "How Google Ranks Local Businesses in Edmonton | BrandName Blog"
 meta_description: "What Google says decides local rankings, the tips it recommends and what that means for Edmonton businesses competing in the map pack."
 primary_keyword: "how google ranks local businesses"
 schema: [ProfessionalService, WebSite, WebPage, BreadcrumbList, BlogPosting]
-robots: index, follow, max-image-preview:large
+robots: noindex, nofollow
 ---
 <!-- Section 1: page_hero -->
 

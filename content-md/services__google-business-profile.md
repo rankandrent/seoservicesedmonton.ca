@@ -5,7 +5,7 @@ meta_title: "Google Business Profile Optimization Edmonton | BrandName"
 meta_description: "Google Business Profile optimization in Edmonton: verification, categories, hours, photos, posts, products and review management that supports local rankings."
 primary_keyword: "google business profile optimization edmonton"
 schema: [ProfessionalService, WebSite, WebPage, BreadcrumbList, Service, FAQPage]
-robots: index, follow, max-image-preview:large
+robots: noindex, nofollow
 ---
 <!-- Section 1: page_hero -->
 

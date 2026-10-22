@@ -5,7 +5,7 @@ meta_title: "SEO FAQ | Edmonton SEO Questions Answered | BrandName"
 meta_description: "Answers to common questions about SEO services in Edmonton: timelines, guarantees, reporting, local SEO and how we work with your team."
 primary_keyword: "seo faq edmonton"
 schema: [ProfessionalService, WebSite, FAQPage, BreadcrumbList, FAQPage]
-robots: index, follow, max-image-preview:large
+robots: noindex, nofollow
 ---
 <!-- Section 1: page_hero -->
 

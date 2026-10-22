@@ -231,6 +231,16 @@ PAGES = [
     ('h2', '5. Governing law'), ('p', '[[Confirm governing law and jurisdiction with your advisor.]]'),
     ('h2', '6. Contact'), ('p', 'Questions about these terms: [[Email address]].')]},
  ]},
+# ------------------------------------------------------------------ THANK YOU (contact form redirect target)
+{
+ 'slug': 'thank-you', 'nav_label': 'Thank You', 'noindex': True, 'icon': 'check-circle', 'crumbs': [('Contact', 'contact')],
+ 'title': 'Thanks for Getting in Touch | BrandName', 'description': 'Your message has been sent. We will reply within one business day.', 'keyword': '', 'card': '',
+ 'sections': [
+  {'type': 'page_hero', 'eyebrow': 'Message sent', 'h1': 'Thanks, We Have Your Message', 'lead': 'We reply within one business day. Here is what happens next.'},
+  {'type': 'steps', 'eyebrow': 'What happens next', 'heading': 'After you get in touch', 'bg': 'soft',
+   'items': [('We reply', 'Within one business day.'), ('Quick call', 'A 30 minute chat about your goals.'), ('Free review', 'We look at your site and profile and share what we find.')]},
+  {'type': 'links', 'eyebrow': 'While you wait', 'heading': 'Explore more', 'items': ['services', 'blog', 'about']},
+ ]},
 # ------------------------------------------------------------------ 404
 {
  'slug': '404', 'nav_label': 'Page not found', 'noindex': True, 'icon': 'compass',

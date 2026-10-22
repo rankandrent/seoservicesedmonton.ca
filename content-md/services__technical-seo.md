@@ -5,7 +5,7 @@ meta_title: "Technical SEO Services Edmonton | Crawl, Index, Speed | BrandName"
 meta_description: "Technical SEO in Edmonton: crawling, indexing, site structure, canonicals, structured data and page experience fixes so Google can read every page."
 primary_keyword: "technical seo edmonton"
 schema: [ProfessionalService, WebSite, WebPage, BreadcrumbList, Service, FAQPage]
-robots: index, follow, max-image-preview:large
+robots: noindex, nofollow
 ---
 <!-- Section 1: page_hero -->
 

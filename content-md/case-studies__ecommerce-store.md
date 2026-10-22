@@ -5,7 +5,7 @@ meta_title: "[[Edmonton online store]] Case Study | Edmonton SEO | BrandName"
 meta_description: "How BrandName helped an Edmonton ecommerce grow through SEO. [Replace with the real result before publishing.]"
 primary_keyword: ""
 schema: [ProfessionalService, WebSite, Article, BreadcrumbList]
-robots: noindex, follow
+robots: noindex, nofollow
 ---
 <!-- Section 1: page_hero -->
 

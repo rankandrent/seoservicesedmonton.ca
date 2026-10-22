@@ -23,8 +23,8 @@ TODAY = datetime.date.today().isoformat()
 PAGES = (content_core.PAGES + content_services.PAGES + content_locations.PAGES
          + content_cases.PAGES + content_blog.PAGES)
 BY_SLUG = {p['slug']: p for p in PAGES}
-# Drafts: noindex pages waiting on real content (case studies). They are built but never linked from live pages.
-DRAFTS = {p['slug'] for p in PAGES if p.get('noindex') and p['slug'] != '404'}
+# Drafts: pages waiting on real content (case studies). They are built but never linked from live pages.
+DRAFTS = {p['slug'] for p in PAGES if p.get('draft')}
 
 # ---------------------------------------------------------------- helpers
 def esc(s):
@@ -370,7 +370,10 @@ def r_jobs(s, p):
 def r_contact(s, p):
     info = ''.join('<div class="info-item"><span class="icon-chip %s">%s</span><div><h4>%s</h4><p>%s</p></div></div>' % (CHIPS[i % 4], icon(ic), esc(t), rich(v)) for i, (ic, t, v) in enumerate(s['info']))
     opts = ''.join('<option>%s</option>' % esc(o) for o in s['services'])
-    form = ('<form class="form reveal reveal-d2" action="%s" method="post"><h3>%s</h3><div class="row2"><div><label for="f-name">Full name</label><input id="f-name" name="name" autocomplete="name" required></div>'
+    form = ('<form class="form reveal reveal-d2" id="form" action="%s" method="post"><h3>%s</h3>'
+            '<p class="form-error" role="alert" hidden></p>'
+            '<div class="hp" aria-hidden="true"><label for="f-company">Company</label><input id="f-company" name="company" tabindex="-1" autocomplete="off"></div>'
+            '<div class="row2"><div><label for="f-name">Full name</label><input id="f-name" name="name" autocomplete="name" required></div>'
             '<div><label for="f-email">Work email</label><input id="f-email" name="email" type="email" autocomplete="email" required></div></div>'
             '<div class="row2"><div><label for="f-site">Website</label><input id="f-site" name="website" type="url" placeholder="https://"></div>'
             '<div><label for="f-phone">Phone</label><input id="f-phone" name="phone" type="tel" autocomplete="tel"></div></div>'
@@ -522,7 +525,8 @@ def build_page(p):
         if not h: continue  # section had nothing linkable to show
         body.append(h); mdl.append((s, '\n\n'.join(x for x in m if x)))
     url = url_of(p['slug'])
-    robots = 'noindex, follow' if p.get('noindex') else 'index, follow, max-image-preview:large'
+    robots = ('noindex, nofollow' if not SITE['indexable'] else 'noindex, follow' if p.get('noindex')
+              else 'index, follow, max-image-preview:large')
     head = '''<!doctype html>
 <html lang="en-CA">
 <head>
@@ -603,7 +607,10 @@ def seo_files():
         lt.append('')
     open(os.path.join(OUT, 'llms.txt'), 'w').write('\n'.join(lt))
     # Netlify / Cloudflare Pages friendly 404 + headers
-    open(os.path.join(OUT, '_headers'), 'w').write('/assets/*\n  Cache-Control: public, max-age=31536000, immutable\n')
+    headers = '/assets/*\n  Cache-Control: public, max-age=31536000, immutable\n'
+    if not SITE['indexable']:
+        headers += '\n/*\n  X-Robots-Tag: noindex, nofollow\n'
+    open(os.path.join(OUT, '_headers'), 'w').write(headers)
 
 KEEP = {'assets'}  # hand-maintained files in dist/ that a production build must not delete
 

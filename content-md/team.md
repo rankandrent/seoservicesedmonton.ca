@@ -5,7 +5,7 @@ meta_title: "Our Team | BrandName Edmonton SEO Agency"
 meta_description: "Meet the BrandName team: the strategists, writers and technical specialists behind our SEO work for Edmonton businesses."
 primary_keyword: "edmonton seo team"
 schema: [ProfessionalService, WebSite, WebPage, BreadcrumbList]
-robots: index, follow, max-image-preview:large
+robots: noindex, nofollow
 ---
 <!-- Section 1: page_hero -->
 

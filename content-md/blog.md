@@ -5,7 +5,7 @@ meta_title: "SEO Blog | Edmonton SEO Tips | BrandName"
 meta_description: "Practical SEO advice for Edmonton businesses, checked against Google's own documentation. Local SEO, AI search and choosing an agency."
 primary_keyword: "edmonton seo blog"
 schema: [ProfessionalService, WebSite, CollectionPage, BreadcrumbList]
-robots: index, follow, max-image-preview:large
+robots: noindex, nofollow
 ---
 <!-- Section 1: page_hero -->
 

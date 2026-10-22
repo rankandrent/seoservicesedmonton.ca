@@ -2,6 +2,8 @@
 SITE = {
  'brand': 'BrandName',
  'domain': 'https://seoservicesedmonton.ca',
+ # False = pre-launch: every page is noindex, nofollow (meta tag and X-Robots-Tag header). Set True at launch.
+ 'indexable': False,
  'org_description': 'BrandName is an SEO agency serving Edmonton, Alberta, offering local SEO, technical SEO, content, link building, ecommerce SEO, SEO audits and AI search optimization for Edmonton businesses.',
  'footer_blurb': 'SEO for Edmonton businesses that want more calls, bookings and sales from Google.',
  'address_html': '[[Street address]], Edmonton, AB [[Postal code]]',
@@ -9,7 +11,7 @@ SITE = {
  'phone': '[[Phone number]]', 'email': '[[Email address]]',
  'schema_phone': '[Phone number]', 'schema_email': '[Email address]',
  'hours': '[[Business hours]]',
- 'form_action': '#',  # replace with your form endpoint (Formspree, Netlify Forms, HubSpot, etc.)
+ 'form_action': '/api/contact',  # handled by worker/index.js (Supabase + Resend)
  # Real profile URLs only. They show as footer icons and as sameAs in the business schema; leave empty to hide both.
  # Icons available: facebook, instagram, linkedin, youtube. Example: ('LinkedIn', 'linkedin', 'https://www.linkedin.com/company/your-page/')
  'socials': [],

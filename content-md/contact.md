@@ -5,7 +5,7 @@ meta_title: "Contact BrandName | Free SEO Review in Edmonton"
 meta_description: "Contact BrandName for a free SEO review. Tell us about your Edmonton business and we will show you what to fix first on Google."
 primary_keyword: "edmonton seo company contact"
 schema: [ProfessionalService, WebSite, ContactPage, BreadcrumbList, FAQPage]
-robots: index, follow, max-image-preview:large
+robots: noindex, nofollow
 ---
 <!-- Section 1: page_hero -->
 

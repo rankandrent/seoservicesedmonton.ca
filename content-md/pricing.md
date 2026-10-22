@@ -5,7 +5,7 @@ meta_title: "SEO Packages for Edmonton Businesses | BrandName"
 meta_description: "Compare BrandName SEO packages for Edmonton businesses: Local, Growth and Ecommerce. See what each includes and request a custom quote."
 primary_keyword: "seo packages edmonton"
 schema: [ProfessionalService, WebSite, WebPage, BreadcrumbList, FAQPage]
-robots: index, follow, max-image-preview:large
+robots: noindex, nofollow
 ---
 <!-- Section 1: page_hero -->
 

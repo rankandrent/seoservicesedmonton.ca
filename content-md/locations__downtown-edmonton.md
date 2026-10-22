@@ -5,7 +5,7 @@ meta_title: "SEO Services Downtown Edmonton | Local SEO | BrandName"
 meta_description: "SEO services for Downtown Edmonton businesses. Learn how storefront and service area profiles work and how we help you rank in local results."
 primary_keyword: "seo services downtown edmonton"
 schema: [ProfessionalService, WebSite, WebPage, BreadcrumbList, Service, FAQPage]
-robots: index, follow, max-image-preview:large
+robots: noindex, nofollow
 ---
 <!-- Section 1: page_hero -->
 

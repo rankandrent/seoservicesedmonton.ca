@@ -5,7 +5,7 @@ meta_title: "Privacy Policy | BrandName"
 meta_description: "How BrandName collects, uses and protects personal information submitted through this website."
 primary_keyword: ""
 schema: [ProfessionalService, WebSite, WebPage, BreadcrumbList]
-robots: index, follow, max-image-preview:large
+robots: noindex, nofollow
 ---
 <!-- Section 1: page_hero -->
 

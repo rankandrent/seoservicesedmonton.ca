@@ -5,7 +5,7 @@ meta_title: "SEO Services Strathcona Edmonton | Local SEO | BrandName"
 meta_description: "SEO services for businesses in Strathcona, Edmonton. How photos, hours and regular updates keep your Business Profile current and useful."
 primary_keyword: "seo services strathcona edmonton"
 schema: [ProfessionalService, WebSite, WebPage, BreadcrumbList, Service, FAQPage]
-robots: index, follow, max-image-preview:large
+robots: noindex, nofollow
 ---
 <!-- Section 1: page_hero -->
 

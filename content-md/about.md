@@ -5,7 +5,7 @@ meta_title: "About BrandName | Edmonton SEO Agency"
 meta_description: "Meet BrandName, an Edmonton SEO agency focused on local search, honest reporting and work you can see. Learn how we work and what we believe."
 primary_keyword: "edmonton seo agency"
 schema: [ProfessionalService, WebSite, AboutPage, BreadcrumbList]
-robots: index, follow, max-image-preview:large
+robots: noindex, nofollow
 ---
 <!-- Section 1: page_hero -->
 

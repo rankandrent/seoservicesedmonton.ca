@@ -283,6 +283,8 @@ td:first-child{font-weight:600;color:var(--olive)}
 .form input:focus,.form select:focus,.form textarea:focus{outline:none;border-color:var(--olive);background:#fff}
 .form textarea{min-height:140px;resize:vertical}
 .form .note{font-size:15px;margin-top:12px}
+.form-error{background:#fde8e8;border:1px solid #f3b4b4;color:#8a1c1c;border-radius:10px;padding:12px 16px;font-size:15px;margin:0 0 16px}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
 
 /* Team, posts, cases */
 .person{background:#fff;border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);transition:transform .35s var(--ease),box-shadow .35s}

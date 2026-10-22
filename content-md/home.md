@@ -5,7 +5,7 @@ meta_title: "SEO Services Edmonton | Local SEO Agency | BrandName"
 meta_description: "SEO services in Edmonton for businesses that want more calls, bookings and sales from Google. Local SEO, technical SEO, content and link building."
 primary_keyword: "seo services edmonton"
 schema: [ProfessionalService, WebSite, WebPage, FAQPage]
-robots: index, follow, max-image-preview:large
+robots: noindex, nofollow
 ---
 <!-- Section 1: hero_home -->
 

@@ -5,7 +5,7 @@ meta_title: "Local SEO Edmonton | Rank in Google Maps | BrandName"
 meta_description: "Local SEO services in Edmonton. We help you rank in Google Maps and local results with Business Profile work, reviews, citations and local pages."
 primary_keyword: "local seo edmonton"
 schema: [ProfessionalService, WebSite, WebPage, BreadcrumbList, Service, FAQPage]
-robots: index, follow, max-image-preview:large
+robots: noindex, nofollow
 ---
 <!-- Section 1: page_hero -->
 

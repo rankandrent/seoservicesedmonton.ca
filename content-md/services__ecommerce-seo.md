@@ -5,7 +5,7 @@ meta_title: "Ecommerce SEO Edmonton | Shopify and WooCommerce SEO | BrandName"
 meta_description: "Ecommerce SEO for Edmonton online stores: category and product pages, product structured data, Merchant Center alignment and technical fixes."
 primary_keyword: "ecommerce seo edmonton"
 schema: [ProfessionalService, WebSite, WebPage, BreadcrumbList, Service, FAQPage]
-robots: index, follow, max-image-preview:large
+robots: noindex, nofollow
 ---
 <!-- Section 1: page_hero -->
 

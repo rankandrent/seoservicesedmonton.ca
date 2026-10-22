@@ -9,6 +9,15 @@ Static HTML website for an Edmonton SEO agency. 35 pages, one Markdown content f
 - `content-md/` One Markdown file per page with meta title, meta description, primary keyword, schema types and every section in order.
 - `src/` The generator. Edit content in `content_*.py`, then run `python3 src/build.py` (live) and `python3 src/build.py --preview` (local preview).
 
+## Hosting (Cloudflare Workers)
+
+The site runs as one Cloudflare Worker (`seoservicesedmonton`): `worker/index.js` serves `dist/` as static assets, redirects `www.` to the bare domain, and handles the contact form at `POST /api/contact`.
+
+- Deploy: `npm run deploy` (builds, then `wrangler deploy`). Wrangler needs Node 22 (`nvm use`), and `CLOUDFLARE_API_TOKEN` / `CLOUDFLARE_ACCOUNT_ID` in your shell (kept in the gitignored `.env`).
+- Contact form: each lead is saved to the Supabase table `leads` (create it once with `supabase/leads.sql`) and emailed via Resend to `LEAD_TO`. One working channel is enough; if both fail the visitor sees an error and can retry.
+- Worker secrets: `RESEND_API_KEY`, `SUPABASE_ANON_KEY`, `LEAD_TO` (`npx wrangler secret put NAME`). Plain settings are in `wrangler.jsonc`.
+- Pre-launch: `'indexable': False` in `src/site_config.py` makes every page `noindex, nofollow` (meta tag and `X-Robots-Tag` header). Set it to `True` at launch, rebuild and deploy.
+
 ## Pages
 
 - Home (targets "seo services edmonton")
@@ -26,7 +35,7 @@ Meta title, meta description, canonical, robots, Open Graph and Twitter tags, hr
 
 1. Find and replace `BrandName` and `https://www.yourdomain.ca` in `src/site_config.py` and the SVG logos in `dist/assets/img/`, then rebuild.
 2. Fill every `[placeholder]`. They show in square brackets with a dotted green underline so they are easy to spot. Key ones: address, phone, email, hours, team names, stats bands, careers perks and roles, contract terms.
-3. Case studies are drafts: set to noindex, left out of the sitemap and not linked from any live page (menu, footer, service pages, About, 404, blog) until real client data replaces the placeholders. Remove `'noindex': True` from a case study in `src/content_cases.py` once it is filled; the Case Studies hub and every link to it come back automatically.
+3. Case studies are drafts: set to noindex, left out of the sitemap and not linked from any live page (menu, footer, service pages, About, 404, blog) until real client data replaces the placeholders. Remove `'noindex': True, 'draft': True` from a case study in `src/content_cases.py` once it is filled; the Case Studies hub and every link to it come back automatically.
 4. Photos: the hero, about, why us, blog and contact band use free Unsplash photos (Unsplash License: free for commercial use, no attribution required, https://unsplash.com/license). Replace them with real photos of your team, office and clients for the most authentic result. Optional hero video: add `dist/assets/video/hero.mp4` and it replaces the hero photo automatically.
 5. Fonts (DM Sans and Fraunces, SIL Open Font License) are self-hosted in `dist/assets/fonts/`, so no Google Fonts request is needed.
 6. Point the contact form at a real endpoint: `form_action` in `src/site_config.py`.

@@ -5,7 +5,7 @@ meta_title: "AI Overviews and Your Website: What Google Says | BrandName Blog"
 meta_description: "Do you need special optimization for Google AI Overviews or AI Mode? What Google's own guidance says and the best practices it recommends."
 primary_keyword: "ai overviews seo"
 schema: [ProfessionalService, WebSite, WebPage, BreadcrumbList, BlogPosting]
-robots: index, follow, max-image-preview:large
+robots: noindex, nofollow
 ---
 <!-- Section 1: page_hero -->
 

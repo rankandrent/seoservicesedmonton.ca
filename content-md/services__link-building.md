@@ -5,7 +5,7 @@ meta_title: "Link Building Services Edmonton | Earned Local Links | BrandName"
 meta_description: "Link building in Edmonton that follows Google's spam policies: digital PR, local partnerships, community mentions and content worth linking to."
 primary_keyword: "link building edmonton"
 schema: [ProfessionalService, WebSite, WebPage, BreadcrumbList, Service, FAQPage]
-robots: index, follow, max-image-preview:large
+robots: noindex, nofollow
 ---
 <!-- Section 1: page_hero -->
 

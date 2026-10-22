@@ -5,7 +5,7 @@ meta_title: "SEO Services Summerside Edmonton | Local SEO | BrandName"
 meta_description: "SEO services for businesses in Summerside, Edmonton. How to build location and service area pages that help customers instead of looking like doorway pages."
 primary_keyword: "seo services summerside edmonton"
 schema: [ProfessionalService, WebSite, WebPage, BreadcrumbList, Service, FAQPage]
-robots: index, follow, max-image-preview:large
+robots: noindex, nofollow
 ---
 <!-- Section 1: page_hero -->
 

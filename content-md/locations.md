@@ -5,7 +5,7 @@ meta_title: "Edmonton SEO Locations | Neighbourhoods We Serve | BrandName"
 meta_description: "SEO services across Edmonton neighbourhoods including Downtown, Oliver, Strathcona, Windermere, Summerside and Terwillegar Towne."
 primary_keyword: "seo edmonton neighbourhoods"
 schema: [ProfessionalService, WebSite, CollectionPage, BreadcrumbList]
-robots: index, follow, max-image-preview:large
+robots: noindex, nofollow
 ---
 <!-- Section 1: page_hero -->
 

@@ -5,7 +5,7 @@ meta_title: "Content SEO Edmonton | SEO Content Writing | BrandName"
 meta_description: "SEO content writing in Edmonton: service pages, guides and articles planned around real searches and written to be helpful, original and accurate."
 primary_keyword: "seo content writing edmonton"
 schema: [ProfessionalService, WebSite, WebPage, BreadcrumbList, Service, FAQPage]
-robots: index, follow, max-image-preview:large
+robots: noindex, nofollow
 ---
 <!-- Section 1: page_hero -->
 

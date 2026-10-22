@@ -5,7 +5,7 @@ meta_title: "Careers | SEO Jobs in Edmonton | BrandName"
 meta_description: "Explore SEO careers at BrandName in Edmonton. See open roles, what we look for and how our hiring process works."
 primary_keyword: "seo jobs edmonton"
 schema: [ProfessionalService, WebSite, WebPage, BreadcrumbList]
-robots: index, follow, max-image-preview:large
+robots: noindex, nofollow
 ---
 <!-- Section 1: page_hero -->
 

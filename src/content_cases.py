@@ -24,7 +24,7 @@ def case(slug, label, tag, icon, card, services, sections_extra=None):
     ]
     return {'illus': {'pin': 'map', 'cart': 'cart', 'book': 'doc'}[icon], 'slug': 'case-studies/' + slug, 'nav_label': label, 'tag': tag, 'icon': icon, 'card': card, 'page_type': 'Article',
             'kpis': ['[[+00%]] traffic', '[[+00%]] leads'], 'crumbs': [('Case Studies', 'case-studies')], 'keyword': '',
-            'title': '%s Case Study | Edmonton SEO | BrandName' % label, 'noindex': True,
+            'title': '%s Case Study | Edmonton SEO | BrandName' % label, 'noindex': True, 'draft': True,
             'description': 'How BrandName helped an Edmonton %s grow through SEO. [Replace with the real result before publishing.]' % tag.lower(), 'sections': s}
 
 ALL = ['case-studies/local-service-business', 'case-studies/ecommerce-store', 'case-studies/professional-firm']
@@ -51,5 +51,5 @@ case('ecommerce-store', '[[Edmonton online store]]', 'Ecommerce', 'cart', '[[Sho
 case('professional-firm', '[[Professional services firm]]', 'Professional services', 'book', '[[Short summary of the result for a professional firm.]]', 'Content SEO, Link Building'),
 ]
 
-# The hub stays a hidden draft until at least one case study is published (its 'noindex' removed).
-PAGES[0]['noindex'] = all(p.get('noindex') for p in PAGES[1:])
+# The hub stays a hidden draft until at least one case study is published (its 'noindex' and 'draft' removed).
+PAGES[0]['noindex'] = PAGES[0]['draft'] = all(p.get('draft') for p in PAGES[1:])

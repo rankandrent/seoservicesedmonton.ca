@@ -5,7 +5,7 @@ meta_title: "SEO Audit Edmonton | Full Website SEO Audit | BrandName"
 meta_description: "A full SEO audit for Edmonton businesses: technical, on-page, content, links and local search reviewed, with a prioritized fix list you can act on."
 primary_keyword: "seo audit edmonton"
 schema: [ProfessionalService, WebSite, WebPage, BreadcrumbList, Service, FAQPage]
-robots: index, follow, max-image-preview:large
+robots: noindex, nofollow
 ---
 <!-- Section 1: page_hero -->
 

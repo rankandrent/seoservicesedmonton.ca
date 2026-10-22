@@ -5,7 +5,7 @@ meta_title: "How to Choose an SEO Agency in Edmonton | BrandName Blog"
 meta_description: "Questions to ask before hiring an SEO agency in Edmonton, based on Google's own advice, plus the red flags that should make you walk away."
 primary_keyword: "choose seo agency edmonton"
 schema: [ProfessionalService, WebSite, WebPage, BreadcrumbList, BlogPosting]
-robots: index, follow, max-image-preview:large
+robots: noindex, nofollow
 ---
 <!-- Section 1: page_hero -->
 

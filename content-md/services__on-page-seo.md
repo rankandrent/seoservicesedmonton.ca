@@ -5,7 +5,7 @@ meta_title: "On-Page SEO Services Edmonton | Titles, Copy, Links | BrandName"
 meta_description: "On-page SEO in Edmonton: page titles, meta descriptions, headings, copy, images and internal links optimized around what your customers search for."
 primary_keyword: "on page seo edmonton"
 schema: [ProfessionalService, WebSite, WebPage, BreadcrumbList, Service, FAQPage]
-robots: index, follow, max-image-preview:large
+robots: noindex, nofollow
 ---
 <!-- Section 1: page_hero -->
 

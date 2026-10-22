@@ -5,7 +5,7 @@ meta_title: "SEO Services Windermere Edmonton | Local SEO | BrandName"
 meta_description: "SEO services for businesses in Windermere, Edmonton. A launch checklist for new businesses: verification, website basics and first local signals."
 primary_keyword: "seo services windermere edmonton"
 schema: [ProfessionalService, WebSite, WebPage, BreadcrumbList, Service, FAQPage]
-robots: index, follow, max-image-preview:large
+robots: noindex, nofollow
 ---
 <!-- Section 1: page_hero -->
 
